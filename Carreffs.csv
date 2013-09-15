@@ -1,0 +1,10 @@
+Model,Description,D2,Transmission,Engine Capacity,Fuel Type,L/100 km Urban (Cold),L/100 km Extra-Urban,L/100 km Combined,mpg-UK Urban (Cold),mpg-UK Extra-Urban,mpg-UK Combined,mpg-US Urban,mpg-US Extra-Urban,mpg-US Combined,CO2 g/km,Green Rating
+Ford,"Focus C-Max, 2008",,A4,1999,Petrol,11.2,6.2,8,25.2,45.6,35.3,21,38,29.4,,E
+Fiat,Panda,,M5,1242,Petrol,7.1,4.8,5.6,39.8,58.9,50.4,33.1,49,42,133,C
+Ford,"Mondeo, 2008 ",,A6,2261,Petrol,13.8,6.7,9.3,20.5,42.2,30.4,17.1,35.1,25.3,223,F
+Jaguar Cars,S Type,,M5,2967,Petrol,15.8,7.3,10.3,17.9,38.7,27.4,14.9,32.2,22.8,249,G
+Mercedes-Benz,C-Class Saloon,C 200 CDI no DPF 205 Tyres at rear,M6,2148,Diesel,7.9,4.7,5.9,35.8,60.1,47.9,29.8,50,39.9,156,D
+Mitsubishi,Shogun 2007MY ,Equippe LWB,5MT,3200,Diesel,11.5,8,9.3,24.6,35.3,30.4,20.5,29.4,25.3,246,G
+Audi,A3,1.4 TFSI 125ps,M6,1390,Petrol,8.3,5,6.2,34,56.5,45.6,28.3,47,38,147,C
+Audi,A6 Avant,2.4 V6 177ps quattro,QM6,2393,Petrol,16.1,7.9,10.9,17.5,35.8,25.9,14.6,29.8,21.6,259,G
+Citroën,C1,1.0i 3 & 5-door,M5,998,Petrol,5.5,4.1,4.6,51.4,68.9,61.4,42.8,57.4,51.1,108,B

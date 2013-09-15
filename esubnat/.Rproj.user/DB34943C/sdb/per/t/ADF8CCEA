@@ -1,0 +1,16 @@
+{
+    "contents" : "# cyclesave - general script for calculating energy/trp savings by cycling\nhead(gors@data) # raw data\n# names(edcosts) <- names(gors@data[1,3:101]) # proper e.use/trp (mj) names\nedcosts\ncycols <-  which(grepl(\"bike\", names(edcosts)))\ncarcols <- which(grepl(\"car[.]\", names(edcosts)))\ngors@data[,carcols+2]\nedcosts[carcols]\n# number of car trips replaced:\ncrep <- sweep(gors@data[,carcols+2], 2, \n              STATS=c(0,0.5,0.3,0.05,0.01,0,0,0,0) ,\"*\") \ngors$cysave <- rowSums(sweep(crep, 2, edcosts[carcols], \"*\") ) / \n  gors$all.all\ngors$cysavet <- gors$cysave - rowSums(sweep(crep, 2, edcosts[cycols], \"*\")) / \n  gors$all.all # total energy saving (after e.use bikes subtracted)\ngors$cysave.prop <- gors$cysave / (gors$ET / gors$all.all) * 100\ngors$cysave.propt <- gors$cysavet / (gors$ET / gors$all.all) * 100\nsummary(gors$cysave.prop) / summary(gors$cysave.propt)\nsummary(gors$cysave.prop) ; summary(gors$cysave.propt)\nsum(gors$cysave.propt * gors$all.all) / sum(gors$all.all) # total prop e. use\ncbind(gors$cysave.propt, gors$abbed)\n\n### Ward-level\nggplot()\n\n\ncols0 <- which(grepl(\"[.]0\", names(edcosts))) # the shortest trips\ngors@data[,cols0]\nsum(gors$all.0) / sum(gors$all.all)\nsum(gors$car.0) / sum(gors$all.all)\n\nsweep()",
+    "created" : 1376586492704.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2636967743",
+    "id" : "ADF8CCEA",
+    "lastKnownWriteTime" : 1376638565,
+    "path" : "~/Dropbox/Thesis/Reproducible/esubnat/cyclesave.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

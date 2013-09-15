@@ -1,0 +1,16 @@
+{
+    "contents" : "#propcycle\n# compare proportion cycling in cam and scenarios\nminiwards$ZONE_LABEL[which(grepl(\"Cam\",miniwards$ZONE_LABEL))]\nwhich(grepl(\"Cam\",miniwards$ZONE_LABEL))\nminiwards@data[919,c(cycols+2)] / miniwards$all.all[919]\nwhich.max(miniwards$bike.0)\nwhich.max(miniwards$bike.all / miniwards$all.all)\nminiwards@data[2707,c(cycols+2)] / miniwards$all.all[2707]\nminiwards@data[2707,c(cycols+2,2)]\n\nminiwards@data[2709,c(cycols+2)] / miniwards$all.all[2709]\nminiwards@data[2709,c(2, cycols+2)]\n# which wards have v. high rate of cycling?\nminiwards@data[which(miniwards$bike.all / miniwards$all.all > 0.2),c(2, cycols+2)]\nmhb <- miniwards@data[,1:102]\nhead(crep)\nmhb[,carcols+2] <- mhb[,carcols+2] - sweep(mhb[,carcols+2], 2, \n      STATS=c(0,0.5,0.3,0.05,0.01,0,0,0,0) ,\"*\")\nhead(mhb[,carcols+2])\nsummary(mhb$car.all / mhb$all.all)\nmhb$car.all <- rowSums(mhb[,carcols+2]) - mhb$car.all\nsummary(mhb$car.all / mhb$all.all)\n\nmhb[,cycols+2] <- miniwards@data[,cycols+2] + sweep(miniwards@data[,carcols+2], 2, \n                                         STATS=c(0,0.5,0.3,0.05,0.01,0,0,0,0) ,\"*\")\nsummary(mhb$bike.all)\nmhb$bike.all <- rowSums(mhb[,cycols+2]) - mhb$bike.all\nsummary(mhb$bike.all)\nsummary(miniwards$bike.all/miniwards$all.all)\nsummary(mhb$bike.all/mhb$all.all)\n\n# proportion of pop travelling > 5 km\nnames(mhb)\nhead(mhb[which(grepl(\"[.]0|\\\\<2\\\\>\",names(mhb)))]) # total 0 to 2 km\nsum(mhb[which(grepl(\"[.]0|\\\\<2\\\\>\",names(mhb)))]) / sum(mhb$all.all)\nsum(mhb$all.0) / sum(mhb$all.all)\nsum(mhb$all.2) / sum(mhb$all.all)",
+    "created" : 1377004713180.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "464697571",
+    "id" : "E9F46708",
+    "lastKnownWriteTime" : 1377037656,
+    "path" : "~/Dropbox/Thesis/Reproducible/esubnat/propcycle.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

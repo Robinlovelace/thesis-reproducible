@@ -1,0 +1,16 @@
+{
+    "contents" : "head(yatwards@data) # raw data\n# names(edcosts) <- names(yatwards@data[1,3:101]) # proper e.use/trp (mj) names\nedcosts\n\n# Select YatH subset\nci <- yatwards[which(yatwards$abbed == \"YaTH\"),]\nplot(ci)\nproj4string(ci) <- proj4string(miniwards)\ngi <- gIntersects(miniwards, ci, byid=T)\nyatwards <- miniwards[which(gi),]\nplot(yatwards)\n\ncycols <-  which(grepl(\"bike\", names(edcosts)))\n\ncarcols <- which(grepl(\"car[.]\", names(edcosts)))\ntail(yatwards@data[,carcols+2])\nedcosts[carcols]\n# number of car trips replaced:\ncrep <- sweep(yatwards@data[,carcols+2], 2, \n              STATS=c(0,0.5,0.3,0.05,0.01,0,0,0,0) ,\"*\") \nyatwards$cysave <- rowSums(sweep(crep, 2, edcosts[carcols], \"*\") ) / \n  yatwards$all.all\nyatwards$cysavet <- yatwards$cysave - rowSums(sweep(crep, 2, edcosts[cycols], \"*\")) / \n  yatwards$all.all # total energy saving (after e.use bikes subtracted)\nyatwards$cysave.prop <- yatwards$cysave / (yatwards$ET / yatwards$all.all) * 100\nyatwards$cysave.propt <- yatwards$cysavet / (yatwards$ET / yatwards$all.all) * 100\nsummary(yatwards$cysave.prop) / summary(yatwards$cysave.propt)\nsummary(yatwards$cysave.prop) ; summary(yatwards$cysave.propt)\nsum(yatwards$cysave.propt * yatwards$all.all) / sum(yatwards$all.all) # total prop e. use\n\nnames(yatwards)\nyatwards$id <- 1:nrow(yatwards@data)\n\nla <- fortify(yatwards, region=\"id\")\nla <- join(la, yatwards@data, by=\"id\", match=\"first\")\nhead(la)\n\np <- ggplot(data=la, aes( x=long/1000, y=lat/1000))\np + geom_polygon(data=la,aes(x=long/1000, y=lat/1000, fill=cysave.propt, group=group)) + \n  scale_fill_continuous(low=\"green\", high=\"red\", name=\"Etrp (MJ)\") + coord_fixed() +\n  xlab(\"Easting (km)\") + ylab(\"Northing (km)\") + theme_classic()\nggsave(\"cysave.png\") # good, but need more bells + whistles",
+    "created" : 1376636891954.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2751560153",
+    "id" : "68CD7650",
+    "lastKnownWriteTime" : 1376640167,
+    "path" : "~/Dropbox/Thesis/Reproducible/esubnat/cyclesave-wards.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
