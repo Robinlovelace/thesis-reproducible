@@ -48,3 +48,15 @@ mean(c$EAV[grepl("Kent|Essex|Bedf", x=c$ZONE_LABEL)])
 ??distance
 gDistance(spgeom1=c[grepl("Rutl", x=c$ZONE_LABEL),], spgeom2=c[grepl("Inner", x=c$ZONE_LABEL),])
 
+### Bath-plot
+la$Baths <- cut(la$ET/ (la$all.all * 3.6 * 5), 
+#                 breaks=c(0.5, 1, 1.5, 2, 2.5, 3)
+                breaks=c(0,1,2,3)
+                )
+summary(la$Baths)
+p + geom_polygon(data=la,aes(x=long/1000, y=lat/1000, fill=Baths, group=group)) + 
+  scale_fill_brewer() + coord_fixed() +
+  xlab("Easting (km)") + ylab("Northing (km)") + 
+  geom_text(data=ct, aes(x=X1/1000, y=X2/1000, label=text), size= I(3), family="mono") +
+  geom_path(data=fgor, aes(x=long/1000, y=lat/1000, group=group)) + theme_classic()
+ggsave("~/Dropbox/Conferences/Nottingham-FOSS4G-17-21st-Sept-2013/baths-full.png", width=8, height=8)
