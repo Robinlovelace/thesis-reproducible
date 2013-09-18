@@ -1,0 +1,12 @@
+Vehicle technology	Energy source	Energy (MJ/km)
+ICEV diesel	Diesel	1.96
+ICEV E100	Food	2.12
+HEV gasoline	Gasoline	1.67
+HEV diesel	Diesel	1.54
+PHEV diesel	Diesel	1.66
+EV	Electricity	0.6
+FC-HEV	Hydrogen	1.08
+FC-PHEV H2	Hydrogen	0.67
+FC-PHEV elec	Electricity	0.42
+NG	Natural Gas	2.04
+Bicycle	Food	0.09
