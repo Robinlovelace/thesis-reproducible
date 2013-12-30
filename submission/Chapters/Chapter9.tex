@@ -1,0 +1,539 @@
+% Chapter 9
+
+\chapter{Conclusions} % Write in your own chapter title
+\label{Chapter9}
+% \lhead{Chapter 9. \emph{Conclusions}} % Write in your own chapter title to set
+\fancyhead[RO,LE]{Chapter 9. Conclusions} %2side
+\fancyhead[RE,LO]{\thepage}
+% - What has been done?
+% - What has been learned?
+% - What can the new methods provide?
+% - What are the political implications of this study?
+% What does this thesis add to %!!!
+% the rapidly growing and diverse field of transport and energy?
+This thesis has investigated the energy costs of commuting and how they vary
+between people and over space.
+Motivated by the major problems of climate change, peak oil and
+social inequality, the research set out to offer
+evidence, and tools, to policy makers tackling these issues in the realm
+of personal travel.
+To complete the task, the methodology had to provide insight into the
+spatial distribution of commuter energy use,
+inequalities in its social distribution and the likely social and spatial
+impacts of different intervention options.
+Based on reviews of previous transport studies (in \cref{Chapter2})
+and individual-level methodologies (\cref{Chapter3}), it was decided that
+a \emph{spatial microsimulation approach} was most appropriate,
+due to the maturity of the techniques involved, flexibility of application and
+ease of use.
+A spatial microsimulation model was developed and tested, building on previous
+work and implemented in the free and open source programming
+language R (\cref{Chapter4}). The model
+was used to combine geographically aggregated count data from the UK's 2001 National Census
+with individual-level data from the national Understanding Society dataset,
+resulting in simulated \emph{spatial microdata}: individual
+records which have been selectively sampled based on `constraint variables' shared
+between the individual and aggregate level datasets.
+
+Spatial microdata form the foundation of the spatial microsimulation approach.
+Yet it is during the subsequent \emph{analysis} of this spatial microdata that
+value for decision makers is generated: the interrogation of spatial microdata enables
+calculation of energy costs at high geographical resolution (\cref{sindvar}),
+analysis of social and spatial inequalities in the distribution of this energy
+use (\cref{Chapter7}) and the development of quantitative
+`what if' scenarios to model the impacts of change (\cref{Chapter8}).
+Thus the spatial microsimulation approach developed here
+includes not only the generation of spatial microdata but
+analysis, visualisation, testing and modelling also.
+% To produce estimates of energy use at the
+% individual-level and at small geographical scales a spatial microsimulation
+% model was developed. This model
+
+This thesis provides, for the first time,
+estimates of the energy costs of commuting at a range of geographic scales in
+the UK, and an exploration of its social and spatial
+variability. Some of the methods
+used to achieve this result are already well established. What is new
+methodologically is the way that these methods, and datasets on which
+they depend, have been integrated with one another in novel ways
+to provide results that are reproducible
+and consistent regardless of the scale of analysis.
+
+This chapter summarises what has
+been learned during the course of the research project:
+methodological  contribution (\cref{smethcont}), its policy relevance
+(\cref{sprel}) and the central findings (\cref{sumfind}). The research opens many
+new pathways for further research which are discussed in \cref{sfurther}.
+Finally, the thesis is evaluated in terms of the original aims and objectives,
+in \cref{ssummary}. It is worth reflecting on the conclusions in the
+context of the two
+main aims of the thesis, introduced in \cref{s:aims}:
+\begin{itemize}
+ \item[A1] Investigate the energy cost of transport to work, its variability
+at individual and geographic levels, drivers, and policy implications.
+  \item[A2] Explore and evaluate the potential of spatial microsimulation
+models for the social and spatial analysis of the energy costs of commuting.
+\end{itemize}
+
+\section{Methodological contribution} \label{smethcont}
+The main methodological contribution of this thesis is the application of spatial
+microsimulation to the social and spatial analysis of the energy costs of commuting.
+It is concluded that commuting
+research is an area that can benefit from this increasingly accessible
+technique. Individual-level analysis is becoming the norm in
+transport modelling (\cref{Chapter3}) but often these
+omit distributional impacts of new policies.
+From the geographical literature, the vast majority of analysis into the spatial variability
+of transport energy use and commuting patterns operates solely at aggregate levels.
+Spatial microsimulation has several practical advantages over these
+aggregate approaches, enabling outcomes that are otherwise inaccessible.
+% Three central advantages of the approach, from the perspective of
+% evaluating the energy costs of commuting patters from UK census data, are as follows:
+More specifically, the four central methodological achievements of the
+work are as follows:
+\begin{itemize}
+ \item The development and testing of algorithms to `integerise' the 
+ weight matrices generated by iterative proportional fitting, allowing analysis
+ to be conducted on whole individuals rather than fractions of individuals
+(\cref{s:integerisation}).
+ \item The calculation of energy costs per commuter trip in zones for which
+distance/mode cross tabulated count data are unavailable (e.g.~output area levels)
+from official sources.
+ \item Insight into the intra-zone variability of commuting energy costs and
+the links between commuter energy use and other socio-demographic variables,
+based on analysis of spatial microdata.
+\item The manipulation of this dataset to achieve goals outside the reach of
+aggregate-level studies, such as the targeting of specific groups in what-if
+scenarios of the future, and assessment of the distributional impacts of
+localised transport interventions.
+\end{itemize}
+Each of these points highlights the advantages of the spatial microsimulation
+to analysing the energy costs of commuting and modelling travel to work.
+Although spatial microsimulation has not been used to generate every energy
+cost estimate presented in this thesis (it has been demonstrated that per trip
+energy use can be estimated based on geographical data that provides
+mode/distance cross-tabulations), the approach has been critical to achieving the four
+outcomes listed above. These are arguably the most important outcomes
+from a policy and methods perspective, hence the title of this thesis as a
+\emph{spatial microsimulation} approach. During some sections (the
+national-level results presented in parts \cref{Chapter6} and \cref{Chapter8}),
+a simpler `spatial approach' has been used to assess energy costs.
+Yet, as illustrated in \cref{smshift}, the two approaches are not incompatible.
+On the contrary, the scenario of modal shift shows that aggregate-level
+analysis can be useful for a rapid assessment of the basic determinants of
+change (in this case mode and distance categories) and for generating
+national level results (which would be overly resource consuming
+using spatial microsimulation). The progression from aggregate to micro-level
+undertaken in this scenario illustrates the benefits of using a micro-level
+approach in tandem with preliminary aggregate-level analysis.
+The individual-level implementation of the scenario, based on spatial microsimulation,
+allowed greater sophistication: new variables
+(age and distance as a continuous variable in this case)
+were taken into account when estimating the extent of modal shift;
+the results were displayed at a higher resolution,
+and information about the socio-demographics of those affected was generated.
+% Do this!!!
+
+In the process of moving from an aggregate to a micro-level model of
+modal shift many new possibilities were opened up, not
+all of which were implemented (\cref{stfurther}). The decision to commute,
+how far and by what mode, is ultimately determined
+by individuals (\cref{s:commuting}), so a micro-level approach makes sense in theory.
+Of course, transport infrastructure and other geographic factors also have a major
+influence, and the spatial microsimulation approach would enable the interaction
+between geographical and individual-level factors to be included.
+The reason for choosing the topic
+were not only academic, but related to issues that
+require an urgent policy response. Policy-makers often lack the tools and skills needed to
+evaluate which policies would actually work to reduce energy
+use and emissions, let alone at local levels and taking consideration
+of the social distribution of these changes \citep{Banister2008, Tribby2012}.
+
+In light of the evidence presented throughout the thesis, the kinds of question that
+the spatial microsimulation approach helps answer
+seem to be precisely those that policy makers should be asking before implementing new
+strategies to meet climate change targets in fair way. Will the policy work?
+Are there more effective alternatives? and which types of areas will be most
+affected, and is this fair? The thesis cannot answer these questions in general terms,
+but the results show that the 
+methods can provide important evidence to aid the evaluation process, if the policy options are
+clearly defined. The policy relevance of this work is one of its major strengths.
+
+\section{Policy relevance and limitations} \label{sprel}
+Climate change, resource depletion and standard of living provide the underlying
+motivation for this research. One of the broad conclusions is that
+methods of calculating energy costs of everyday activities are
+highly relevant to policy makers concerned with sustainability. The
+`sustainable mobility' paradigm requires new tools of assessment
+as well as new concepts if it is to move out of pure academic discussions and
+into practice around the world \citep{Banister2008}. In this respect, the
+research presented in this thesis has much to offer. Too often, academic
+research into the energy and climate impacts of transportation operates solely
+at the level of entire nations or regions (\cref{s:energy}). Yet actual
+transport
+policies are often implemented locally.\footnote{The recently announced
+\pounds77 million funding to promote cycling in cities and
+national parks has been allocated to 7 specific urban areas and particular
+routes within 4 national parks
+\citep{RimeMinister'sOfficea}. \pounds 20 million of this funding is
+allocated to Manchester alone, for 56 km of new cycle paths, amongst other
+facilities. The question of where to invest these funds for the greatest social
+and environmental benefit is of great policy importance.
+}
+The spatial microsimulation approach can help bridge such a `scale gap'
+between academics and practitioners, by making individual and local-level
+analysis of personal travel patterns accessible.
+
+% Granted, not all transport
+% planners or other local decision makers can be expected to tailor dozens of
+% lines of R code to their particular requirements. And granted, commuters will
+% only represent a fraction of total traffic, let alone energy use, in any
+% particular area. % Scrapped by dad
+Not all local transport policy makers will have the time, skills or
+desire to apply the methods advocated in this thesis to their local areas
+and problems. However, some may be prepared to use techniques, with potential gains
+in their ability to evaluate different scenarios of change. Would
+increasing the cycling rate have greater impacts in location A or B? This kind
+of question can be answered using the simple what-if scenarios presented in
+\cref{Chapter8}, and refined to provide insight into the distributional impacts
+using spatial microdata.
+
+The spatial microsimulation approach is not without limitations: it is
+it is complex,\footnote{Spatial
+microsimulation is complex relative to
+simplistic cost-benefit scenarios, but \emph{not}
+compared with some transport models currently used in local government such as
+SATURN \citep{SATURN2012}.
+}
+requires specialist knowledge to implement and produces simulated results that
+may be prohibitively expensive to verify. For these reasons, it has been
+emphasised that spatial microsimulation results should build on, rather than
+replace, simpler aggregate level analyses for corroboration. There is a real
+danger that, without proper understanding of the assumptions on which spatial
+microsimulation is based, the approach could lead to incorrect interpretation
+of results or, in worst case scenarios, fudging of results for political
+purposes \citep{Openshaw1978}.
+For this reason the reproducibility of the method and results is of utmost
+importance if spatial microsimulation does
+become widespread for evaluating real (and not just hypothetical)
+interventions in transport systems. Following best practice guidelines
+\citep{Peng2006}, government or private analyses can be made both transparent
+and reproducible. Using free, open source and cross-platform programs such as R
+can give analyses on which transport decisions are made attributes
+vitally important in the democratic system: accessibility and transparency.
+% Results generated
+% through properly commented code and publicly available data should, in theory,
+% be reproducible by anyone willing to learn how the model works.
+% Another potential benefit is the use of local analyses in education. 
+
+\section{Summary of findings} \label{sumfind}
+Returning to energy in transport, a range of interesting results have been
+generated using the methods developed during the PhD project.
+No single,
+overriding factor that determines commuter energy has been found. In broad
+terms the findings presented in \cref{Chapter6}
+support the conclusions of past research that energy use in transport is
+complex, varies on a range of scales, and appears to be affected by many
+factors, especially urban form \citep{Levtnson1997, smith2011polycentricity,
+Levinson2012}.
+More specifically, it has been found that at the regional level London
+is the `greenest' area in terms of commuter energy use, but that this is
+partly offset by the surrounding regions which have the nation's most
+energy intensive average commute. This finding provides tentative support
+to the `compact city' hypothesis \citep{Breheny1995}, but suggests that
+the energy use in surrounding areas may be pushed up beyond the average
+due to long-distance commuting to concentrated employment centres.
+
+Nationally, it was calculated that
+commuting uses 4.1\% of direct energy use in England. Commuting was found to
+account for almost 15\% of transport energy use, representing an
+important and relatively inelastic contribution to the total.
+Individual-level variability was also explored in the
+same chapter (\cref{sindvar}). It was found that in urban centres
+the 20\% top energy consuming commuters can account for over 90\% of commuter
+energy use, a very high level of inequality.
+
+At lower geographical levels, the variability in average commuting energy
+costs increases as would be expected, and a clear spatial pattern, in which
+urban centres and their direct surroundings have low energy costs compared
+with the rural surroundings. However, commuting energy costs still vary
+greatly between many areas that are similar `on paper' at the level of
+statistical wards (\cref{sregional}). At the local level, the pattern appears
+to be more complex still, with a tendency for large city centres to be associated
+with above commuter energy costs greater than their surroundings in South
+Yorkshire. Later, in \cref{c7results} this finding is replicated in terms
+of the relationship between areas' distance to the nearest employment
+centre and average energy costs across Yorkshire and the Humber, adding
+further evidence to suggest that the compact city hypothesis, in its simplest
+form, is over simplistic. 
+
+% Say what you actually found here!!!
+In agreement with \citet{Boussauw2010}, the average distance between home and work,
+which in itself depends on a range of social and geographical factors,
+seems to be the major driver of energy intensive commuting: when distances
+are large, the possibilities for modal shift are greatly reduced, and
+telecommuting can only be seen as a realistic solution for certain types of
+jobs, many of which are out of the reach of the most vulnerable
+(\cref{Chapter8}).
+% Correlation between distance and energy use! !!!
+Further modelling work could contribute to the debate about the factors
+underlying transport energy use, providing statistical evidence about the range
+of factors at play. But the focus here has been policy, not theory.
+To summarise, the most important policy relevant findings are as follows:
+\begin{itemize}
+ \item Energy use for commuting varies at all geographical levels
+ and is distributed highly unevenly between individuals in most zones.
+% The gini index of commuting is higher than for income %!!!
+ Even between areas
+ that appear to have similar levels of energy use at the aggregate level, there
+ are great differences in how commuter energy use is divided up between their
+ inhabitants (\cref{c7results}).
+ \item At the scale of cities,
+ there is a tendency for highest energy costs to appear furthest from the city (around
+ 60 km in the case of London), which tends to fall towards the city centre, but then
+ rising again in the city centre (\cref{fig:dis-e}).
+ \item At the international level, England appears to have lower per-trip energy
+ costs than the Netherlands, despite Holland's reputation for excellence in
+ environmentally benign transport planning.
+ \item In terms of modes of travel, cars were found to completely dominate the
+energy costs of commuting in most areas. This can be easily overlooked based on
+existing statistics that focus on modal split by number of trips and distance.
+In Yorkshire and the Humber over 95\% of energy use for commuting was found to
+be due to cars (\cref{c7results}), implying that environmentally aware policy
+makers there should focus on reducing private car use as a priority rather than
+the current focus on modal shift. 
+ \item The energy impacts of an ambitious scenario of modal shift from cars to
+ bicycles would be relatively modest, compared with telecommuting, which is
+ rarely framed as a transport policy. Active travel policies need to be supplemented
+ by policies encouraging car sharing, reducing demand for long-distance travel and,
+ in the long-term, reducing average home-work distances.
+\end{itemize}
+
+Each of these findings has implications for transport planning strategies
+in the UK in broad terms. Exploring what these implications are on a
+case-by-case basis is outside the scope of this thesis, and further exploration
+of the most policy relevant overall findings provides a strong
+incentive for further work at the local level in different case study areas.
+Because of the applied nature of this research, it is suggested that much of
+it is conducted by policy makers. In terms of opportunities for
+building on the thesis in the academic context, there is also much scope for further
+work, as outlined below.
+
+\section{Further work} \label{sfurther}
+The work undertaken has provided new contributions to knowledge, both empirical
+and methodological. The latter contribution, used appropriately,
+could outlast the former: the spatial microsimulation approach has the potential
+to generate many more interesting results than are presented in the preceding
+chapters. The empirical results also raise important research questions, by
+challenging conventional wisdom about the energy costs of commuting and how
+these costs can be best be reduced.
+
+It is therefore hoped that the thesis is not seen simply as an `end product' or `final
+result' but as a tool for stimulating and enabling further lines of study into
+energy and transportation. It is up to other researchers to
+judge how best to use the methods for their own purposes, so the concluding
+remarks in this section are intended to provide general guidance, rather than a
+prescriptive research agenda. It was decided that the following research areas,
+in rough descending order of priority, would benefit from further investigation,
+building on the methods and findings presented in this thesis:
+\begin{itemize}
+ \item The use of spatial microdata as an input into agent-based
+transport models: the recent advances in microsimulation in urban and transport
+models outlined in \cref{s:urbanmodel} make modelling techniques simultaneously
+more accessible to transport planners and much more
+powerful.\footnote{In this
+regard MATSim in particular
+seems to hold great promise for `open sourcing' transport modelling for the
+evaluation of specific schemes, due to its uptake by US planning authorities.
+Yet environmental/energy and distributional impacts are still under-reported in
+scheme evaluation. Combining the socio-demographic variables contained within
+simulated spatial microdata with models such as MATSim therefore has great
+potential to further enhance the use of models for practitioners.
+}
+Starting from
+the other side of the spatial microsimulation versus transport
+planning/modelling
+divide, the addition of agent-based models with inbuilt capability to load and
+interpret the road network (e.g.~from Open Street Map data), has the potential
+to vastly improve the ease with which infrastructure interventions can be
+assessed by academics already acquainted with spatial microsimulation. This
+approach could be far more advanced (and potentially user
+friendly) than the crude methods presented in \cref{s:workdes}.
+\item Extend the spatial microsimulation methods presented in \cref{Chapter4} so
+that they are capable of classifying individuals into family units
+(\citealp{Pritchard2012}, see \cref{sreweight}) and allocating their home and
+work locations to precise geographical coordinates (as described in
+\cref{s:workdes}).
+\item Development of more realistic and localised `what if' scenarios: 
+the modal shift scenario presented in \cref{smshift} is useful to gauge the
+potential magnitude and spatial distribution of cycling uptake in the UK, but
+is unlikely to be realistic as the same proportion of short-distance car
+drivers are expected to shift in every area. In reality, most transport
+interventions are localised. The recent allocation of \pounds 77 million to
+cycling cities schemes \citep{BBc2013-cycling}, for example, will inevitably be
+spent locally. Localised scenarios of different expenditure options could help
+planners maximise the benefits resulting from this expenditure.
+\item Prediction of energy use: variation in energy use variable has been
+explained intuitively as the result of a few key factors: wealth, distance to
+employment centre and the nature of the surrounding transport network all seem
+to have an influence (\cref{Chapter6}). The next logical step forward would
+be the creation of a predictive model to estimate energy use based on
+underlying geographical drivers. This could include flow data
+\citep{Simini2012} as well as more conventional explanatory variables such as
+topology, wealth and connectivity measures. Such a predictive model would be
+useful academically, enhancing understanding of the geographical drivers of
+energy use \citep{Steemers2003} and practically, as a basis to project the
+energy impacts of future change.
+\item The application of the method to more countries at more time periods, to
+investigate the generality of the findings and provide further guidance to
+policy makers based on the international evidence.
+\end{itemize}
+This is a diverse set of recommendations that can be explored using a variety
+of methods. It is therefore suggested that resulting research does not 
+need to fit into the `spatial microsimulation approach' advocated
+in this thesis to build on its findings. However, approach
+may offer certain advantages as a way of framing the research methodologically.
+Returning to the central policy issue of energy use in transport
+it is recommend, if an overriding agenda or
+paradigm is deemed beneficial at all (it may not be), that future research
+in this area uses the sustainable mobility paradigm \citet{Banister2008}.
+
+\section{Thesis evaluation and summary} \label{ssummary}
+To evaluate the thesis by its own standards, we return to the aims and
+objectives introduced at the end of the opening chapter (\cref{s:aims}), and
+discuss to what extent they have been accomplished.  The first aim (A1) was to
+``Investigate the energy cost of transport to work, its variability
+at individual and geographic levels, drivers, and policy implications.'' This
+aim was mostly accomplished in \cref{Chapter6}, in which national commuter
+energy costs were estimated in terms of both energy use per trip and energy use
+per year per commuter. In the same chapter commuter energy use was also found
+to vary at all geographical scales, with the range of average values
+unsurprisingly increasing at lower geographies and the spatial pattern becoming
+more complex at the local level. In terms of individual-level variability, it
+was shown in \cref{sindvar} and throughout \cref{Chapter7} that the distribution
+of energy use across the population varies greatly from place to place and that
+socio-economic factors play an important role in determining an individual's
+use of energy to travel to work that is likely to be missed in analyses that
+operate only at the aggregate level. 
+
+Sub aims 1.1, 1.2 and 1.3 relate to the variability of commuting energy costs;
+the factors most closely associated with high and low energy use; and how the
+spatial microsimulation approach can be used to inform policies using scenarios
+of scenarios of change, respectively. The following bullet points summarise
+progress in achieving these aims:
+\begin{itemize}
+ \item The quantification of the variability of commuter energy costs at various
+levels has been a major output of the research, as detailed above. However, the
+variability over time has received less attention due to data
+constraints.\footnote{The
+observation that energy costs have increased tenfold
+over the past century (\cref{s:eff-imps}, \cref{flongip}) was based on a small
+sample and crude assumptions about average distances travelled by, and
+efficiencies of, different modes of transport. Still, this is an interesting
+result. Also, the changing distribution of car dominance for the trip to work,
+illustrated in \cref{f1981}, is an interesting finding that likely relates to
+changes in the spatial distribution of energy
+intensive commuting over time.
+}
+Aim 1.1 was also to investigate household-level variability. This has not been
+achieved in the thesis, although pointers of how to do this have been
+suggested.\footnote{See
+the second bullet point in the list of further research
+in the previous section.
+}
+\item The explanation of this variability set out in aim 1.2 was largely
+achieved. At the aggregate level, distance from employment centre was found to
+account for much of the variability in average commuter energy use, although
+this was not formalised as a predictive model or linked to additional
+geographical factors such as the road network. At the individual level it has
+been shown that average commuting behaviour also varies depending on age,
+number of cars in household and, more importantly for policy makers, by
+socio-economic class and income (\cref{c7results}).
+\item Regarding the formulation of models for change (Aim 1.3), a number of
+`what if' scenarios were considered in \cref{Chapter8}. Only 2 of
+these (high cycling and telecommuting scenarios, based on evidence from Holland
+and Finland) were quantified, but the results were interesting, policy relevant
+and surprising. As stated in the previous section, there is great potential for
+further research in this area.
+\end{itemize}
+The second main aim was methodological, to test the potential of spatial
+microsimulation for the ``social and spatial analysis of the energy costs of
+commuting.'' It is concluded that the thesis has succeeded in meeting this aim:
+spatial microsimulation has for the first time been applied to the
+investigation of this issue and the methodology has been developed in a way
+that should be reproducible by others based on code and documentation that has
+been made available to others.\footnote{In
+the
+{\color{blue}\href{https://github.com/Robinlovelace/thesis-reproducible}
+{`thesis-reproducible'}} repository
+and other personal repositories hosted on the social coding site github.com
+}
+It is also concluded that the benefits of using the spatial microsimulation
+approach outweigh the additional complexity, computing and time costs of the
+individual-level methodologies compared with more common aggregate-level
+approaches. The ability to target specific groups in scenarios of change, to
+explore the interaction of individual and geographical factors in influencing
+travel behaviours and to investigate the distributional impacts of change
+suggests the approach has great potential as a tool for policy makers and
+academics. Overall the thesis has achieved most aspects of all of its original
+aims, although further work is needed to include household-level impacts and
+better explain the variability of energy use based on a wider range of
+variables than those used here.
+
+In summary, this thesis has contributed methods and findings to the emerging
+area of energy use in transport. The research was motivated by the seemingly
+intractable socio-environmental problems of climate change and resource
+depletion, leading to a focus on pragmatic policy relevance rather than theory.
+The methodological innovations of integerisation and allocation of home-work
+locations in the context of spatial microsimulation are relatively minor
+achievements academically, yet their application to real-world transport
+planning decisions could yield major benefits for policy makers.
+
+Some of the findings were unexpected and challenge conventional wisdom about
+what constitutes `good' transport policy environmentally. The current
+emphasis on bicycles, for example, is at-odds with its relatively
+minor potential for large emissions cuts (although health and social
+considerations should also play their part in transport policy, areas
+in which the bicycle has much more to offer).
+The key message for policy-makers wanting to reduce fossil fuel dependence
+is that policies that can reduce the consumption
+of the most energy intensive areas and individuals (such as telecommuting)
+should take priority over policies that will further reduce energy use in
+places that are already quite energy efficient in terms of travel to work.
+This finding was reinforced by the comparison between 
+commuter energy use in England and the Netherlands, where the Dutch were
+unexpectedly found to use \emph{more} energy for commuting. 
+
+These findings not only challenge wishful thinking in the area of energy and
+transport, they lay the
+foundations for further work from which additional results can be
+generated. The findings are also important in their own right: they
+provide insight into the interventions that would be needed if reducing energy
+use in personal transport
+becomes a political priority. The impacts of this research may thus
+depend more on the extent to which the approach is adopted by practitioners,
+than its direct influence in
+academia. In terms of social and environmental impact, a single well-designed
+intervention in the transport system resulting from this research could be worth
+several thousand words.
+
+% The methodological `black boxes', that process the
+% input data and generate results may only be seen as a means to an end, but they
+% are fundamental to the results and how reality is represented. It is therefore
+% important that they
+% are critically placed in the spotlight.
+% % Reproducible research is one of the
+% % cornerstones
+% % of scientific advancement, so this is probably
+% % the most important chapter in the Thesis from an academic perspective.
+% % Others can build on the analysis and take it further.
+% Too many times have researchers had to `start from scratch', to implement
+% methods that are already widely used. This problem is accute in Transport
+% Modelling, where a small number of proprietary (and extremely expensive)
+% software packages dominate the market, reducing potential for transparency,
+% reproducibility and inter-organsiational collaboration
+% \citep{Tamminga2012}. These problems can largely be overcome
+% by an open source approach, to both data and methods \citep{Ince2012}.
+% Therefore, in addition to presenting the methods clearly and concisely,
+% a sub-aim of this chapter is to ensure that all of the results are reproducible
+% based only on data referred to in this thesis.

@@ -1,0 +1,562 @@
+\documentclass[a4paper, 11pt]{article}  % Based on the ECS Thesis style
+\usepackage{makeidx}
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{idxlayout}
+% Making R code work!
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{urlcolor=blue, colorlinks=false, hypertexnames=true}  % Colours hyperlinks in blue, but this can be distracting
+\usepackage{cleveref}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.3cm}
+
+\lstset{ %
+  language=R,                % the language of the code
+   basicstyle=\normalsize\ttfamily,           % the size of the fonts that are used for the code
+%   numbers=left,                   % where to put the line-numbers
+%   numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+%   stepnumber=2,                   % the step between two line-numbers. If it's 1, each line
+                                  % will be numbered
+%   numbersep=5pt,                  % how far the line-numbers are from the code
+%   backgroundcolor=\color{white},      % choose the background color. You must add \usepackage{color}
+%   showspaces=false,               % show spaces adding particular underscores
+%   showstringspaces=false,         % underline spaces within strings
+%   showtabs=false,                 % show tabs within strings adding particular underscores
+   frame=false,                   % adds a frame around the code
+   rulecolor=\color{white},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+%   tabsize=2,                      % sets default tabsize to 2 spaces
+%   captionpos=b,                   % sets the caption-position to bottom
+%   breaklines=true,                % sets automatic line breaking
+%   breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+%   title=\lstname,                   % show the filename of files included with \lstinputlisting;
+                                  % also try caption instead of title
+  keywordstyle=\color{blue},          % keyword style
+  commentstyle=\color{dkgreen},       % comment style
+  stringstyle=\color{mauve},         % string literal style
+  escapeinside={\%*}{*)},            % if you want to add a comment within your code
+  morekeywords={*,...}               % if you want to add more keywords to the set
+}
+
+% Include any extra LaTeX packages required
+\usepackage[round,]{natbib}  % Use the "Natbib" style for the references
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
+\usepackage{wallpaper}
+\usepackage{cases}
+\makeindex
+%% ----------------------------------------------------------------
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\title{Thesis corrections: summary of changes}
+\author{Robin Lovelace}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Many changes have been made to the thesis following the viva, all of them
+minor typos and formatting issues. These can be split into 3 main parts:
+corrections suggested by Charles Pattie, additional corrections from Michael Batty
+and additional changes.
+
+Additions are highlighted in \DIFadd{blue} text. Deletions are \DIFdel{crossed-out in red}.
+
+A number of issues applied throughout the entire document, so not every instance of a change is
+mentioned here. These systematic changes include:
+\begin{itemize}
+ \item ``fig.'' replaced by ``figure'' throughout
+ \item ``individual-level'' replaced by ``individual level'' throughout and other hyphenation mistakes corrected
+ \item data are now treated as plural, although there is an ongoing debate on the subject e.g.
+ \href{http://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular}{http://www.theguardian.com/news/datablog/2010/jul/16/data-plural-singular}
+ \item ``1990's'' replace by ``1990s'' throughout and for all decades
+\end{itemize}
+
+More changes than those described here have been made:
+this document is a summary of changes. To see all changes
+see the file ``dif.pdf'' in the
+``thesis-reproducible'' GitHub repository ( \href{https://github.com/Robinlovelace/thesis-reproducible}{https://github.com/Robinlovelace/thesis-reproducible} ).
+
+
+\section{Corrections from Charles Pattie}
+
+
+ \DIFdelbegin \DIFdel{temping }\DIFdelend \DIFaddbegin \DIFadd{tempting}\DIFaddend, page 2.
+
+\DIFdelbegin \DIFdel{On }\DIFdelend \DIFaddbegin \DIFadd{In }\DIFaddend addition ... Page 9.
+
+\pounds900 bicycle through \DIFdelbegin \DIFdel{them}\DIFdelend \DIFaddbegin \DIFadd{it}\DIFaddend ... Page 15.
+
+\DIFdelbegin \DIFdel{bound-up }\DIFdelend \DIFaddbegin \DIFadd{bound up }\DIFaddend... Page 24.
+
+The energy costs of commuting \DIFdelbegin \DIFdel{is }\DIFdelend \DIFaddbegin \DIFadd{are }\DIFaddend... Page 25.
+
+\DIFdelbegin \DIFdel{social-theory }\DIFdelend \DIFaddbegin \DIFadd{social theory }\DIFaddend... Page 25.
+
+Clearly, it is not money per se that affects commuting energy costs, but
+its indirect influence on behaviour\DIFdelbegin \DIFdel{, which is rarely direct}\DIFdelend ... Page 32.
+
+A wide range
+\DIFaddbegin \DIFadd{of }\DIFaddend individual and geographical
+factors. Page 35.
+
+Building on these findings, \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{Levinson2012}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citet{Levinson2012}
+}%DIFAUXCMD
+}\DIFaddend returned to the question ... Page 36.
+
+
+\citet{Simonsen2011} \DIFdelbegin \DIFdel{harnesses }\DIFdelend \DIFaddbegin \DIFadd{harness }\DIFaddend the knowledge that energy use
+and greenhouse gas emissions are two sides of the same coin ... Page 37.
+
+on transport \DIFdelbegin \DIFdel{an }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend energy... Page 38.
+
+since the \DIFdelbegin \DIFdel{1800's }\DIFdelend \DIFaddbegin \DIFadd{1800s }\DIFaddend... Page 39.
+
+\citet{Gabrielli1950} and \DIFdelbegin \DIFdel{its }\DIFdelend \DIFaddbegin \DIFadd{their }\DIFaddend successors... Page 39.
+
+[The impacts] \DIFdelbegin \DIFdel{was }\DIFdelend \DIFaddbegin \DIFadd{were }\DIFaddend determined ... Page 42.
+
+\citet{Sexton2011} \DIFdelbegin \DIFdel{paper }\DIFdelend set out to ... Page 43.
+
+the need to \DIFdelbegin \DIFdel{asses }\DIFdelend \DIFaddbegin \DIFadd{assess }\DIFaddend potential future impacts... Page 43.
+
+The authors tested their results against the \DIFdelbegin \DIFdel{another }\DIFdelend \DIFaddbegin \DIFadd{radiation }\DIFaddend model and
+found that \DIFdelbegin \DIFdel{their model }\DIFdelend \DIFaddbegin \DIFadd{theirs }\DIFaddend ``yields significantly better results''
+\citep[p.~6]{Lenormandplosone2012}\DIFdelbegin \DIFdel{than than the `radiation model'}\DIFdelend . It is to
+this \DIFaddbegin \DIFadd{radiation }\DIFaddend model, another scientific approach to commuting,
+that attention is directed below... Page 45.
+
+\DIFdelbegin \DIFdel{read-through }\DIFdelend \DIFaddbegin \DIFadd{read through }\DIFaddend Page 46.
+
+
+In \DIFaddbegin \DIFadd{the }\DIFaddend sustainability
+literature, \DIFaddbegin \DIFadd{the }\DIFaddend term is rarely quantified ... Page 50.
+
+In the context of transport \DIFdelbegin \DIFdel{system}\DIFdelend \DIFaddbegin \DIFadd{systems}\DIFaddend ... Page 50.
+
+is \DIFdelbegin \DIFdel{is }\DIFdelend central to the thesis. ... Page 53.
+
+frequently used \DIFdelbegin \DIFdel{in }\DIFdelend throughout the thesis... Page 53.
+
+\DIFdelbegin \DIFdel{short-term}\DIFdelend \DIFaddbegin \DIFadd{short term}\DIFaddend ... Page 56.
+
+\DIFdelbegin \DIFdel{make-do }\DIFdelend \DIFaddbegin \DIFadd{make do }\DIFaddend ... Page 58.
+
+empirical data seldom \DIFdelbegin \DIFdel{fits }\DIFdelend \DIFaddbegin \DIFadd{fit }\DIFaddend into any neat model and therefore
+\DIFdelbegin \DIFdel{distracts }\DIFdelend \DIFaddbegin \DIFadd{distract }\DIFaddend from explanation.
+This point was made as early as the \DIFdelbegin \DIFdel{1970's}\DIFdelend \DIFaddbegin \DIFadd{1970s}\DIFaddend ... Page 59.
+
+the
+\DIFdelbegin \DIFdel{the
+}\DIFdelend car ... Page 62.
+
+the field \DIFaddbegin \DIFadd{of }\DIFaddend statistical
+mechanics ... Page 63.
+
+to \DIFdelbegin \DIFdel{the }\DIFdelend tackle the research challenge ... Page 66.
+
+\DIFdelbegin \DIFdel{eduction}\DIFdelend \DIFaddbegin \DIFadd{level of education}\DIFaddend ... Page 69.
+
+\DIFdelbegin \DIFdel{ground-up }\DIFdelend \DIFaddbegin \DIFadd{ground up }\DIFaddend ... Page 74.
+
+used for \DIFaddbegin \DIFadd{a }\DIFaddend range of applications ... Page 75.
+
+During
+the 3$^{rd}$ quarter of 2012, there were 29.86 \DIFaddbegin \DIFadd{million
+}\DIFaddend employed
+people in the UK ... Page 79.
+
+\DIFdelbegin \DIFdel{be harder
+more difficult }\DIFdelend \DIFaddbegin \DIFadd{harder
+}\DIFaddend to analyse and visualise ... Page 86.
+
+\DIFdelbegin \DIFdel{split-up }\DIFdelend \DIFaddbegin \DIFadd{split up }\DIFaddend ... Page 88.
+
+The NTS dataset has an impressive response rate to key question which tend to
+have a lot of NA values, and are very patchy\DIFdelbegin \DIFdel{)}\DIFdelend ... Page 95.
+
+\DIFdelbegin \DIFdel{an }\DIFdelend \DIFaddbegin \DIFadd{a }\DIFaddend geo-referenced ... Page 97.
+
+\DIFdelbegin \DIFdel{could-well }\DIFdelend \DIFaddbegin \DIFadd{could well }\DIFaddend ... Page 97.
+
+The \DIFdelbegin \DIFdel{data }\DIFdelend \DIFaddbegin \DIFadd{datasets }\DIFaddend presented so far, on energy use of personal travel and commuting
+behaviour, \DIFdelbegin \DIFdel{is }\DIFdelend \DIFaddbegin \DIFadd{are }\DIFaddend sufficient ... . \emph{And changed throughout}. Page 97.
+
+`\DIFdelbegin \DIFdel{drop-off }\DIFdelend \DIFaddbegin \DIFadd{drop off }\DIFaddend the kids' ... Page 97.
+
+as buses and railed vehicles can only follow
+pre-defined \DIFdelbegin \DIFdel{path}\DIFdelend \DIFaddbegin \DIFadd{paths}\DIFaddend ... Page 98.
+
+\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+...
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citep{Johnston1993, blien1998entropy}
+}%DIFAUXCMD
+}\DIFaddend ... Page 110.
+
+\DIFdelbegin \DIFdel{download }\DIFdelend \DIFaddbegin \DIFadd{downloaded }\DIFaddend from census dissemination
+portal Casweb ... Page 110.
+
+perfect \DIFaddbegin \DIFadd{(}\DIFaddend fig. 4.14 \DIFaddbegin \DIFadd{)}\DIFaddend ... Page 118.
+
+(see 4.25 \DIFdelbegin \DIFdel{, above}\DIFdelend )... Page 122.
+
+household incomes \DIFdelbegin \DIFdel{and }\DIFdelend \DIFaddbegin \DIFadd{at }\DIFaddend the MSOA level ... Page 124.
+
+to \DIFdelbegin \DIFdel{to }\DIFdelend a fixed randomising factor ... Page 126.
+
+Because simulation, almost by definition, estimates something that is not
+otherwise \DIFdelbegin \DIFdel{know}\DIFdelend \DIFaddbegin \DIFadd{known}\DIFaddend  ... Page 128.
+
+\DIFdelbegin \DIFdel{Intergerisation }\DIFdelend \DIFaddbegin \DIFadd{Integerisation }\DIFaddend ... Page 130.
+
+\DIFdelbegin \DIFdel{tops-up }\DIFdelend \DIFaddbegin \DIFadd{tops up }\DIFaddend ... Page 132.
+
+does one only include the
+chemical energy stored in the petrol burned in the pistons? \DIFdelbegin \DIFdel{or }\DIFdelend \DIFaddbegin \DIFadd{Or }\DIFaddend do we also
+include the primary energy consumed ... Page 151.
+
+Brackets added around figure. Page 152.
+
+Inserted brackets around table ... Page 155.
+
+Although \DIFaddbegin \DIFadd{the }\DIFaddend Defra dataset  ... Page 155.
+
+The closeness of the average energy costs of driving reported by \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{MacKay2009}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citet{MacKay2009}
+}%DIFAUXCMD
+}\DIFaddend ... Page 157.
+
+he first paper that formalised this problem in the context of \DIFdelbegin \DIFdel{system-level
+}\DIFdelend \DIFaddbegin \DIFadd{system level
+}\DIFaddend energy costs of transport was \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{Fels1975}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{by \mbox{%DIFAUXCMD
+\citet{Fels1975}
+}%DIFAUXCMD
+}\DIFaddend ... Page 160.
+
+exceptions include
+\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+...
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citealp{Treloar2004, Lenzen1999, MacKay2009, Lovelace2011-assessing}
+}%DIFAUXCMD
+)}\DIFaddend Page 160.
+
+It is all \DIFdelbegin \DIFdel{to }\DIFdelend \DIFaddbegin \DIFadd{too }\DIFaddend easy ... Page 161.
+
+Inserted brackets around figure Page 175.
+
+model was \DIFdelbegin \DIFdel{ran }\DIFdelend \DIFaddbegin \DIFadd{run }\DIFaddend ... Page 175.
+
+hotels \DIFdelbegin \DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend restaurants ... Page 176.
+
+students trace roadways on paper maps'' \citep[189]{bosco2012circs}.
+\DIFaddbegin \DIFadd{The original is not cited in the quote because a hard copy of the book
+could not be found. Therefore the quotation, from \mbox{%DIFAUXCMD
+is used.
+}\DIFaddend } ... Page 183.
+
+Building on these findings, \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{Levinson2012}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citet{Levinson2012}
+}%DIFAUXCMD
+}\DIFaddend returned to the question of the factors affecting commute time ... Page 183.
+
+\DIFdelbegin \DIFdel{The }\DIFdelend \DIFaddbegin \DIFadd{An }\DIFaddend indirect (yet somehow more tangible) impact of poor road quality on
+transport energy use is that it can discourage \DIFdelbegin \DIFdel{from low energy vehicles}\DIFdelend \DIFaddbegin \DIFadd{people from buying
+a low powered and energy efficient car}\DIFaddend ... Page 190.
+
+altering the values for
+one \DIFdelbegin \DIFdel{modes }\DIFdelend \DIFaddbegin \DIFadd{mode }\DIFaddend whilst leaving the others unchanged ... Page 191.
+
+\DIFdelbegin \DIFdel{between }\DIFdelend in  the decade following 1973... Page 192.
+
+more than 10\% below the 3 MJ/km figure calculated from
+\DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{Defra2011}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citet{Defra2011}
+}%DIFAUXCMD
+}\DIFaddend ... Page 192.
+
+Bracket inserted. Page 195.
+
+Additional strain on \DIFdelbegin \DIFdel{a }\DIFdelend \DIFaddbegin \DIFadd{an }\DIFaddend ailing electricity grid ... Page 199.
+
+This is the argument made powerfully by \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\citep{plowden2008cars}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\citet{plowden2008cars}
+}%DIFAUXCMD
+}\DIFaddend ... Page 199.
+
+Which of these
+approaches to projecting fleet efficiencies \DIFaddbegin \DIFadd{is most is context specific and
+}\DIFaddend depends on the aims of the research ... Page 200.
+
+\DIFdelbegin \DIFdel{YatH }\DIFdelend \DIFaddbegin \DIFadd{Yorkshire and the Humber }\DIFaddend was taken ... Page 205.
+
+Brackets added. Page 207.
+
+come \DIFdelbegin \DIFdel{for }\DIFdelend \DIFaddbegin \DIFadd{from }\DIFaddend official data sources ... Page 208.
+
+``Having considered the limitations of the data, and weighed up the pros additional of
+complexity with the advantages of simplicity''  replaced by ``Having considered the limitations of the data,
+and weighed up the costs and benefits of complexity'' ... Page 212.
+
+```card', `carp', and `moto' refer to
+car driver, car passenger and motorbike respectively.'' Added to explain the acronyms. Page 214.
+
+It is interesting to \DIFdelbegin \DIFdel{not }\DIFdelend \DIFaddbegin \DIFadd{note }\DIFaddend ... Page 219.
+
+The highest and lowest (outside London)
+values are found in Rutland (the geographic centroid of which is located 109
+km from central London, and which was the last county in England to have
+a direct trainline to London) \DIFaddbegin \DIFadd{and }\DIFaddend the City of Kingston upon Hull\DIFaddbegin \DIFadd{, respectively}\DIFaddend 
+... Page 219.
+
+there is a tendency for
+areas located close to \DIFaddbegin \DIFadd{railways
+to }\DIFaddend be associated with a high proportion of per trip energy
+use to be composed of rail travel ... Page 221.
+
+\DIFdelbegin \DIFdel{course }\DIFdelend \DIFaddbegin \DIFadd{coarse }\DIFaddend levels of aggregation ... Page 223.
+
+something \DIFdelbegin \DIFdel{for }\DIFdelend which ... Page 223.
+
+Local \DIFdelbegin \DIFdel{authorities }\DIFdelend \DIFaddbegin \DIFadd{Authorities }\DIFaddend ... Page 224.
+
+When distance band and mode of travel are \DIFdelbegin \DIFdel{know }\DIFdelend \DIFaddbegin \DIFadd{known }\DIFaddend ... Page 227.
+
+the lowest classes \DIFdelbegin \DIFdel{live }\DIFdelend \DIFaddbegin \DIFadd{tend to work }\DIFaddend closer to home ... Page 231.
+
+Another issue was finding \DIFdelbegin \DIFdel{Geographical }\DIFdelend \DIFaddbegin \DIFadd{geographical }\DIFaddend ... Page 233.
+
+\DIFdelbegin \DIFdel{the }\DIFdelend also ... Page 236.
+
+That energy use per commute is greater in the Netherlands
+\DIFdelbegin \DIFdel{is
+higher }\DIFdelend than in England is an interesting result in itself ... Page 237.
+
+Brackets inserted. Page 243.
+
+as aggregate data \DIFdelbegin \DIFdel{tells
+}\DIFdelend \DIFaddbegin \DIFadd{tell
+}\DIFaddend us little. Page 244.
+
+\DIFdelbegin \DIFdel{the }\DIFdelend Sheffield028 (an MSOA zone) is more unequal ... Page 255.
+
+
+Figure 7.14 size increased. Page 261.
+
+the proportion of car trips \DIFdelbegin \DIFdel{that shift to car }\DIFdelend \DIFaddbegin \DIFadd{replaced by bicycle }\DIFaddend trips
+... Page 267.
+
+cycling uptake is driven largely \DIFdelbegin \DIFdel{be }\DIFdelend \DIFaddbegin \DIFadd{by }\DIFaddend the
+young ... Page 269.
+
+Suburbia in its current form gradually vanishes, and communities
+ will become ```villagised' so people could meet more of their needs from their
+neighbourhood without commuting'' \citep[p.~591]{North2010585}.
+ \DIFdelbegin \DIFdel{around urban areas, while avoidable long distance travel would be
+ }\DIFdelend ... Page 276.
+
+ \DIFdelbegin \DIFdel{R$^2$ values }\DIFdelend \DIFaddbegin \DIFadd{Pearson's coefficient of correlation
+(r) }\DIFaddend ranged from -0.59 to -0.22 ... Page 283.
+
+\section{Corrections from by Michael Batty}
+
+due \DIFdelbegin \DIFdelend \DIFaddbegin \DIFadd{to}\DIFaddend lack of jobs ... Page iv.
+
+roughly equivalent to   \DIFdelbegin \DIFdel{country}\DIFdelend \DIFaddbegin \DIFadd{county}\DIFaddend level in the UK ... Page 35.
+
+``than those'' added to the following sentence: It was found that people living in more sparsely populated areas
+were more likely to travel far to work than those living in dense areas. Page 35.
+
+Moreover, it is assumed that the former is a \DIFdelbegin \DIFdel{a }\DIFdelend close enough proxy of the latter ... Page 37. 
+
+This is a recurring \DIFdelbegin \DIFdel{them }\DIFdelend \DIFaddbegin \DIFadd{theme }\DIFaddend ... Page 39.
+
+In \DIFaddbegin \DIFadd{the }\DIFaddend sustainability
+literature, \DIFaddbegin \DIFadd{the }\DIFaddend term is rarely quantified ... Page 50.
+
+changes \DIFdelbegin \DIFdel{on }\DIFdelend \DIFaddbegin \DIFadd{in }\DIFaddend the real spatial microdata ... Page 56.
+
+Whole cases
+are \DIFdelbegin \DIFdel{are }\DIFdelend generated using integerisation. Page 58.
+
+\DIFdelbegin \DIFdel{microsimualtion }\DIFdelend \DIFaddbegin \DIFadd{microsimulation }\DIFaddend ... Page 75.
+
+translating the total \DIFdelbegin \DIFdel{in }\DIFdelend into commuter energy use ... Page 84.
+
+ggplot2 has been used throughout this thesis for plotting with help from key
+ \DIFdelbegin \DIFdel{reference }\DIFdelend \DIFaddbegin \DIFadd{references }\DIFaddend ... Page 109.
+
+ Because simulation, almost by definition, estimates something that is not
+otherwise \DIFdelbegin \DIFdel{know}\DIFdelend \DIFaddbegin \DIFadd{known}\DIFaddend ... Page 128.
+
+the true value is
+only really \DIFdelbegin \DIFdel{know the value }\DIFdelend \DIFaddbegin \DIFadd{known }\DIFaddend to one significant figure. Page 168.
+
+Another pattern that emerges is the relationship
+between the very low energy costs of commuting in London, and the relatively high
+costs of areas within a $\sim$100 km radius \DIFdelbegin \DIFdel{surround }\DIFdelend \DIFaddbegin \DIFadd{surrounding }\DIFaddend the centre ...
+Page 219.
+
+When distance band and mode of travel are \DIFdelbegin \DIFdel{know }\DIFdelend \DIFaddbegin \DIFadd{known }\DIFaddend ... Page 227.
+
+Despite these possibilities, \DIFaddbegin \DIFadd{it }\DIFaddend is important to remember that the results are
+\emph{simulated} ... Page 261.
+
+\section{Additional changes}
+
+Many small additional changes were made to the thesis, reflecting typos,
+style issues and grammatical mistakes and inconsistencies found in the text.
+A selection of these are highlighted below. Page numbers are not shown;
+a full list of changes can be found in the file ``dif.pdf'' in the
+``thesis-reproducible'' GitHub repository ( \href{https://github.com/Robinlovelace/thesis-reproducible}{https://github.com/Robinlovelace/thesis-reproducible} ).
+
+\DIFdelend \DIFaddbegin \DIFadd{, except
+the }\DIFaddend Cretaceous-Tertiary boundary event generally attributed to impact of an
+asteroid with the Earth'' \citep{Hay2011}. 
+
+This is because transport systems are inherently mobile,
+therefore requiring \DIFaddbegin \DIFadd{a }\DIFaddend high energy density \DIFdelbegin \DIFdel{energy storage}\DIFdelend \DIFaddbegin \DIFadd{power source}\DIFaddend .
+
+Energy is the `master resource' from which all others (including more
+energy) can be obtained; emissions are the end result \DIFdelbegin \DIFdel{result }\DIFdelend of energy use.
+
+Most greenhouse gas emissions stem from \DIFdelbegin \DIFdel{burning }\DIFdelend fossil fuel use, and once
+extracted, these fuels are invariably burned. This has led to the conclusion
+
+Overall commuting is
+the \DIFdelbegin \DIFdel{the }\DIFdelend most time-consuming reason for personal travel in the UK
+
+results to be replicated by anyone provided with the same input data as used in
+the \DIFdelbegin \DIFdel{this }\DIFdelend thesis. To this end numerous script files are provided which allow many
+of the analyses performed to be re-run on any computer using free
+--
+This recognition of the potential applications of the research
+is reflected in the \DIFdelbegin \DIFdel{the }\DIFdelend aims and objectives.
+
+The energy costs of commuting \DIFdelbegin \DIFdel{is }\DIFdelend \DIFaddbegin \DIFadd{are }\DIFaddend therefore of critical importance to
+the ability of modern economies to sustain themselves.
+
+characterising and
+modelling active travel patterns \DIFdelbegin \DIFdel{also}\DIFdelend \DIFaddbegin \DIFadd{as well}\DIFaddend
+
+e.g.~Chris Fisher's decision not to move to Hereford because
+commuting to the \DIFdelbegin \DIFdel{Tyrrel}\DIFdelend \DIFaddbegin \DIFadd{Tyrrell}\DIFaddend 's crisp factory would then become too expensive
+
+The energy \DIFdelbegin \DIFdel{costs }\DIFdelend \DIFaddbegin \DIFadd{cost }\DIFaddend of commuting
+
+Theories are hypotheses about how the world \emph{should be}, based on
+\DIFdelbegin \DIFdel{past }\DIFdelend experience
+
+The \DIFdelbegin \DIFdel{the }\DIFdelend law is falsifiable (and has been falsified on numerous occasions!)
+
+efficiency --- and related concepts of fuel economy and energy
+\DIFdelbegin \DIFdel{economy
+}\DIFdelend intensity --- is well established in research on the energy requirements
+of \DIFdelbegin \DIFdel{of }\DIFdelend freight transport \citep{Kamakate2009}.
+
+At present however, this quantitative branch of
+the resilience concept lacks empirical application. The term \DIFdelbegin \DIFdel{will }\DIFdelend \DIFaddbegin \DIFadd{is }\DIFaddend harnessed to
+discuss the \DIFdelbegin \DIFdel{the long-sustainability }\DIFdelend \DIFaddbegin \DIFadd{long term sustainability }\DIFaddend of commuter systems and their capacity to
+function in the event of oil shortages.
+
+\DIFdelbegin \DIFdel{Energy use in }\DIFdelend \DIFaddbegin \DIFadd{The energy costs of }\DIFaddend transport, and \DIFdelbegin \DIFdel{its }\DIFdelend \DIFaddbegin \DIFadd{their }\DIFaddend underlying causes, have been explored at a
+range of different scales.
+
+for energy and transport studies focussed more locally. Moreover,
+because the factors affecting commuting behaviour operate at many \DIFdelbegin \DIFdel{different }\DIFdelend levels
+
+In this chapter they
+are \DIFdelbegin \DIFdel{are }\DIFdelend grouped together under the broad term `urban modelling'
+
+the impacts of policy or other
+changes \DIFdelbegin \DIFdel{on }\DIFdelend \DIFaddbegin \DIFadd{in }\DIFaddend the real spatial microdata
+methods of analysis and \DIFdelbegin \DIFdel{and }\DIFdelend conventions of mathematical notation
+
+one
+advantage they seem to have had \DIFdelbegin \DIFdel{was }\DIFdelend a clear theoretical focus
+
+strategic \DIFdelbegin \DIFdel{planing }\DIFdelend \DIFaddbegin \DIFadd{planning }\DIFaddend
+
+hierarchy of entities for inclusion was established, in descending
+order \DIFdelbegin \DIFdel{order }\DIFdelend of priority:
+
+ Thus ILUTE can \DIFdelbegin \DIFdel{can }\DIFdelend be used
+ 
+for spatial microsimulation, at various levels of geographic aggregation.
+The \DIFdelbegin \DIFdel{disadvantage of census
+data }\DIFdelend \DIFaddbegin \DIFadd{main disadvantage of the census
+dataset }\DIFaddend is that it only provides information about a small number of variables
+compared with more specific surveys that have lower samples sizes.
+
+in addition to enabling statistical operations, \DIFdelbegin \DIFdel{itâ}\DIFdelend \DIFaddbegin \DIFadd{it'}\DIFaddend s a general programming
+language, so that you can
+
+The mathematical properties of IPF
+have \DIFdelbegin \DIFdel{have }\DIFdelend been described in several papers
+
+Neighbourhood Statistics data using \DIFdelbegin \DIFdel{a }\DIFdelend \DIFaddbegin \DIFadd{an }\DIFaddend ordinary least squares (OLS) regression
+\DIFaddbegin \DIFadd{model}\DIFaddend.
+
+In second and third place respectively were the proportional probabilities
+and TRS approaches, which took a \DIFdelbegin \DIFdel{a }\DIFdelend couple of seconds longer for a single
+integerisation run for all areas.
+
+
+\bibliographystyle{model2-names}  % Use the "unsrtnat" BibTeX style for
+% \bibliography{library, lincluded}  % The references (bibliography) information are stored
+\bibliography{custom,link-geo,link-pstar,library}  % The
+% Replace w. link-pstar or link-ps depending
+
+\end{document}
+

@@ -1,0 +1,583 @@
+%% ----------------------------------------------------------------
+%% Robin Lovelace's thesis (based on Sunil Patel's design from http://uk.tug.org/)
+%% ----------------------------------------------------------------
+
+% Improvements:
+% Remove subsubsections, and maybe subsections also
+% Add system-level energy costs!!! (Ch. 6)
+% Add kWh/yr costs (Ch. 6) !!!
+
+% NBs:
+% Remember Ballas 2005b is Geo matters - use this, not 2005c
+% Plan: update Chapter 3 when ints is up and published... expand on much of
+% that stuff.
+% Social trends statistical release: people travelling less far; 9.1%
+% Try to make graphs replicable at the ended
+% Add Lister's kW rating image as a graph comparing cars with other appliances
+% Check the document for consistency - Chapter vs chapter, bullet points are
+% full sentences? Do figures have lines? etc.
+% classify areas: commuter belts account for x% of energy used
+% Realistic savings if cycling carrying capacity were reached
+% Realistic savings if all long-distance commutes were made less common
+% Add to thesis-reproducible README file
+
+% proportion of energy use consumed by cars - map - check!
+% same thing for commuters: x% -> x% energy use
+
+% What have I found out? answer this by Lotis.
+% Calculate energy costs at system level!!!
+
+
+% Set up the document
+\documentclass[a4paper, 11pt, twoside]{Thesis}  % Based on the ECS Thesis style
+\usepackage{makeidx}
+\graphicspath{{Figures/}{/home/robin/Dropbox/vul-meth/Figures/}
+{/home/robin/Dropbox/vulnerability/Figures/}}  % Location of the graphics files
+\usepackage{multirow}
+\usepackage{threeparttable}
+\usepackage{idxlayout}
+% Making R code work!
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{urlcolor=blue, colorlinks=false, hypertexnames=true}  % Colours hyperlinks in blue, but this can be distracting 
+\usepackage{cleveref}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  language=R,                % the language of the code
+   basicstyle=\normalsize\ttfamily,           % the size of the fonts that are used for the code
+%   numbers=left,                   % where to put the line-numbers
+%   numberstyle=\tiny\color{gray},  % the style that is used for the line-numbers
+%   stepnumber=2,                   % the step between two line-numbers. If it's 1, each line
+                                  % will be numbered
+%   numbersep=5pt,                  % how far the line-numbers are from the code
+%   backgroundcolor=\color{white},      % choose the background color. You must add \usepackage{color}
+%   showspaces=false,               % show spaces adding particular underscores
+%   showstringspaces=false,         % underline spaces within strings
+%   showtabs=false,                 % show tabs within strings adding particular underscores
+   frame=false,                   % adds a frame around the code
+   rulecolor=\color{white},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
+%   tabsize=2,                      % sets default tabsize to 2 spaces
+%   captionpos=b,                   % sets the caption-position to bottom
+%   breaklines=true,                % sets automatic line breaking
+%   breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+%   title=\lstname,                   % show the filename of files included with \lstinputlisting;
+                                  % also try caption instead of title
+  keywordstyle=\color{blue},          % keyword style
+  commentstyle=\color{dkgreen},       % comment style
+  stringstyle=\color{mauve},         % string literal style
+  escapeinside={\%*}{*)},            % if you want to add a comment within your code
+  morekeywords={*,...}               % if you want to add more keywords to the set
+} 
+
+% Include any extra LaTeX packages required
+\usepackage[round,]{natbib}  % Use the "Natbib" style for the references
+\usepackage{verbatim}  % Needed for the "comment" environment to make LaTeX comments
+\usepackage{wallpaper}
+\usepackage{cases}
+\makeindex
+%% ----------------------------------------------------------------
+\begin{document}
+\pagenumbering{roman}
+% \ThisCenterWallPaper{1}{wallpaper}%
+\renewcommand{\includegraphics}[2][]{\fbox{#2}} %omits images
+\frontmatter	  % Begin Roman style (i, ii, iii, iv...) page numbering
+
+% Set up the Title Page
+\title  {The energy costs of commuting: a spatial microsimulation approach}
+\authors  {\texorpdfstring
+            {\href{mailto:rob00x@gmail.com}{Robin Lovelace, MSc BSc}}
+            {Robin Lovelace}
+            }
+\addresses  {\groupname\\\deptname\\\univname}  % Do not change this here, instead these must be set in the "Thesis.cls" file, please look through it instead
+\date       {\today}
+\subject    {}
+\keywords   {}
+
+\maketitle
+%% ----------------------------------------------------------------
+
+\setstretch{1.3}  % It is better to have smaller font and larger line spacing than the other way round
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{}  % Clears all page headers and footers
+% \rhead{\thepage}  % Sets the right side header to show the page number
+% Above edited based on
+% http://www.sunilpatel.co.uk/thesis-template/template-faq/ 4 2 page print!!!
+\fancyhead[LE,RO]{\thepage}
+\fancyfoot{}
+\lhead{}  % Clears the left side page header
+
+\pagestyle{fancy}  % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+%% ----------------------------------------------------------------
+% Declaration Page required for the Thesis, your institution may give you a different text to place here
+% \Declaration{
+% 
+% \addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+% 
+% I, Robin Lovelace, declare that this thesis titled, `The energy costs of commuting: a spatial microsimulation approach'
+% and the work presented in it are my own. I confirm that:
+% 
+% \begin{itemize}
+% \item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
+% 
+% \item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
+% 
+% \item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
+% 
+% \item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
+% 
+% \item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
+% 
+% \item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others and what I have contributed myself.
+% \\
+% \end{itemize}
+% 
+% 
+% Signed:\\
+% \rule[1em]{25em}{0.5pt}  % This prints a line for the signature
+% 
+% Date:\\
+% \rule[1em]{25em}{0.5pt}  % This prints a line to write the date
+% }
+\clearpage  % Declaration ended, now start a new page
+
+%% ----------------------------------------------------------------
+%%%%% Uncomment from here!
+%% ---------------------------------------------------------------- 
+% The "Funny Quote Page"
+\pagestyle{empty}  % No headers or footers for the following pages
+
+\null\vfill
+% Now comes the "Funny Quote", written in italics
+\textit{``A finales del siglo XX, y gracias a su automovil privado, un simple
+trabajador pod\'{i}a residir en un lugar determinado pero desempe\~nar su trabajo,
+diariamente, en otro lugar que se encuentra a 50 o 60 km de distancia. Este
+hecho, que para tal ciudadano formaba parte de la rutina de su vida
+cotidiana, constituye, sin duda, uno de los m\'{a}s grandes enigmas de la
+antropolog\'{i}a y la historia''}
+
+\begin{flushright}
+Jos\'{e} Ardillo, \emph{El Salario del Gigante}
+\end{flushright}
+
+\textit{``Towards the end of the 20$^{th}$ century, and thanks to the private
+automobile, a simple worker could live in one place but carry out their work,
+daily, 50 to
+60 km away. This fact, which for the citizen formed part of their everyday
+routine, constitutes, without doubt, one of the greatest enigmas of Anthropology
+and History''}
+
+\begin{flushright}
+Author's translation
+\end{flushright}
+
+
+
+\vfill\vfill\vfill\vfill\vfill\vfill\null
+\clearpage  % Funny Quote page ended, start a new page
+%% ----------------------------------------------------------------
+
+% The Abstract Page
+\addtotoc{Abstract}  % Add the "Abstract" page entry to the Contents
+\abstract{
+\addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+Commuting is a daily 
+ritual for a large proportion of the world's population.
+It is important materially,
+consuming large amounts of time, money and natural resources.
+% Yet, as with many routine activities, travel to work is often
+% taken for granted. In terms of inflexible energy use ---
+% consumption that cannot easily be cut through reduced demand --- 
+% commuting is of great interest.
+As with many routine activities travel to work is often taken for
+granted but its energy consumption is of particular interest due to
+its heavy reliance on fossil fuels and
+the inflexibility of the demand for commuting.
+This understudied area of knowledge, the
+energy costs of travel to work, forms the basis of the thesis.
+
+% The variability of energy use for commuting over time has been
+% indicative of wider shifts in personal travel. During the 20$^{th}$
+% century the trend has been for trips made by foot, rail % too woolly! rm
+% or bus to be replaced by the relatively energy intensive car.
+% % This represents an `energy transition',
+% % a long-term shift in the way that energy is used in the human economy.
+% % Since the oil price shock of the summer 2008 and subsequent global economic
+% % crisis, certain statistics suggest that this particular transition may have
+% % gone into reverse. Car kilometres peaked in 2008, and show no signs of
+% % returning to their former levels. What this means overall remains an open question:
+% % more evidence on energy supplies, patterns of behaviour and the
+% % ultimate unknown --- policy responses --- will be needed before any firm
+% % conclusions can be drawn. Making judgements in the relatively narrow area
+% % of travel to work is a far less ambitious
+% The direction of change into the 21$^{st}$ century is uncertain, however,
+% especially since car use has declined since 2008. Improved understanding of commuting
+% patterns could therefore benefit efforts to reduce greenhouse gas emissions,
+% and hence energy use, in the transport sector overall.
+
+There is much research into commuting and transport energy use as separate
+fields, but they have rarely been combined in the same analysis, let alone
+at high levels of geographical resolution.
+The well-established field of spatial microsimulation
+offers tools for investigating commuting patterns in detail at local and
+individual
+levels, with major potential benefits for transport planning.
+% In this project
+% the method is applied, for the first time, to investigate variability in energy
+% use both between and within small administrative zones.
+For the first time this method is deployed to investigate variability in commuter energy
+use both between and within small administrative zones.
+% and
+% the scenarios investigated in this PhD suggest that a wide range of phenomena,
+% from future oil shocks to the localisation of economic activity could lead
+% the energy use of commuting to fall. C
+% ommuting is also
+
+% The study most closely related to this thesis published to date, \citep{Boussauw2009},
+% found that the energy costs of commuting are highly variable over space and to
+% some extent predictable.
+The maps of commuter energy use presented in this thesis
+illustrate this variability at national, regional and local levels.
+Supporting previous research, the results suggest that a
+range of geographical factors influence energy use for travel.
+This
+has important policy implications: when high transport energy use in commuting
+is due lack of jobs in
+the vicinity, for example, modal shift (e.g.~from cars to bicycles)
+on its own has a limited potential to reduce
+energy costs. Such insights are quantified using existing aggregate data.
+The main methodological contribution of this work, however, is to add
+individual-level factors to
+the analysis --- creating the potential for policy makers to also assess the
+distributional
+impacts of their interventions and target specific types of
+commuters having high transport energy costs,
+rather than treat areas as homogeneous blocks. This potential is
+demonstrated with a case study of South
+Yorkshire, where commuting energy use is cross-tabulated by
+socio-economic variables and disaggregated over geographical space.
+% The areas where commuting energy use
+% is most unevenly distributed (in urban centres) will likely benefit most from
+% policies that target
+% the specific groups that have the greatest impact.
+The areas where commuting energy use is less evenly distributed across the population, 
+for example in urban centres, are
+likely to benefit most from policies that target the specific groups.
+Areas where commuter
+energy use is more even, such as
+Stocksbridge (in Northwest Sheffield), will benefit from more universal policies.
+
+% The findings
+% confirm the common-sense notion that those on high-incomes are more
+% energy intensive in their travel to work behaviours and quantify by
+% how much (the top income quintile uses around 3 times more energy
+% for commuting than the bottom, although this varies from place to place).
+% In terms of vulnerability, the research has identified deprived rural areas
+% isolated from large employment centres as most at risk. Individual-level risk
+% factors could include ease of relocating work more locally, opportunities
+% for lift sharing or, in extreme cases, physical fitness and access to
+% a suitable bicycle. None of these ideas are new, but the strength
+% of evidence to support them is.
+
+The thesis contributes to human knowledge new information about
+the energy costs of commuting, its variability
+at various levels and insight into the implications.
+New methods of generating and analysing individual-level
+data for the analysis of commuter energy use have also been developed.
+% These methods are reproducible and should be of use to others % dad'd
+% aiming to investigate the energy security, resource efficiency
+% and long-term welfare benefits of interventions in personal travel systems.
+These are reproducible and will be of interest
+to researchers and policy makers investigating
+the energy security, resource efficiency and potential welfare impacts
+of interventions in personal travel systems.
+}
+
+\clearpage  % Abstract ended, start a new page
+%% ----------------------------------------------------------------
+
+\setstretch{1.3}  % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+% The Acknowledgements page, for thanking everyone
+\acknowledgements{
+\addtocontents{toc}{\vspace{1em}}  % Add a gap in the Contents, for aesthetics
+
+It should
+be acknowledged at the outset that some parts of the thesis have been published:
+% \begin{itemize}
+%  \item Parts of \cref{setsim} have been published, in \citep{Lovelace2013-trs}.
+%  \item ``Spatial microsimulation in R'', a supplement to \citet{Lovelace2013-trs},
+%  is based on \Cref{simplementing}.
+%  \item The results presented in \cref{Chapter7} have been
+%  published, in \citep{Lovelace2013-jtrg}.
+% \end{itemize}
+parts of \cref{setsim} appear in \citet{Lovelace2013-trs};
+``Spatial microsimulation in R'', a supplement to \citet{Lovelace2013-trs},
+ is based on \Cref{simplementing}; and the results presented in \cref{Chapter7} have
+ also been published \citep{Lovelace2013-jtrg}.
+
+Thanks to my supervisors Dimitris Ballas, Matt Watson and Stephen Beck for
+unceasing encouragement and guidance throughout. Dimitris has
+been instrumental in developing the methodological direction of the PhD project.
+I will be forever grateful for the guidance provided in the research and beyond.
+
+Many thanks to Carlota for keeping my spirits up throughout.
+To Engineers Without Borders for allowing me to get my hands dirty,
+a feature too often missing from modern research. To my house-mates
+for providing a fun and homely habitat in Sheffield.
+To my parents, who instigated trips into the Peak District ---
+the ultimate antidote to square-eyes. To my dear friends in
+Sheffield, especially James Folkes for providing pedal-powered
+entertainments and Joseph Moore for `moore' distractions.
+
+Thanks to the E-Futures Doctoral Training Centre.
+E-Futures was vital to this PhD, not only for providing funding
+that allowed its students financial security to dedicate themselves to study.
+% money and economic violence of the open labour market
+% for four years.
+% investigate possible solutions to the unsustainable nature of
+% our current energy system.
+E-Futures also provided a forum for debate.
+The encouragement from peers and across disciplines was inspirational.
+Neil Lowrie deserves special mention here,
+as he helped channel my energy away from confrontations
+with coal-fired power station operators and towards research. Thanks.
+
+Thanks to the Department of Geography, for providing an academic
+home and a quiet desk. Members of the Social
+and Spatial Inequalities group (SASI), especially, provided
+feedback on my work, and encouraged the investigation of
+how commuting affects people, not just energy. I thank Luke Temple and Mark
+Green in particular in this regard.
+% for welcoming me to the department and for keeping me on
+% the straight and narrow.
+
+% Thanks to the nameless and often un-thanked people
+% who allowed the
+% PhD course run roughly to plan. The cleaners, porters, IT staff,
+% secretaries and finance people kept things ticking over, creating the
+% conditions for the impartial pursuit of knowledge.
+% It should be clear, though, that this thesis is not a
+% purely disinterested investigation of the energy costs of work travel.
+% It is proudly driven by concern for the future
+% of a civilisation facing depletion of its defining resource
+% --- fossil fuels.
+Thanks to the open source software movement in general and to the developers
+of R and~\LaTeX~(in which the document was written) in particular.
+Hadley Wickham stands out in this
+regard, whose own thesis \citep{Wickham2008}, led to the ggplot2 package
+used for many of the visualisations.
+Thanks to Github for hosting code and data that should make the methods
+and results more accessible and reproducible for
+others.\footnote{Sample code
+and data used can be found on {\color{blue} \href{https://github.com/Robinlovelace/}
+{github.com/Robinlovelace/}}. In particular, reproducible versions of
+the results can be found in the {\color{blue} \href{https://github.com/Robinlovelace/thesis-reproducible}
+{thesis-reproducible}} repository. }
+
+The thesis has benefited from the feedback of people who read 
+early drafts of various sections and chapters: Milan Delor,
+Ian Philips, Jake Gower, Chris Hunter, Charlotte Bjork and my father 
+David Lovelace. Dan Olner's input was especially beneficial in the final 
+stages. Thanks to all for providing additional feedback and support outside
+of the usual academic channels.
+
+My final thank you is for writers who awoke my interest in this topic: Ivan
+Illich, John Michael Greer, Howard T.~Odum, George Monbiot and
+Vaclav Smil.
+}
+\clearpage  % End of the Acknowledgements
+%% ----------------------------------------------------------------
+%% ----------------------------------------------------------------
+%%%%% To from here!
+%% ---------------------------------------------------------------- 
+
+\pagestyle{fancy}  %The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+%% ----------------------------------------------------------------
+\setcounter{tocdepth}{1} % TOC depth
+\setcounter{tocdepth}{2} % TOC depth
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+% \lhead{\emph{Contents}}  % Set the left side page header to "Contents"
+\fancyhead[LO,RE]{\emph{contents}}
+\fancyfoot{}
+\tableofcontents  % Write out the Table of Contents
+
+%% ----------------------------------------------------------------
+%%%%% Uncomment from here!
+%% ---------------------------------------------------------------- 
+
+%% ----------------------------------------------------------------
+% \lhead{\emph{List of Figures}}  % Set the left side page header to "List
+\fancyhead[LO,RE]{\emph{List of Figures}}
+\fancyfoot{}
+
+\listoffigures  % Write out the List of Figures
+
+%% ----------------------------------------------------------------
+% \lhead{\emph{}}  % Set the left side page header to
+\fancyhead[LO,RE]{\emph{List of Tables}}
+\fancyfoot{}
+\listoftables  % Write out the List of Tables
+
+%% ----------------------------------------------------------------
+\setstretch{1.5}  % Set the line spacing to 1.5, this makes the following tables easier to read
+\clearpage  % Start a new page
+% \lhead{\emph{Abbreviations}}  % Set the left side page header to
+\fancyhead[LO,RE]{\emph{Abbreviations}}
+\fancyfoot{}
+
+\listofsymbols{ll}  % Include a list of Abbreviations (a table of two columns)
+{
+{Acronym} & What it Stands For \\
+%\textbf{LAH} & \textbf{L}ist \textbf{A}bbreviations \textbf{H}ere \\
+kJ & kilojoules (10$^3$ J) \\
+MJ & megajoules (10$^6$ J) \\
+GJ & gigajoules (10$^9$ J) \\
+TJ & terajoules (10$^{12}$ J) \\
+PJ & petajoules (10$^{15}$ J) \\
+EJ & exajoules (10$^{18}$ J) \\
+\\
+kWh & kilowatt hour (3.6 MJ) \\
+\\
+CO$_2$ & Carbon dioxide \\
+EROI & Energy return on (energy) investment \\
+IPF & Iterative proportional fitting \\
+pkm & passenger-kilometres\\
+vkm & vehicle-kilometres\\
+TRS & Truncate replicate sample (integerisation method) \\
+% PLF & passenger load factor (average occupancy of vehicle / n. seats)
+\\
+DECC & Department of Energy and Climate Change\\
+Defra & Department for Environment Food \& Rural Affairs\\
+NTS & National Travel Survey\\
+ONS & Office for National Statistics \\
+OSM & Open Street Map \\
+USd & Understanding Society dataset\\
+\\
+% GOR & Government Office Region \\
+% MSOA & Medium super output area \\
+% OA & Output area \\
+% TTWA & Travel to work areas \\
+}
+
+%% ----------------------------------------------------------------
+\clearpage  %Start a new page
+\label{nomen}
+% \lhead{\emph{Symbols}}  % Set the left side page header to "Symbols"
+\fancyhead[LO,RE]{\emph{Symbols}} 
+\fancyfoot{}
+\listofnomenclature{lll}  % Include a list of Symbols (a three column table)
+{ 
+ symbol & name & unit \\
+$dE$ & Euclidean distance & km \\
+$dR$ & route distance & km \\
+$Etrp$ & direct primary energy use per trip & J \\
+$ET$ & total energy use of all commuter trips in a given area & GJ \\
+$ETyr$ & total primary energy per year & GJ/yr \\
+$Esys$ & total primary energy use (direct and indirect) & MJ/km \\
+$Ef$ & Direct fuel (including electricity and food) energy use per kilometre &
+MJ/vkm \\
+$Efp$ & Energy costs of fuel production & MJ/vkm \\
+$Ev$ & Energy costs of vehicle production per unit distance & MJ/vkm \\
+$Eg$ & Energy costs of guideway construction per unit distance & MJ/vkm \\
+
+$EMv$ & embodied energy of vehicle production & GJ/vehicle \\
+$EMg$ & embodied energy of guideway production & GJ/km \\
+
+$EI$ & energy intensity of transport per passenger kilometre & MJ/pkm\\
+$FE$ & fuel economy of vehicle & L/100 vkm \\
+$Lf$ & load factor of vehicle or mode &  \\
+$Lg$ & lifespan of guideway & vehicle passes \\%(unles
+$Lv$ & lifespan of vehicle & vkm \\%(unles
+
+$m$ & mode of transport (e.g. car, train) & \\%(unles
+$Oc$ & occupancy, the number of people in each vehicle & people/vehicle\\
+$P$ & power & W (Js$^{-1}$) \\
+$Q$ & circuity: route distance divided by Euclidean distance &\\
+% Gap to separate the Roman symbols from the Greek
+$\eta$ & energy conversion efficiency ($\frac{Energy\ in}{Energy\ out}$) & \\
+
+$Toe$ & tonnes of oil equivalent &
+}
+
+%% ----------------------------------------------------------------
+% End of the pre-able, contents and lists of things
+% Begin the Dedication page
+%% ----------------------------------------------------------------
+%%%%% To here!
+%% ---------------------------------------------------------------- 
+
+\setstretch{1.3}  % Return the line spacing back to 1.3
+
+\pagestyle{empty}  % Page style needs to be empty for this page
+%\dedicatory{Dedicated to my mum and dad}
+
+%\addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
+
+
+%% ----------------------------------------------------------------
+\mainmatter	  % Begin normal, numeric (1,2,3...) page numbering
+\pagestyle{fancy}  % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis, as separate files
+% Just uncomment the lines as you write the chapters
+
+\input{./Chapters/Chapter1} % Introduction
+%
+\input{./Chapters/Chapter2} % Literature review
+
+\input{./Chapters/Chapter3} % Msim introduction
+
+\input{./Chapters/Chapter4} % Data and methods
+
+ \input{./Chapters/Chapter5} % Experiment 2
+% %
+ \input{./Chapters/Chapter6} % Results and Discussion
+
+\input{./Chapters/Chapter7} % Conclusion
+
+\input{./Chapters/Chapter8} % Conclusion
+
+\input{./Chapters/Chapter9} % Conclusion
+
+%% ----------------------------------------------------------------
+% Now begin the Appendices, including them as separate files
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+\addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
+\backmatter
+
+%% ----------------------------------------------------------------
+\label{Bibliography}
+% \lhead{\emph{Bibliography}}  % Change the left side page header to
+% \fancyhead[LO,RE]{\emph{Bibliography}}
+
+\fancyhead[RO,LE]{Bibliography} %2side
+\fancyhead[RE,LO]{\thepage}
+\fancyfoot{}
+
+\bibliographystyle{model2-names}  % Use the "unsrtnat" BibTeX style for
+% \bibliography{library, lincluded}  % The references (bibliography) information are stored
+\bibliography{custom,link-geo,link-pstar,library}  % The
+% Replace w. link-pstar or link-ps depending
+
+
+\addtocontents{toc}{\vspace{2em}}  % Add a gap in the Contents, for aesthetics
+
+%% -----------------------------------------------------------
+
+\printindex
+\label{index}
+\phantomsection
+\addcontentsline{toc}{chapter}{Index}
+\end{document}  % The End
+%% -------------------------------------------------------
