@@ -10,6 +10,10 @@ Repeated entry---line 1556 of file link-geo.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "Ainsworth2003" isn't style-file defined
 --line 1672 of file link-geo.bib
+Repeated entry---line 2476 of file link-geo.bib
+ : @incollection{Ballas2013-4policy-analysis
+ :                                          ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 3039 of file link-geo.bib
  : @article{gail2006improver
  :                          ,
@@ -1932,26 +1936,26 @@ Warning--empty pages in Zuo2013
 You've used 484 entries,
             2761 wiz_defined-function locations,
             3315 strings with 82937 characters,
-and the built_in function-call counts, 272440 in all, are:
+and the built_in function-call counts, 272521 in all, are:
 = -- 21904
-> -- 10000
+> -- 10009
 < -- 376
-+ -- 3873
-- -- 3378
-* -- 29356
-:= -- 42476
++ -- 3876
+- -- 3381
+* -- 29374
+:= -- 42485
 add.period$ -- 1396
 call.type$ -- 484
 change.case$ -- 3452
 chr.to.int$ -- 473
 cite$ -- 516
-duplicate$ -- 18682
-empty$ -- 19142
-format.name$ -- 4703
-if$ -- 50062
+duplicate$ -- 18688
+empty$ -- 19145
+format.name$ -- 4706
+if$ -- 50074
 int.to.chr$ -- 12
 int.to.str$ -- 1
-missing$ -- 3870
+missing$ -- 3873
 newline$ -- 2374
 num.names$ -- 1962
 pop$ -- 4700
@@ -1961,7 +1965,7 @@ quote$ -- 0
 skip$ -- 6837
 stack$ -- 0
 substring$ -- 11847
-swap$ -- 14732
+swap$ -- 14744
 text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
@@ -1970,4 +1974,4 @@ warning$ -- 32
 while$ -- 2035
 width$ -- 0
 write$ -- 6599
-(There were 472 error messages)
+(There were 473 error messages)

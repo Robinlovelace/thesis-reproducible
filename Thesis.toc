@@ -10,156 +10,156 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The `Big Picture'}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Climate change}{2}{subsection.1.1.1}
-\contentsline {subsubsection}{\numberline {1.1.1.1}Climate change and energy}{5}{subsubsection.1.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Peak oil and resource depletion}{8}{subsection.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}Inequality and well-being}{9}{subsection.1.1.3}
-\contentsline {section}{\numberline {1.2}Commuter energy use: everyday realities}{11}{section.1.2}
-\contentsline {section}{\numberline {1.3}The importance of commuting}{13}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}Trips}{13}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Distance}{14}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Time}{14}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}Thesis overview}{15}{section.1.4}
-\contentsline {section}{\numberline {1.5}Aims and objectives}{17}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Aims}{17}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Objectives}{17}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Methods}{18}{subsection.1.5.3}
-\contentsline {chapter}{\numberline {2}Personal transport, energy and commuting}{19}{chapter.2}
-\contentsline {section}{\numberline {2.1}The sustainable mobility paradigm}{20}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Active travel}{22}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Commuting research: individual to national levels}{25}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Personal factors: psychology, family and community}{25}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Behavioural economics and its impacts on commuting}{27}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}The local and regional economy}{28}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}National and global considerations}{30}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}Energy use and CO$_2$ in transport studies}{31}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}The energy costs of urban form: urban sprawl and compact cities}{33}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}The energy costs of different transport modes}{34}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}The climate impacts of transport}{35}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}The energy impacts of commuting}{36}{section.2.4}
-\contentsline {section}{\numberline {2.5}Commuting and energy use research: tools of the trade}{38}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}`Scientific' approaches to energy and transport}{39}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Visualisation methods}{41}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Harnessing the `data deluge'}{42}{subsection.2.5.3}
-\contentsline {section}{\numberline {2.6}Concepts in energy and commuting}{42}{section.2.6}
-\contentsline {section}{\numberline {2.7}Summary of the literature}{45}{section.2.7}
-\contentsline {chapter}{\numberline {3}Spatial microsimulation and its application to transport problems}{47}{chapter.3}
-\contentsline {section}{\numberline {3.1}Definitions: what is spatial microsimulation?}{48}{section.3.1}
-\contentsline {section}{\numberline {3.2}The history of spatial microsimulation}{52}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Pre-computer origins}{52}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}The digital revolution}{55}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Statistical methods for estimation}{56}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Modern spatial microsimulation}{60}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Spatial microsimulation: state of the art}{60}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Types of spatial microsimulation models}{60}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Reweighting algorithms}{62}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Transport applications}{63}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}Microsimulation in urban modelling}{65}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Dedicated transport models}{66}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Land-use transport models}{68}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Summary: research directions and applications}{70}{section.3.5}
-\contentsline {chapter}{\numberline {4}Data and methods}{73}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{73}{section.4.1}
-\contentsline {section}{\numberline {4.2}Energy use data}{76}{section.4.2}
-\contentsline {section}{\numberline {4.3}Social survey data}{78}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Geographically aggregated data}{79}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}The Understanding Society dataset}{82}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}The National Travel Survey}{84}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Other commuting datasets}{88}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Geographical data: infrastructure and environment}{89}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Infrastructure}{89}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Topographic data}{93}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Remoteness}{94}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Building a spatial microsimulation model in R}{96}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Why R?}{97}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}IPF theory: a worked example}{99}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Implementing IPF in R}{102}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Model checking and validation}{108}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Model checking}{109}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Model validation}{111}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Additional validation methods}{115}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Integerisation}{116}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Method}{117}{subsection.4.7.1}
-\contentsline {subsubsection}{\numberline {4.7.1.1}Interpreting IPF weights: replication and probability}{117}{subsubsection.4.7.1.1}
-\contentsline {subsubsection}{\numberline {4.7.1.2}Simple rounding}{118}{subsubsection.4.7.1.2}
-\contentsline {subsubsection}{\numberline {4.7.1.3}The threshold approach}{119}{subsubsection.4.7.1.3}
-\contentsline {subsubsection}{\numberline {4.7.1.4}The counter-weight approach}{119}{subsubsection.4.7.1.4}
-\contentsline {subsubsection}{\numberline {4.7.1.5}The proportional probabilities approach}{120}{subsubsection.4.7.1.5}
-\contentsline {subsubsection}{\numberline {4.7.1.6}Truncate, replicate, sample}{121}{subsubsection.4.7.1.6}
-\contentsline {subsubsection}{\numberline {4.7.1.7}The test scenario: input data and IPF}{124}{subsubsection.4.7.1.7}
-\contentsline {subsection}{\numberline {4.7.2}Results}{126}{subsection.4.7.2}
-\contentsline {subsubsection}{\numberline {4.7.2.1}Speed of calculation}{126}{subsubsection.4.7.2.1}
-\contentsline {subsubsection}{\numberline {4.7.2.2}Accuracy}{127}{subsubsection.4.7.2.2}
-\contentsline {subsection}{\numberline {4.7.3}Discussion and conclusions}{129}{subsection.4.7.3}
-\contentsline {chapter}{\numberline {5}Energy use in personal travel systems}{133}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fundamentals of energy use in transport}{135}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}The factors driving energy use in transport}{137}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}System boundaries}{137}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Early quantifications of energy use in transport}{139}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Direct energy use: published estimates}{140}{section.5.2}
-\contentsline {section}{\numberline {5.3}Calculating system level energy use}{144}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}The embedded energy of fuel}{146}{subsection.5.3.1}
-\contentsline {subsubsection}{\numberline {5.3.1.1}Liquid fuels}{146}{subsubsection.5.3.1.1}
-\contentsline {subsubsection}{\numberline {5.3.1.2}Food}{147}{subsubsection.5.3.1.2}
-\contentsline {subsubsection}{\numberline {5.3.1.3}Electricity}{149}{subsubsection.5.3.1.3}
-\contentsline {subsection}{\numberline {5.3.2}Vehicle manufacture}{151}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Guideway manufacture}{154}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}Additional factors affecting energy use}{156}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Frequency of trip}{157}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Occupancy}{160}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Efficiency impacts of trip distance}{162}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Circuity}{163}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Efficiency impacts of congestion}{165}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Behaviour}{166}{subsection.5.4.6}
-\contentsline {subsection}{\numberline {5.4.7}Environmental conditions}{167}{subsection.5.4.7}
-\contentsline {section}{\numberline {5.5}Variability over time}{170}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}The improving fleet efficiency of cars}{170}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Modal shift}{172}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Future efficiency improvements}{174}{subsection.5.5.3}
-\contentsline {section}{\numberline {5.6}Variability over space: local fleet efficiencies}{177}{section.5.6}
-\contentsline {section}{\numberline {5.7}Final energy use estimates}{182}{section.5.7}
-\contentsline {chapter}{\numberline {6}The energy costs of commuting}{185}{chapter.6}
-\contentsline {section}{\numberline {6.1}Commuter energy use at the national level}{186}{section.6.1}
-\contentsline {section}{\numberline {6.2}Regional and sub-regional patterns}{189}{section.6.2}
-\contentsline {section}{\numberline {6.3}Total commuting energy use and comparisons with other sectors}{192}{section.6.3}
-\contentsline {section}{\numberline {6.4}Local and individual level variability}{194}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}A case study from South Yorkshire}{195}{subsection.6.4.1}
-\contentsline {section}{\numberline {6.5}A comparison of commuter energy use in England and the Netherlands}{198}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Data, method and results}{199}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Explaining Dutch commuter energy use}{201}{subsection.6.5.2}
-\contentsline {subsection}{\numberline {6.5.3}Data inconsistencies and caveats}{202}{subsection.6.5.3}
-\contentsline {section}{\numberline {6.6}Discussion}{203}{section.6.6}
-\contentsline {chapter}{\numberline {7}Social and spatial inequalities in commuter energy use}{207}{chapter.7}
-\contentsline {section}{\numberline {7.1}The importance of distributional impacts in transport studies}{207}{section.7.1}
-\contentsline {section}{\numberline {7.2}Model implementation}{211}{section.7.2}
-\contentsline {section}{\numberline {7.3}Assigning work location}{213}{section.7.3}
-\contentsline {section}{\numberline {7.4}Model validation}{215}{section.7.4}
-\contentsline {section}{\numberline {7.5}Results}{217}{section.7.5}
-\contentsline {section}{\numberline {7.6}Discussion}{221}{section.7.6}
-\contentsline {chapter}{\numberline {8}Scenarios of change}{225}{chapter.8}
-\contentsline {section}{\numberline {8.1}Modal shift: `going Dutch'}{227}{section.8.1}
-\contentsline {subsection}{\numberline {8.1.1}An aggregate level model of modal shift}{228}{subsection.8.1.1}
-\contentsline {subsection}{\numberline {8.1.2}A spatial microsimulation implementation}{230}{subsection.8.1.2}
-\contentsline {subsection}{\numberline {8.1.3}Taking the scenario further}{232}{subsection.8.1.3}
-\contentsline {section}{\numberline {8.2}Reducing commute frequency: `going Finnish'}{233}{section.8.2}
-\contentsline {section}{\numberline {8.3}Reduction in commute distance: `eco-localisation'}{235}{section.8.3}
-\contentsline {section}{\numberline {8.4}Oil vulnerability}{238}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Metrics of vulnerability: resources, jobs, money}{238}{subsection.8.4.1}
-\contentsline {subsubsection}{\numberline {8.4.1.1}Economic vulnerability --- commuter fuel poverty}{239}{subsubsection.8.4.1.1}
-\contentsline {subsubsection}{\numberline {8.4.1.2}Energy-based metrics}{239}{subsubsection.8.4.1.2}
-\contentsline {subsubsection}{\numberline {8.4.1.3}Hybrid vulnerability metrics}{240}{subsubsection.8.4.1.3}
-\contentsline {subsection}{\numberline {8.4.2}Results: trips, distance and energy use}{241}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Local and individual level results}{243}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Discussion: policy relevance and limitations}{247}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Policy relevance of findings}{248}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Limitations of the approach}{250}{subsection.8.5.2}
-\contentsline {chapter}{\numberline {9}Conclusions}{253}{chapter.9}
-\contentsline {section}{\numberline {9.1}Methodological contribution}{254}{section.9.1}
-\contentsline {section}{\numberline {9.2}Policy relevance and limitations}{256}{section.9.2}
-\contentsline {section}{\numberline {9.3}Summary of findings}{257}{section.9.3}
-\contentsline {section}{\numberline {9.4}Further work}{259}{section.9.4}
-\contentsline {section}{\numberline {9.5}Thesis evaluation and summary}{261}{section.9.5}
+\contentsline {subsubsection}{\numberline {1.1.1.1}Climate change and energy}{6}{subsubsection.1.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Peak oil and resource depletion}{9}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Inequality and well-being}{11}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Commuter energy use: everyday realities}{13}{section.1.2}
+\contentsline {section}{\numberline {1.3}The importance of commuting}{16}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Trips}{16}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Distance}{16}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Time}{18}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}Thesis overview}{19}{section.1.4}
+\contentsline {section}{\numberline {1.5}Aims and objectives}{21}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Aims}{21}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}Objectives}{21}{subsection.1.5.2}
+\contentsline {subsection}{\numberline {1.5.3}Methods}{22}{subsection.1.5.3}
+\contentsline {chapter}{\numberline {2}Personal transport, energy and commuting}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}The sustainable mobility paradigm}{24}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Active travel}{27}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Commuting research: individual to national levels}{29}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Personal factors: psychology, family and community}{30}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Behavioural economics and its impacts on commuting}{32}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}The local and regional economy}{33}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}National and global considerations}{35}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Energy use and CO$_2$ in transport studies}{36}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}The energy costs of urban form: urban sprawl and compact cities}{38}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}The energy costs of different transport modes}{39}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}The climate impacts of transport}{41}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}The energy impacts of commuting}{42}{section.2.4}
+\contentsline {section}{\numberline {2.5}Commuting and energy use research: tools of the trade}{43}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}`Scientific' approaches to energy and transport}{44}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Visualisation methods}{46}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Harnessing the `data deluge'}{47}{subsection.2.5.3}
+\contentsline {section}{\numberline {2.6}Concepts in energy and commuting}{48}{section.2.6}
+\contentsline {section}{\numberline {2.7}Summary of the literature}{50}{section.2.7}
+\contentsline {chapter}{\numberline {3}Spatial microsimulation and its application to transport problems}{53}{chapter.3}
+\contentsline {section}{\numberline {3.1}Definitions: what is spatial microsimulation?}{54}{section.3.1}
+\contentsline {section}{\numberline {3.2}The history of spatial microsimulation}{58}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Pre-computer origins}{59}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}The digital revolution}{61}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Statistical methods for estimation}{63}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Modern spatial microsimulation}{66}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Spatial microsimulation: state of the art}{66}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Types of spatial microsimulation models}{67}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Reweighting algorithms}{68}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Transport applications}{70}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Microsimulation in urban modelling}{71}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Dedicated transport models}{73}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Land-use transport models}{75}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Summary: research directions and applications}{76}{section.3.5}
+\contentsline {chapter}{\numberline {4}Data and methods}{79}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{79}{section.4.1}
+\contentsline {section}{\numberline {4.2}Energy use data}{83}{section.4.2}
+\contentsline {section}{\numberline {4.3}Social survey data}{85}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Geographically aggregated data}{86}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}The Understanding Society dataset}{90}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}The National Travel Survey}{91}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Other commuting datasets}{95}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Geographical data: infrastructure and environment}{97}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Infrastructure}{97}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Topographic data}{102}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Remoteness}{103}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Building a spatial microsimulation model in R}{105}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Why R?}{107}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}IPF theory: a worked example}{109}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Implementing IPF in R}{113}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Model checking and validation}{120}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Model checking}{120}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Model validation}{122}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Additional validation methods}{127}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Integerisation}{129}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Method}{130}{subsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.1.1}Interpreting IPF weights: replication and probability}{130}{subsubsection.4.7.1.1}
+\contentsline {subsubsection}{\numberline {4.7.1.2}Simple rounding}{131}{subsubsection.4.7.1.2}
+\contentsline {subsubsection}{\numberline {4.7.1.3}The threshold approach}{132}{subsubsection.4.7.1.3}
+\contentsline {subsubsection}{\numberline {4.7.1.4}The counter-weight approach}{132}{subsubsection.4.7.1.4}
+\contentsline {subsubsection}{\numberline {4.7.1.5}The proportional probabilities approach}{133}{subsubsection.4.7.1.5}
+\contentsline {subsubsection}{\numberline {4.7.1.6}Truncate, replicate, sample}{134}{subsubsection.4.7.1.6}
+\contentsline {subsubsection}{\numberline {4.7.1.7}The test scenario: input data and IPF}{137}{subsubsection.4.7.1.7}
+\contentsline {subsection}{\numberline {4.7.2}Results}{140}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}Speed of calculation}{141}{subsubsection.4.7.2.1}
+\contentsline {subsubsection}{\numberline {4.7.2.2}Accuracy}{142}{subsubsection.4.7.2.2}
+\contentsline {subsection}{\numberline {4.7.3}Discussion and conclusions}{145}{subsection.4.7.3}
+\contentsline {chapter}{\numberline {5}Energy use in personal travel systems}{147}{chapter.5}
+\contentsline {section}{\numberline {5.1}Fundamentals of energy use in transport}{149}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}The factors driving energy use in transport}{151}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}System boundaries}{151}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Early quantifications of energy use in transport}{154}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}Direct energy use: published estimates}{155}{section.5.2}
+\contentsline {section}{\numberline {5.3}Calculating system level energy use}{159}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The embedded energy of fuel}{161}{subsection.5.3.1}
+\contentsline {subsubsection}{\numberline {5.3.1.1}Liquid fuels}{161}{subsubsection.5.3.1.1}
+\contentsline {subsubsection}{\numberline {5.3.1.2}Food}{163}{subsubsection.5.3.1.2}
+\contentsline {subsubsection}{\numberline {5.3.1.3}Electricity}{164}{subsubsection.5.3.1.3}
+\contentsline {subsection}{\numberline {5.3.2}Vehicle manufacture}{167}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Guideway manufacture}{171}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Additional factors affecting energy use}{172}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Frequency of trip}{173}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Occupancy}{177}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Efficiency impacts of trip distance}{180}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Circuity}{181}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Efficiency impacts of congestion}{184}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Behaviour}{187}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}Environmental conditions}{188}{subsection.5.4.7}
+\contentsline {section}{\numberline {5.5}Variability over time}{190}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}The improving fleet efficiency of cars}{190}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Modal shift}{193}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Future efficiency improvements}{197}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Variability over space: local fleet efficiencies}{201}{section.5.6}
+\contentsline {section}{\numberline {5.7}Final energy use estimates}{207}{section.5.7}
+\contentsline {chapter}{\numberline {6}The energy costs of commuting}{211}{chapter.6}
+\contentsline {section}{\numberline {6.1}Commuter energy use at the national level}{212}{section.6.1}
+\contentsline {section}{\numberline {6.2}Regional and sub-regional patterns}{216}{section.6.2}
+\contentsline {section}{\numberline {6.3}Total commuting energy use and comparisons with other sectors}{222}{section.6.3}
+\contentsline {section}{\numberline {6.4}Local and individual level variability}{227}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}A case study from South Yorkshire}{228}{subsection.6.4.1}
+\contentsline {section}{\numberline {6.5}A comparison of commuter energy use in England and the Netherlands}{231}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Data, method and results}{233}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Explaining Dutch commuter energy use}{235}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Data inconsistencies and caveats}{237}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Discussion}{239}{section.6.6}
+\contentsline {chapter}{\numberline {7}Social and spatial inequalities in commuter energy use}{241}{chapter.7}
+\contentsline {section}{\numberline {7.1}The importance of distributional impacts in transport studies}{241}{section.7.1}
+\contentsline {section}{\numberline {7.2}Model implementation}{246}{section.7.2}
+\contentsline {section}{\numberline {7.3}Assigning work location}{247}{section.7.3}
+\contentsline {section}{\numberline {7.4}Model validation}{252}{section.7.4}
+\contentsline {section}{\numberline {7.5}Results}{253}{section.7.5}
+\contentsline {section}{\numberline {7.6}Discussion}{258}{section.7.6}
+\contentsline {chapter}{\numberline {8}Scenarios of change}{263}{chapter.8}
+\contentsline {section}{\numberline {8.1}Modal shift: `going Dutch'}{265}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}An aggregate level model of modal shift}{266}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}A spatial microsimulation implementation}{269}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Taking the scenario further}{271}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Reducing commute frequency: `going Finnish'}{273}{section.8.2}
+\contentsline {section}{\numberline {8.3}Reduction in commute distance: `eco-localisation'}{275}{section.8.3}
+\contentsline {section}{\numberline {8.4}Oil vulnerability}{278}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Metrics of vulnerability: resources, jobs, money}{278}{subsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.1.1}Economic vulnerability --- commuter fuel poverty}{279}{subsubsection.8.4.1.1}
+\contentsline {subsubsection}{\numberline {8.4.1.2}Energy-based metrics}{279}{subsubsection.8.4.1.2}
+\contentsline {subsubsection}{\numberline {8.4.1.3}Hybrid vulnerability metrics}{280}{subsubsection.8.4.1.3}
+\contentsline {subsection}{\numberline {8.4.2}Results: trips, distance and energy use}{281}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Local and individual level results}{284}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Discussion: policy relevance and limitations}{289}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Policy relevance of findings}{290}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Limitations of the approach}{292}{subsection.8.5.2}
+\contentsline {chapter}{\numberline {9}Conclusions}{295}{chapter.9}
+\contentsline {section}{\numberline {9.1}Methodological contribution}{296}{section.9.1}
+\contentsline {section}{\numberline {9.2}Policy relevance and limitations}{298}{section.9.2}
+\contentsline {section}{\numberline {9.3}Summary of findings}{299}{section.9.3}
+\contentsline {section}{\numberline {9.4}Further work}{301}{section.9.4}
+\contentsline {section}{\numberline {9.5}Thesis evaluation and summary}{303}{section.9.5}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{265}{dummy.7}
+\contentsline {chapter}{Bibliography}{307}{dummy.7}
 \vspace {2em}
-\contentsline {chapter}{Index}{301}{section*.187}
+\contentsline {chapter}{Index}{343}{section*.187}

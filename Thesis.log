@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.5)  30 DEC 2013 16:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.5)  31 DEC 2013 09:51
 entering extended mode
  %&-line parsing enabled.
 **Thesis.tex
@@ -789,22 +789,86 @@ Chapter 1.
 [1
 
 
-] [2] [3] [4] [5] [6] [7] [8] [9]
+] [2] <Figures/cc-trans.png, id=1281, 1117.17375pt x 530.98375pt>
+File: Figures/cc-trans.png Graphic file (type png)
+
+<use Figures/cc-trans.png> [3 <./Figures/cc-trans.png>]
+
+Package pdftex.def Warning: Option `bb' does not make sense,
+(pdftex.def)                using `viewport' instead on input line 159.
+
+<Figures/cc-ems.pdf, id=1307, 794.97pt x 614.295pt>
+File: Figures/cc-ems.pdf Graphic file (type pdf)
+ <use Figures/cc-ems.pdf>
+[4 <./Figures/cc-ems.pdf>] [5] [6]
+<Figures/gco2.png, id=1399, 843.15pt x 451.6875pt>
+File: Figures/gco2.png Graphic file (type png)
+ <use Figures/gco2.png>
+[7 <./Figures/gco2.png (PNG copy)>] [8]
+<Figures/biofuels-cont.png, id=1449, 521.95pt x 515.9275pt>
+File: Figures/biofuels-cont.png Graphic file (type png)
+
+<use Figures/biofuels-cont.png> [9]
+<Figures/oilprices.png, id=1504, 569.0058pt x 426.6339pt>
+File: Figures/oilprices.png Graphic file (type png)
+
+<use Figures/oilprices.png> [10 <./Figures/biofuels-cont.png (PNG copy)>]
+[11 <./Figures/oilprices.png (PNG copy)>]
+<Figures/oecd.png, id=1543, 1569.865pt x 661.47125pt>
+File: Figures/oecd.png Graphic file (type png)
+ <use Figures/oecd.png>
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no † in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no † in font cmr10!
- [10] [11] [12] [13] [14] [15] [16] [17])
-(./Chapters/Chapter2.tex [18]
+
+[12 <./Figures/oecd.png (PNG copy)>] [13]
+<Figures/hnew.png, id=1603, 844.8363pt x 597.432pt>
+File: Figures/hnew.png Graphic file (type png)
+ <use Figures/hnew.png>
+[14 <./Figures/hnew.png>] [15]
+<./Figures/trip-nums-gb.png, id=1621, 743.77875pt x 413.545pt>
+File: ./Figures/trip-nums-gb.png Graphic file (type png)
+
+<use ./Figures/trip-nums-gb.png>
+<./Figures/dist-trip-gb.png, id=1623, 897.3525pt x 495.8525pt>
+File: ./Figures/dist-trip-gb.png Graphic file (type png)
+
+<use ./Figures/dist-trip-gb.png> [16] [17 <./Figures/trip-nums-gb.png (PNG copy
+)> <./Figures/dist-trip-gb.png (PNG copy)>]
+<./Figures/dist-purp-gb.png, id=1639, 734.745pt x 422.57875pt>
+File: ./Figures/dist-purp-gb.png Graphic file (type png)
+
+<use ./Figures/dist-purp-gb.png>
+<./Figures/time-commuting.png, id=1644, 970.62625pt x 540.0175pt>
+File: ./Figures/time-commuting.png Graphic file (type png)
+
+<use ./Figures/time-commuting.png> [18 <./Figures/dist-purp-gb.png (PNG copy)>]
+[19 <./Figures/time-commuting.png (PNG copy)>] [20] [21])
+(./Chapters/Chapter2.tex [22]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 Personal transport, energy and commuting
 ------------------------------------------------------------------------------
-[19
+[23
 
-] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30]
+] [24] [25]
+<Figures/Sustainable-trans-hierarchy.png, id=1758, 1260.20813pt x 980.91469pt>
+File: Figures/Sustainable-trans-hierarchy.png Graphic file (type png)
+
+<use Figures/Sustainable-trans-hierarchy.png> [26 <./Figures/Sustainable-trans-
+hierarchy.png (PNG copy)>] [27]
+<Figures/impedance.png, id=1812, 361.35pt x 216.81pt>
+File: Figures/impedance.png Graphic file (type png)
+
+<use Figures/impedance.png> [28] [29 <./Figures/impedance.png (PNG copy)>]
+<Figures/commuting-research-image2.pdf, id=1846, 597.23125pt x 597.23125pt>
+File: Figures/commuting-research-image2.pdf Graphic file (type pdf)
+
+<use Figures/commuting-research-image2.pdf> [30 <./Figures/commuting-research-i
+mage2.pdf>] [31] [32] [33] [34] [35]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 695.
@@ -817,24 +881,39 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 695.
 
-[31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44])
-(./Chapters/Chapter3.tex [45] [46
+[36] [37] [38] <Figures/gabrielli.png, id=2049, 741.52031pt x 686.565pt>
+File: Figures/gabrielli.png Graphic file (type png)
+
+<use Figures/gabrielli.png> [39] [40 <./Figures/gabrielli.png (PNG copy)>]
+[41] [42] [43] [44] [45] [46] [47] [48] [49] [50]) (./Chapters/Chapter3.tex
+[51] [52
 
 ]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Spatial microsimulation and its application to transport problems
 ------------------------------------------------------------------------------
-[47] [48] [49] [50]
+[53] <Figures/msim-schematic.pdf, id=2373, 845.1575pt x 597.23125pt>
+File: Figures/msim-schematic.pdf Graphic file (type pdf)
+
+<use Figures/msim-schematic.pdf>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 97--101
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54] [55 <./Figures/msim-schematic.pdf>] [56] [57]
 Overfull \hbox (12.60133pt too wide) in paragraph at lines 257--263
 []\OT1/cmr/m/it/10.95 Deterministic reweight-ing \OT1/cmr/m/n/10.95 refers to n
 on-random meth-ods of al-lo-cat-ing weights to individual-
  []
 
-[51] [52] [53] [54] [55]
+[58] [59] [60] [61]
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no ô in font cmr10!
- [56] [57] [58] [59] [60]
+ [62] [63] [64] [65] [66]
 Underfull \hbox (badness 10000) in paragraph at lines 805--805
 []\OT1/cmr/m/n/9 Reweighting
  []
@@ -1000,7 +1079,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 803--837
 [][]
  []
 
-[61]
+[67]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no † in font cmr10!
@@ -1010,10 +1089,11 @@ Missing character: There is no † in font cmr9!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no † in font cmr10!
+ [68]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no † in font cmr10!
- [62] [63] [64]
+ [69] [70] [71]
 Underfull \hbox (badness 7851) in paragraph at lines 1082--1082
 []\OT1/cmr/m/n/10.95 High: com-mut-ing
  []
@@ -1113,14 +1193,43 @@ Underfull \hbox (badness 3396) in paragraph at lines 1088--1088
 \OT1/cmr/m/n/10.95 de-pends on in-fras-
  []
 
-[65] [66] [67] [68] [69] [70]) (./Chapters/Chapter4.tex [71] [72
+[72] <Figures/matsim-schema.png, id=2964, 715.67375pt x 525.965pt>
+File: Figures/matsim-schema.png Graphic file (type png)
 
-]
+<use Figures/matsim-schema.png> [73] [74 <./Figures/matsim-schema.png (PNG copy
+)>] [75] [76] [77]) (./Chapters/Chapter4.tex [78]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Data and methods
 ------------------------------------------------------------------------------
-[73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+[79
+
+] <Figures/data-ideal.pdf, id=3098, 500.87125pt x 355.3275pt>
+File: Figures/data-ideal.pdf Graphic file (type pdf)
+
+<use Figures/data-ideal.pdf> [80 <./Figures/data-ideal.pdf>] [81] [82]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83] [84] <Figures/q33.png, id=3196, 650.43pt x 359.3425pt>
+File: Figures/q33.png Graphic file (type png)
+
+<use Figures/q33.png> <Figures/q34.png, id=3197, 343.2825pt x 558.085pt>
+File: Figures/q34.png Graphic file (type png)
+
+<use Figures/q34.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85] <Figures/scales-map.png, id=3212, 844.8363pt x 597.432pt>
+File: Figures/scales-map.png Graphic file (type png)
+
+<use Figures/scales-map.png> [86 <./Figures/q33.png (PNG copy)> <./Figures/q34.
+png (PNG copy)>] [87 <./Figures/scales-map.png>]
+<Figures/cas119.png, id=3238, 881.2925pt x 754.82pt>
+File: Figures/cas119.png Graphic file (type png)
+ <use Figures/cas119.png>
+[88] [89 <./Figures/cas119.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 632--632
 []\OT1/cmr/m/n/10.95 Household
  []
@@ -1182,7 +1291,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 644--645
 []\OT1/cmr/m/n/10.95 Number of chil-dren
  []
 
-[83] [84] [85] [86] [87] [88] [89]
+[90] [91] [92] <Figures/freq-nts.png, id=3290, 433.62pt x 216.81pt>
+File: Figures/freq-nts.png Graphic file (type png)
+
+<use Figures/freq-nts.png> [93] [94 <./Figures/freq-nts.png (PNG copy)>]
+[95] [96] [97]
+<Figures/networks-schematic.pdf, id=3332, 845.1575pt x 597.23125pt>
+File: Figures/networks-schematic.pdf Graphic file (type pdf)
+
+<use Figures/networks-schematic.pdf>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 988--988
+ [] 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1011--1011
 []\OT1/cmr/m/n/10.95 Networks
  []
@@ -1207,16 +1329,42 @@ Overfull \hbox (12.17917pt too wide) in paragraph at lines 1009--1023
 [][]
  []
 
+<Figures/osm-trans.png, id=3342, 1042.89626pt x 683.55376pt>
+File: Figures/osm-trans.png Graphic file (type png)
+
+<use Figures/osm-trans.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 1027--1027
+ [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<Figures/cam-merid2.png, id=3343, 844.8363pt x 597.432pt>
+File: Figures/cam-merid2.png Graphic file (type png)
+
+<use Figures/cam-merid2.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 1035--1035
+ [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<Figures/itn-master.png, id=3344, 720.6925pt x 673.51625pt>
+File: Figures/itn-master.png Graphic file (type png)
+
+<use Figures/itn-master.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 1043--1043
+ [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[90] [91] [92]
+[98 <./Figures/networks-schematic.pdf>] [99 <./Figures/osm-trans.png (PNG copy)
+>] [100 <./Figures/cam-merid2.png>] [101 <./Figures/itn-master.png (PNG copy)>]
+[102]
 Underfull \hbox (badness 10000) in paragraph at lines 1172--1172
 [][][]\OT1/cmr/m/n/9 See the fol-low-ing hy-per-links: []cdex.cr.usgs.gov[], []
 http://reverb.echo.nasa.gov[] and
@@ -1234,22 +1382,41 @@ Overfull \hbox (0.20915pt too wide) in paragraph at lines 1161--1174
 ion Ra-diome-ter (ASTER)
  []
 
-[93] [94]
+[103] <Figures/flows2bigemps.png, id=3437, 1017.8025pt x 709.65125pt>
+File: Figures/flows2bigemps.png Graphic file (type png)
+
+<use Figures/flows2bigemps.png>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 1276--1276
+ [] 
+ []
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[95] [96]
+[104] <Figures/dist-TTW-cent.png, id=3449, 844.8363pt x 597.432pt>
+File: Figures/dist-TTW-cent.png Graphic file (type png)
+
+<use Figures/dist-TTW-cent.png>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 1326--1326
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[105 <./Figures/flows2bigemps.png (PNG copy)>] [106 <./Figures/dist-TTW-cent.pn
+g>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [97]
+ [107]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [98]
+ [108]
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no ô in font cmr10!
- [99] [100] [101] [102]
+ [109] [110] [111] [112]
 Overfull \hbox (17.13234pt too wide) in paragraph at lines 1829--1830
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][] 
@@ -1270,11 +1437,20 @@ Overfull \hbox (3.33534pt too wide) in paragraph at lines 1857--1858
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[103]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[104]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[113] [114]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Overfull \hbox (10.23384pt too wide) in paragraph at lines 1941--1942
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][] 
@@ -1283,7 +1459,10 @@ Overfull \hbox (10.23384pt too wide) in paragraph at lines 1941--1942
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[105]
+[115] [116] <Figures/unnamed-chunk-5.png, id=3770, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-5.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-5.png>
 Overfull \hbox (10.23384pt too wide) in paragraph at lines 1997--1998
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][] 
@@ -1304,52 +1483,161 @@ Overfull \hbox (17.13234pt too wide) in paragraph at lines 2002--2003
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[106]
+<Figures/unnamed-chunk-6.png, id=3773, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-6.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-6.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[107] [108] [109] [110] [111] [112]
+[117 <./Figures/unnamed-chunk-5.png>] [118]
+<Figures/unnamed-chunk-8.png, id=3836, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-8.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-8.png>
+<Figures/unnamed-chunk-11.png, id=3837, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-11.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-11.png> [119 <./Figures/unnamed-chunk-6.png> <./Figu
+res/unnamed-chunk-8.png> <./Figures/unnamed-chunk-11.png>] [120]
+<Figures/age-sex-plot.pdf, id=3871, 597.23125pt x 420.57124pt>
+File: Figures/age-sex-plot.pdf Graphic file (type pdf)
+
+<use Figures/age-sex-plot.pdf> [121 <./Figures/age-sex-plot.pdf>]
+<Figures/errors3-1.png, id=3897, 1656.1875pt x 451.6875pt>
+File: Figures/errors3-1.png Graphic file (type png)
+
+<use Figures/errors3-1.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 2233--2233
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[122] [123 <./Figures/errors3-1.png>]
+<Figures/Income-check-morevars.png, id=3915, 552.0625pt x 451.6875pt>
+File: Figures/Income-check-morevars.png Graphic file (type png)
+
+<use Figures/Income-check-morevars.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[124]
 Overfull \hbox (81.95912pt too wide) in paragraph at lines 2369--2376
 \OT1/cmr/m/n/10.95 many of Nomis's ta-bles. One ex-am-ple can be found here: []
 http://www.nomisweb.co.uk/livelinks/4652.xls[]). 
  []
 
+[125 <./Figures/Income-check-morevars.png (PNG copy)>]
+<Figures/nomis-vs-cens-car.png, id=3927, 552.0625pt x 451.6875pt>
+File: Figures/nomis-vs-cens-car.png Graphic file (type png)
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+<use Figures/nomis-vs-cens-car.png>
+<Figures/nomis-vs-cens-bike.png, id=3928, 552.0625pt x 451.6875pt>
+File: Figures/nomis-vs-cens-bike.png Graphic file (type png)
 
-[113] [114] [115]
+<use Figures/nomis-vs-cens-bike.png>
+<Figures/car-ers.png, id=3931, 552.0625pt x 451.6875pt>
+File: Figures/car-ers.png Graphic file (type png)
+
+<use Figures/car-ers.png>
+<Figures/bike-ers.png, id=3932, 552.0625pt x 451.6875pt>
+File: Figures/bike-ers.png Graphic file (type png)
+
+<use Figures/bike-ers.png> [126 <./Figures/nomis-vs-cens-car.png (PNG copy)> <.
+/Figures/nomis-vs-cens-bike.png (PNG copy)> <./Figures/car-ers.png (PNG copy)> 
+<./Figures/bike-ers.png (PNG copy)>]
+<Figures/no-vs-sim-mcar.png, id=3940, 684.3969pt x 613.0905pt>
+File: Figures/no-vs-sim-mcar.png Graphic file (type png)
+
+<use Figures/no-vs-sim-mcar.png> [127] [128 <./Figures/no-vs-sim-mcar.png (PNG 
+copy)>]
 Overfull \hbox (4.83252pt too wide) in paragraph at lines 2545--2548
 []\OT1/cmr/m/n/10.95 Use com-bi-na-to-rial op-ti-mi-sa-tion mi-crosim-u-la-tion
  meth-ods in-stead ([]Williamson et al.[],
  []
 
-[116] [117] [118] [119] [120] [121] [122] [123]
+[129] [130] [131] [132] <Figures/IvW3.png, id=4014, 569.0058pt x 284.5029pt>
+File: Figures/IvW3.png Graphic file (type png)
+
+<use Figures/IvW3.png> [133 <./Figures/IvW3.png (PNG copy)>] [134]
+<Figures/hist-weights2.pdf, id=4027, 420.57124pt x 298.11375pt>
+File: Figures/hist-weights2.pdf Graphic file (type pdf)
+
+<use Figures/hist-weights2.pdf>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[124] [125]
+[135] [136 <./Figures/hist-weights2.pdf>]
+<Figures/IvW2.png, id=4046, 569.0058pt x 284.5029pt>
+File: Figures/IvW2.png Graphic file (type png)
+ <use Figures/IvW2.png>
+<Figures/indexes.pdf, id=4051, 426.59375pt x 284.06125pt>
+File: Figures/indexes.pdf Graphic file (type pdf)
+
+<use Figures/indexes.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[137 <./Figures/IvW2.png (PNG copy)>]
+<Figures/IPF-4c2.png, id=4065, 606.76688pt x 424.58624pt>
+File: Figures/IPF-4c2.png Graphic file (type png)
+
+<use Figures/IPF-4c2.png> [138 <./Figures/indexes.pdf>]
+<Figures/ipf-scat2.png, id=4082, 568.0422pt x 284.0211pt>
+File: Figures/ipf-scat2.png Graphic file (type png)
+
+<use Figures/ipf-scat2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[139 <./Figures/IPF-4c2.png (PNG copy)>] [140 <./Figures/ipf-scat2.png>]
+<Figures/ints-5scat-ab.png, id=4108, 568.0422pt x 284.0211pt>
+File: Figures/ints-5scat-ab.png Graphic file (type png)
+
+<use Figures/ints-5scat-ab.png>
 Overfull \hbox (6.01868pt too wide) in paragraph at lines 3166--3172
 []\OT1/cmr/m/n/10.95 The com-pu-ta-tional in-ten-sity of in-te-geri-sa-tion may
  be prob-lem-atic when pro-cess-ing weights
  []
 
-[126]
+[141 <./Figures/ints-5scat-ab.png>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 3216.
 
-[127] [128]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[129] [130]) (./Chapters/Chapter5.tex [131] [132
-
-]
+[142] [143] [144] [145]) (./Chapters/Chapter5.tex [146]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Energy use in personal travel systems
 ------------------------------------------------------------------------------
-[133] [134] [135] [136] [137] [138]
+[147
+
+] [148] [149] [150]
+<Figures/schematic-energy.png, id=4266, 306.162pt x 678.024pt>
+File: Figures/schematic-energy.png Graphic file (type png)
+
+<use Figures/schematic-energy.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[151] <Figures/car-patterned.png, id=4282, 213.81657pt x 128.71758pt>
+File: Figures/car-patterned.png Graphic file (type png)
+
+<use Figures/car-patterned.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[152 <./Figures/schematic-energy.png>]
+<Figures/sysbound.png, id=4298, 426.84468pt x 455.45157pt>
+File: Figures/sysbound.png Graphic file (type png)
+
+<use Figures/sysbound.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[153 <./Figures/car-patterned.png>] [154 <./Figures/sysbound.png>]
 Overfull \hbox (2.02539pt too wide) in paragraph at lines 409--409
 []\OT1/cmr/m/n/10.95 Contribution
  []
@@ -1369,7 +1657,7 @@ Overfull \hbox (11.39082pt too wide) in paragraph at lines 403--422
 [][]
  []
 
-[139] [140] [141] [142]
+[155] [156] [157]
 Underfull \hbox (badness 10000) in paragraph at lines 658--658
 []\OT1/cmr/m/n/10.95 Carbon
  []
@@ -1384,11 +1672,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 658--659
 []\OT1/cmr/m/n/10.95 Energy
  []
 
-[143] [144] [145] [146]
+[158] [159] [160]
+<Figures/screengrab-final-e.png, id=4473, 980.66376pt x 255.95625pt>
+File: Figures/screengrab-final-e.png Graphic file (type png)
+
+<use Figures/screengrab-final-e.png> [161 <./Figures/screengrab-final-e.png (PN
+G copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [147] [148] [149] [150] [151] [152]
+ [162] [163] <Figures/direct-en.png, id=4551, 433.62pt x 289.08pt>
+File: Figures/direct-en.png Graphic file (type png)
+
+<use Figures/direct-en.png> [164] [165 <./Figures/direct-en.png (PNG copy)>]
+<Figures/ore-mine.jpg, id=4585, 943.525pt x 629.35126pt>
+File: Figures/ore-mine.jpg Graphic file (type jpg)
+
+<use Figures/ore-mine.jpg>
+<Figures/car-engines.png, id=4586, 915.42pt x 509.905pt>
+File: Figures/car-engines.png Graphic file (type png)
+
+<use Figures/car-engines.png> [166] [167] [168 <./Figures/ore-mine.jpg> <./Figu
+res/car-engines.png (PNG copy)>]
 Underfull \hbox (badness 3989) in paragraph at lines 1213--1213
 [][]\OT1/cmr/m/n/10.95 Burnham et al.[]
  []
@@ -1413,19 +1718,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 1220--1220
 [][]\OT1/cmr/m/n/10.95 Treloar et al.[]
  []
 
-[153] [154]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[169] [170] [171]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [155] [156] [157]
+ [172] [173]
+<Figures/n-trips-hist.png, id=4728, 578.16pt x 361.35pt>
+File: Figures/n-trips-hist.png Graphic file (type png)
+
+<use Figures/n-trips-hist.png> [174 <./Figures/n-trips-hist.png (PNG copy)>]
 Overfull \hbox (15.68172pt too wide) in paragraph at lines 1558--1566
  [][] 
  []
 
+<Figures/ntripshistprop.png, id=4744, 578.16pt x 361.35pt>
+File: Figures/ntripshistprop.png Graphic file (type png)
+
+<use Figures/ntripshistprop.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[158]
+<Figures/ntripsdist.png, id=4745, 415.5525pt x 379.4175pt>
+File: Figures/ntripsdist.png Graphic file (type png)
+
+<use Figures/ntripsdist.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[175] [176 <./Figures/ntripshistprop.png (PNG copy)> <./Figures/ntripsdist.png 
+(PNG copy)>]
 Overfull \hbox (3.33534pt too wide) in paragraph at lines 1627--1628
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -1437,15 +1761,109 @@ Overfull \hbox (37.82784pt too wide) in paragraph at lines 1629--1630
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[159] [160] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170]
+[177] <Figures/carocc.png, id=4788, 361.35pt x 361.35pt>
+File: Figures/carocc.png Graphic file (type png)
+
+<use Figures/carocc.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[171]
+[178] [179 <./Figures/carocc.png (PNG copy)>]
+<Figures/fuelec1997.png, id=4823, 573.14125pt x 436.63126pt>
+File: Figures/fuelec1997.png Graphic file (type png)
+
+<use Figures/fuelec1997.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[180] <Figures/Mirjan-distance-ei.png, id=4839, 744.7825pt x 422.57875pt>
+File: Figures/Mirjan-distance-ei.png Graphic file (type png)
+
+<use Figures/Mirjan-distance-ei.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[181 <./Figures/fuelec1997.png (PNG copy)>]
+<Figures/EuclideanDistance.png, id=4858, 602.25pt x 374.90062pt>
+File: Figures/EuclideanDistance.png Graphic file (type png)
+
+<use Figures/EuclideanDistance.png>
+<Figures/NetworkDistance.png, id=4859, 602.25pt x 374.14781pt>
+File: Figures/NetworkDistance.png Graphic file (type png)
+
+<use Figures/NetworkDistance.png> [182 <./Figures/Mirjan-distance-ei.png (PNG c
+opy)> <./Figures/EuclideanDistance.png> <./Figures/NetworkDistance.png>]
+<Figures/circuity.pdf, id=4892, 794.97pt x 614.295pt>
+File: Figures/circuity.pdf Graphic file (type pdf)
+
+<use Figures/circuity.pdf> [183 <./Figures/circuity.pdf>] [184]
+<Figures/testcycle.png, id=4939, 602.25pt x 481.8pt>
+File: Figures/testcycle.png Graphic file (type png)
+
+<use Figures/testcycle.png>
+<Figures/carplot-urb.png, id=4946, 433.62pt x 381.3447pt>
+File: Figures/carplot-urb.png Graphic file (type png)
+
+<use Figures/carplot-urb.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[185 <./Figures/testcycle.png>]
+<Figures/rush-hour.png, id=4959, 578.16pt x 361.35pt>
+File: Figures/rush-hour.png Graphic file (type png)
+
+<use Figures/rush-hour.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[186 <./Figures/carplot-urb.png (PNG copy)>] [187 <./Figures/rush-hour.png (PNG
+ copy)>] [188] [189] [190]
+<Figures/etime.png, id=5044, 1075.01625pt x 586.19pt>
+File: Figures/etime.png Graphic file (type png)
+ <use Figures/etime.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[191] <Figures/natefic.png, id=5074, 578.16pt x 433.62pt>
+File: Figures/natefic.png Graphic file (type png)
+
+<use Figures/natefic.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/natefficall.png, id=5079, 578.16pt x 433.62pt>
+File: Figures/natefficall.png Graphic file (type png)
+
+<use Figures/natefficall.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[192 <./Figures/etime.png (PNG copy)>] [193 <./Figures/natefic.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no † in font cmr10!
- [172] [173] [174] [175] [176] [177]
+[194 <./Figures/natefficall.png (PNG copy)>]
+<Figures/longi.png, id=5119, 1243.64626pt x 694.595pt>
+File: Figures/longi.png Graphic file (type png)
+ <use Figures/longi.png>
+<Figures/longip.png, id=5120, 684.3969pt x 613.0905pt>
+File: Figures/longip.png Graphic file (type png)
+
+<use Figures/longip.png>
+<Figures/BHPS-long.png, id=5122, 1093.08376pt x 587.19376pt>
+File: Figures/BHPS-long.png Graphic file (type png)
+
+<use Figures/BHPS-long.png>
+<Figures/1981-2001.jpg, id=5125, 1068.82254pt x 792.31123pt>
+File: Figures/1981-2001.jpg Graphic file (type jpg)
+
+<use Figures/1981-2001.jpg> [195 <./Figures/longi.png (PNG copy)>] [196 <./Figu
+res/longip.png (PNG copy)> <./Figures/BHPS-long.png (PNG copy)>] [197 <./Figure
+s/1981-2001.jpg>] <Figures/altves.png, id=5147, 433.62pt x 381.3447pt>
+File: Figures/altves.png Graphic file (type png)
+
+<use Figures/altves.png> [198 <./Figures/altves.png (PNG copy)>] [199] [200]
+[201]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no £ in font cmr10!
 Missing character: There is no ‚ in font cmr10!
@@ -1454,15 +1872,115 @@ Missing character: There is no † in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Å in font cmr10!
 Missing character: There is no † in font cmr10!
- [178] [179] [180] [181] [182])
-(./Chapters/Chapter6.tex [183] [184
+ [202] <Figures/ebandsperc.png, id=5261, 570.13pt x 456.70625pt>
+File: Figures/ebandsperc.png Graphic file (type png)
+
+<use Figures/ebandsperc.png> [203]
+<Figures/fleetscat.png, id=5282, 1003.75pt x 1003.75pt>
+File: Figures/fleetscat.png Graphic file (type png)
+
+<use Figures/fleetscat.png> [204 <./Figures/ebandsperc.png (PNG copy)>]
+[205 <./Figures/fleetscat.png (PNG copy)>]
+<Figures/espace.png, id=5298, 979.66pt x 717.68124pt>
+File: Figures/espace.png Graphic file (type png)
+ <use Figures/espace.png>
+[206 <./Figures/espace.png (PNG copy)>]
+<Figures/finale.png, id=5310, 433.62pt x 289.08pt>
+File: Figures/finale.png Graphic file (type png)
+ <use Figures/finale.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/mjpkm1991.png, id=5311, 677.53125pt x 459.7175pt>
+File: Figures/mjpkm1991.png Graphic file (type png)
+
+<use Figures/mjpkm1991.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[207]) (./Chapters/Chapter6.tex [208 <./Figures/finale.png (PNG copy)>]
+[209 <./Figures/mjpkm1991.png (PNG copy)>] [210
 
 ]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 The energy costs of commuting
 ------------------------------------------------------------------------------
-[185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195]
+[211] [212] [213]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/dboxes.pdf): PDF inclusion: f
+ound PDF version <1.5>, but at most version <1.4> allowed
+<Figures/dboxes.pdf, id=5384, 433.62pt x 578.16pt>
+File: Figures/dboxes.pdf Graphic file (type pdf)
+ <use Figures/dboxes.pdf>
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/dboxes-walk.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<Figures/dboxes-walk.pdf, id=5386, 433.62pt x 578.16pt>
+File: Figures/dboxes-walk.pdf Graphic file (type pdf)
+
+<use Figures/dboxes-walk.pdf>
+<Figures/England-ttw-mode-distances.png, id=5394, 603.0028pt x 645.16031pt>
+File: Figures/England-ttw-mode-distances.png Graphic file (type png)
+
+<use Figures/England-ttw-mode-distances.png> [214]
+<Figures/ew.png, id=5402, 509.7444pt x 379.4175pt>
+File: Figures/ew.png Graphic file (type png)
+ <use Figures/ew.png>
+[215 <./Figures/dboxes.pdf>]
+<Figures/goren.png, id=5422, 509.7444pt x 381.3447pt>
+File: Figures/goren.png Graphic file (type png)
+ <use Figures/goren.png>
+<Figures/rawcount.png, id=5423, 756.8275pt x 664.4825pt>
+File: Figures/rawcount.png Graphic file (type png)
+
+<use Figures/rawcount.png> [216 <./Figures/dboxes-walk.pdf>] [217 <./Figures/En
+gland-ttw-mode-distances.png (PNG copy)> <./Figures/ew.png (PNG copy)>]
+[218 <./Figures/goren.png (PNG copy)> <./Figures/rawcount.png>]
+<Figures/countyen.png, id=5453, 578.16pt x 578.16pt>
+File: Figures/countyen.png Graphic file (type png)
+
+<use Figures/countyen.png>
+<Figures/districten.png, id=5456, 578.16pt x 578.16pt>
+File: Figures/districten.png Graphic file (type png)
+
+<use Figures/districten.png>
+<Figures/engplotnm.png, id=5461, 578.16pt x 578.16pt>
+File: Figures/engplotnm.png Graphic file (type png)
+
+<use Figures/engplotnm.png>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 407--407
+ [] 
+ []
+
+[219] [220 <./Figures/countyen.png (PNG copy)>]
+<Figures/trainen.png, id=5475, 578.16pt x 578.16pt>
+File: Figures/trainen.png Graphic file (type png)
+ <use Figures/trainen.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 433--433
+ [] 
+ []
+
+[221 <./Figures/districten.png (PNG copy)>] [222 <./Figures/engplotnm.png (PNG 
+copy)>] [223 <./Figures/trainen.png (PNG copy)>]
+<Figures/prop-total-energy.png, id=5505, 578.16pt x 578.16pt>
+File: Figures/prop-total-energy.png Graphic file (type png)
+
+<use Figures/prop-total-energy.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 514--519
+ [][] 
+ []
+
+<Figures/prop-trans-energy.png, id=5506, 578.16pt x 578.16pt>
+File: Figures/prop-trans-energy.png Graphic file (type png)
+
+<use Figures/prop-trans-energy.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 525--526
+ [][] 
+ []
+
+[224] [225 <./Figures/prop-total-energy.png (PNG copy)>] [226 <./Figures/prop-t
+rans-energy.png (PNG copy)>] [227]
 Overfull \hbox (19.25987pt too wide) in paragraph at lines 673--688
 [][]
  []
@@ -1472,20 +1990,64 @@ Overfull \hbox (10.52771pt too wide) in paragraph at lines 709--721
 [][]
  []
 
-[196] [197] [198] [199] [200] [201]
+[228] <Figures/soyoen.png, id=5558, 505.89pt x 361.35pt>
+File: Figures/soyoen.png Graphic file (type png)
+
+<use Figures/soyoen.png>
+<Figures/prop20-top.png, id=5559, 505.89pt x 361.35pt>
+File: Figures/prop20-top.png Graphic file (type png)
+
+<use Figures/prop20-top.png> [229] [230 <./Figures/soyoen.png (PNG copy)> <./Fi
+gures/prop20-top.png>] <Figures/topprop.png, id=5578, 505.89pt x 361.35pt>
+File: Figures/topprop.png Graphic file (type png)
+
+<use Figures/topprop.png> [231] [232 <./Figures/topprop.png (PNG copy)>]
+[233] <Figures/dutchen.png, id=5608, 1008.76875pt x 561.09625pt>
+File: Figures/dutchen.png Graphic file (type png)
+
+<use Figures/dutchen.png> [234 <./Figures/dutchen.png (PNG copy)>]
+<Figures/envsnl-modesplits.png, id=5614, 578.16pt x 289.08pt>
+File: Figures/envsnl-modesplits.png Graphic file (type png)
+
+<use Figures/envsnl-modesplits.png> [235 <./Figures/envsnl-modesplits.png (PNG 
+copy)>] <Figures/avdist-nl-en.png, id=5624, 578.16pt x 289.08pt>
+File: Figures/avdist-nl-en.png Graphic file (type png)
+
+<use Figures/avdist-nl-en.png>
+<Figures/epdensnl.png, id=5627, 509.7444pt x 379.4175pt>
+File: Figures/epdensnl.png Graphic file (type png)
+
+<use Figures/epdensnl.png> [236 <./Figures/avdist-nl-en.png (PNG copy)>]
 Overfull \hbox (0.62479pt too wide) in paragraph at lines 1056--1063
 \OT1/cmr/m/n/10.95 and Scot-land) has re-mained steady over time. It in-creased
  by only 5% be-tween 1995/1997
  []
 
-[202] [203] [204]) (./Chapters/Chapter7.tex [205] [206
+<Figures/commuter-trip-dis-time.png, id=5635, 846.16125pt x 442.65375pt>
+File: Figures/commuter-trip-dis-time.png Graphic file (type png)
 
-]
+<use Figures/commuter-trip-dis-time.png>
+<Figures/mode-time-dft2011.png, id=5640, 693.59125pt x 370.38374pt>
+File: Figures/mode-time-dft2011.png Graphic file (type png)
+
+<use Figures/mode-time-dft2011.png> [237 <./Figures/epdensnl.png (PNG copy)>]
+[238 <./Figures/commuter-trip-dis-time.png (PNG copy)> <./Figures/mode-time-dft
+2011.png (PNG copy)>] [239]) (./Chapters/Chapter7.tex [240]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Social and spatial inequalities in commuter energy use
 ------------------------------------------------------------------------------
-[207] [208] [209] [210]
+[241
+
+] <./Figures/Income-dis-GB.png, id=5687, 831.105pt x 436.63126pt>
+File: ./Figures/Income-dis-GB.png Graphic file (type png)
+
+<use ./Figures/Income-dis-GB.png> [242 <./Figures/Income-dis-GB.png (PNG copy)>
+] <./Figures/income-heatmap.png, id=5700, 455.0601pt x 455.0601pt>
+File: ./Figures/income-heatmap.png Graphic file (type png)
+
+<use ./Figures/income-heatmap.png> [243 <./Figures/income-heatmap.png (PNG copy
+)>] [244] [245]
 Underfull \hbox (badness 10000) in paragraph at lines 563--563
 []\OT1/cmr/m/n/10.95 Categories/bin
  []
@@ -1536,33 +2098,112 @@ Underfull \hbox (badness 10000) in paragraph at lines 567--567
 \OT1/cmr/m/n/10.95 (30,40] (40,60]
  []
 
-[211] [212] [213] [214] [215]
+[246] <Figures/tae-it-plot.png, id=5795, 683.4333pt x 613.0905pt>
+File: Figures/tae-it-plot.png Graphic file (type png)
+
+<use Figures/tae-it-plot.png>
+<Figures/perc-it-plot.png, id=5796, 683.4333pt x 613.0905pt>
+File: Figures/perc-it-plot.png Graphic file (type png)
+
+<use Figures/perc-it-plot.png> [247]
+<Figures/qgis-image-small.png, id=5810, 284.5029pt x 227.4096pt>
+File: Figures/qgis-image-small.png Graphic file (type png)
+
+<use Figures/qgis-image-small.png>
+<Figures/sflows.png, id=5814, 903.375pt x 738.76pt>
+File: Figures/sflows.png Graphic file (type png)
+ <use Figures/sflows.png>
+[248 <./Figures/tae-it-plot.png (PNG copy)> <./Figures/perc-it-plot.png (PNG co
+py)>] [249 <./Figures/qgis-image-small.png> <./Figures/sflows.png (PNG copy)>]
+<Figures/agents4.jpg, id=5838, 847.66183pt x 599.4301pt>
+File: Figures/agents4.jpg Graphic file (type jpg)
+
+<use Figures/agents4.jpg> <Figures/cirqui17.png, id=5849, 361.35pt x 289.08pt>
+File: Figures/cirqui17.png Graphic file (type png)
+
+<use Figures/cirqui17.png> [250] [251 <./Figures/agents4.jpg> <./Figures/cirqui
+17.png (PNG copy)>] <Figures/invalid.png, id=5880, 433.62pt x 216.81pt>
+File: Figures/invalid.png Graphic file (type png)
+
+<use Figures/invalid.png> [252 <./Figures/invalid.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
+<Figures/income-scatter.png, id=5898, 433.62pt x 361.35pt>
+File: Figures/income-scatter.png Graphic file (type png)
+
+<use Figures/income-scatter.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[216] [217] [218] [219]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[253] [254 <./Figures/income-scatter.png (PNG copy)>]
+<Figures/proportions.png, id=5925, 453.1329pt x 385.1991pt>
+File: Figures/proportions.png Graphic file (type png)
+
+<use Figures/proportions.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[255] <Figures/dismap2.png, id=5940, 844.8363pt x 597.432pt>
+File: Figures/dismap2.png Graphic file (type png)
+
+<use Figures/dismap2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[256 <./Figures/proportions.png>]
+<Figures/distances-msoa2.jpg, id=5953, 1633.93044pt x 583.71924pt>
+File: Figures/distances-msoa2.jpg Graphic file (type jpg)
+
+<use Figures/distances-msoa2.jpg>
+<Figures/Dist-vs-Et2.png, id=5956, 657.4161pt x 613.0905pt>
+File: Figures/Dist-vs-Et2.png Graphic file (type png)
+
+<use Figures/Dist-vs-Et2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[257 <./Figures/dismap2.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[220] [221]
+<Figures/cat-vars.png, id=5979, 605.1408pt x 614.295pt>
+File: Figures/cat-vars.png Graphic file (type png)
+
+<use Figures/cat-vars.png>
+<Figures/Lorenz3.png, id=5980, 605.1408pt x 614.295pt>
+File: Figures/Lorenz3.png Graphic file (type png)
+
+<use Figures/Lorenz3.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[258 <./Figures/distances-msoa2.jpg>] [259 <./Figures/Dist-vs-Et2.png>]
+<Figures/busmap.png, id=5999, 844.8363pt x 597.432pt>
+File: Figures/busmap.png Graphic file (type png)
+ <use Figures/busmap.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 Missing character: There is no „ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no Ä in font cmr10!
-) [222] (./Chapters/Chapter8.tex [223] [224
-
-]
+[260] [261 <./Figures/cat-vars.png> <./Figures/Lorenz3.png>])
+(./Chapters/Chapter8.tex [262 <./Figures/busmap.png>]
 Chapter 8.
 ------------------------------------------------------------------------------
  8 Scenarios of change
 ------------------------------------------------------------------------------
-[225] [226]
+[263
+
+] [264]
 Missing character: There is no ‚ in font cmti10!
 Missing character: There is no Ä in font cmti10!
 Missing character: There is no ô in font cmti10!
@@ -1572,20 +2213,68 @@ Missing character: There is no ô in font cmti10!
 Missing character: There is no ‚ in font cmti10!
 Missing character: There is no Ä in font cmti10!
 Missing character: There is no ô in font cmti10!
- [227] [228] [229] [230] [231] [232] [233]
+ [265] [266] [267]
+<Figures/cysave.png, id=6099, 415.5525pt x 379.4175pt>
+File: Figures/cysave.png Graphic file (type png)
+
+<use Figures/cysave.png> [268 <./Figures/cysave.png (PNG copy)>]
+<Figures/priden.png, id=6113, 415.5525pt x 379.4175pt>
+File: Figures/priden.png Graphic file (type png)
+
+<use Figures/priden.png> [269]
+<Figures/cysave-ind.png, id=6121, 505.89pt x 361.35pt>
+File: Figures/cysave-ind.png Graphic file (type png)
+
+<use Figures/cysave-ind.png> [270 <./Figures/priden.png (PNG copy)>]
+<Figures/cysave-diff.png, id=6129, 505.89pt x 361.35pt>
+File: Figures/cysave-diff.png Graphic file (type png)
+
+<use Figures/cysave-diff.png> [271 <./Figures/cysave-ind.png (PNG copy)>]
+[272 <./Figures/cysave-diff.png (PNG copy)>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no à in font cmr10!
 Missing character: There is no í in font cmr10!
- [234] [235] [236]
-[237] [238] [239] [240] [241] [242] [243] [244] [245] [246] [247] [248]
-[249] [250]) (./Chapters/Chapter9.tex [251] [252
+ [273]
+<Figures/telesave.png, id=6169, 505.89pt x 361.35pt>
+File: Figures/telesave.png Graphic file (type png)
+
+<use Figures/telesave.png> [274 <./Figures/telesave.png (PNG copy)>] [275]
+[276] [277] [278] [279] [280] [281]
+<Figures/vall2.png, id=6304, 619.3539pt x 615.4995pt>
+File: Figures/vall2.png Graphic file (type png)
+ <use Figures/vall2.png>
+<Figures/scat-mat.pdf, id=6306, 794.97pt x 614.295pt>
+File: Figures/scat-mat.pdf Graphic file (type pdf)
+
+<use Figures/scat-mat.pdf> <Figures/IMD.png, id=6309, 711.1368pt x 500.5902pt>
+File: Figures/IMD.png Graphic file (type png)
+
+<use Figures/IMD.png> [282]
+<Figures/Distance-msoa3.png, id=6321, 711.1368pt x 500.5902pt>
+File: Figures/Distance-msoa3.png Graphic file (type png)
+
+<use Figures/Distance-msoa3.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[283 <./Figures/vall2.png>] [284 <./Figures/scat-mat.pdf>]
+<Figures/york6.png, id=6346, 1310.8975pt x 918.43124pt>
+File: Figures/york6.png Graphic file (type png)
+
+<use Figures/york6.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[285 <./Figures/IMD.png>] [286 <./Figures/Distance-msoa3.png>] [287 <./Figures/
+york6.png (PNG copy)>] [288] [289] [290] [291] [292]) (./Chapters/Chapter9.tex
+[293] [294
 
 ]
 Chapter 9.
 ------------------------------------------------------------------------------
  9 Conclusions
 ------------------------------------------------------------------------------
-[253] [254] [255] [256] [257] [258] [259] [260] [261] [262]) [263] [264
+[295] [296] [297] [298] [299] [300] [301] [302] [303] [304]) [305] [306
 
 ]
 ------------------------------------------------------------------------------
@@ -1595,26 +2284,26 @@ Chapter 9.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [265
+ [307
 
-] [266]
+] [308]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no £ in font cmr10!
- [267] [268]
+ [309] [310]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [269] [270]
+ [311] [312]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [271]
+ [313]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
@@ -1624,20 +2313,20 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [272]
+ [314]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [273]
+ [315]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [274]
+ [316]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 
-[275]
+[317]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -1652,20 +2341,20 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no † in font cmr10!
- [276]
+ [318]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [277] [278] [279]
+ [319] [320] [321]
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no ô in font cmr10!
- [280]
+ [322]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no ø in font cmr10!
- [281] [282]
+ [323] [324]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
@@ -1683,47 +2372,47 @@ Missing character: There is no ø in font cmr10!
 Missing character: There is no Ω in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no £ in font cmr10!
- [283]
+ [325]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [284]
+ [326]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [285]
+ [327]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [286]
-[287]
+ [328]
+[329]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [288]
+ [330]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [289] [290] [291]
+ [331] [332] [333]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ê in font cmr10!
- [292] [293] [294] [295] [296]
+ [334] [335] [336] [337] [338]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [297] [298])
-(./Thesis.ind [299] [300
+ [339] [340])
+(./Thesis.ind [341] [342
 
-]) [301] (./Thesis.aux) ) 
+]) [343] (./Thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 15932 strings out of 495061
- 238797 string characters out of 1182621
- 378526 words of memory out of 3000000
- 17296 multiletter control sequences out of 15000+50000
+ 16619 strings out of 495061
+ 255023 string characters out of 1182621
+ 401529 words of memory out of 3000000
+ 17807 multiletter control sequences out of 15000+50000
  20914 words of font info for 78 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  48i,15n,45p,832b,1767s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1750,9 +2439,9 @@ i12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></us
 r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/tex
 mf-texlive/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmu10.pfb>
-Output written on Thesis.pdf (321 pages, 2154199 bytes).
+Output written on Thesis.pdf (363 pages, 30939384 bytes).
 PDF statistics:
- 6741 PDF objects out of 7423 (max. 8388607)
- 1532 named destinations out of 1728 (max. 500000)
- 1153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7215 PDF objects out of 7423 (max. 8388607)
+ 1574 named destinations out of 1728 (max. 500000)
+ 1793 words of extra memory for PDF output out of 10000 (max. 10000000)
 

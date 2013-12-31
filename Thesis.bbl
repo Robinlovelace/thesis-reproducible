@@ -111,18 +111,19 @@
 \newblock \bibinfo{journal}{Geographical Analysis} \bibinfo{volume}{39},
   \bibinfo{pages}{44--77}.
 %Type = Incollection
-\bibitem[{Ballas et~al.(2013)Ballas, Clarke, Hynes, Lennon, Morrissey and
+\bibitem[{Ballas et~al.(2012)Ballas, Clarke, Hynes, Lennon, Morrissey and
   Donoghue}]{Ballas2013-4policy-analysis}
 \bibinfo{author}{Ballas, D.}, \bibinfo{author}{Clarke, G.},
   \bibinfo{author}{Hynes, S.}, \bibinfo{author}{Lennon, J.},
   \bibinfo{author}{Morrissey, K.}, \bibinfo{author}{Donoghue, C.O.},
-  \bibinfo{year}{2013}.
+  \bibinfo{year}{2012}.
 \newblock \bibinfo{title}{{A Review of Microsimulation for Policy Analysis}},
-  in: \bibinfo{editor}{Tanton, R.}, \bibinfo{editor}{Edwards, K.} (Eds.),
-  \bibinfo{booktitle}{Spatial Microsimulation for Rural Policy Analysis}.
-  \bibinfo{publisher}{Springer Berlin Heidelberg}, \bibinfo{address}{Berlin,
-  Heidelberg}. Advances in Spatial Science. chapter~\bibinfo{chapter}{3}, pp.
-  \bibinfo{pages}{35--54}.
+  in: \bibinfo{editor}{O'Donoghue, C.}, \bibinfo{editor}{Ballas, D.},
+  \bibinfo{editor}{Clarke, G.}, \bibinfo{editor}{Hynes, S.},
+  \bibinfo{editor}{Morrissey, K.} (Eds.), \bibinfo{booktitle}{Spatial
+  Microsimulation for Rural Policy Analysis}. \bibinfo{publisher}{Springer
+  Berlin Heidelberg}, \bibinfo{address}{Berlin, Heidelberg}. Advances in
+  Spatial Science. chapter~\bibinfo{chapter}{3}, pp. \bibinfo{pages}{35--54}.
 %Type = Article
 \bibitem[{Ballas and Clarke(2001)}]{Ballas2001}
 \bibinfo{author}{Ballas, D.}, \bibinfo{author}{Clarke, G.P.},
