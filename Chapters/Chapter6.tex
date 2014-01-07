@@ -173,22 +173,21 @@ places.
 \begin{table}[htbp]
 \caption[Average distance travelled by mode and distance band]
 {Average distance travelled by mode and distance band (km),
-from USd data. `card', `carp', and `moto' refer to
-car driver, car passenger and motorbike respectively.}\label{tdboxes}
+from USd data.}\label{tdboxes}
 \begin{center}
 \begin{tabular}{lrrrrrrrr}
 \toprule
 Upper limit & 2.0 & 5.0 & 10.0 & 20.0 & 30.0 & 40.0 & 60.0 & 250.0 \\ \midrule
-card & 1.6 & 3.9 & 7.9 & 15.0 & 26.0 & 35.8 & 50.3 & 102.6 \\
-carp & 1.5 & 3.9 & 7.9 & 15.2 & 26.5 & 36.4 & 48.0 & 95.0 \\
-moto & 1.4 & 4.1 & 7.0 & 15.2 & 23.5 & 36.0 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
-bus & 1.8 & 3.8 & 7.7 & 13.9 & 27.7 & 40.0 & 56.0 & 110.5 \\
-train & 1.5 & 4.2 & 8.1 & 15.1 & 26.4 & 37.6 & 53.2 & 98.8 \\
-metro & 1.7 & 4.0 & 8.1 & 14.7 & 25.8 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & 65.0 \\
-cycle & 1.5 & 3.9 & 7.5 & 11.5 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
-walk & 1.2 & 3.5 & 8.0 & 13.7 & 25.0 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
-other & 1.0 & 4.3 & 7.6 & 13.5 & 27.8 & 37.5 & 42.0 & 130.0 \\
-taxi & 1.7 & 3.0 & 9.0 & 12.0 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
+Car driver & 1.6 & 3.9 & 7.9 & 15.0 & 26.0 & 35.8 & 50.3 & 102.6 \\
+Car passenger & 1.5 & 3.9 & 7.9 & 15.2 & 26.5 & 36.4 & 48.0 & 95.0 \\
+Motorbike & 1.4 & 4.1 & 7.0 & 15.2 & 23.5 & 36.0 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
+Bus & 1.8 & 3.8 & 7.7 & 13.9 & 27.7 & 40.0 & 56.0 & 110.5 \\
+Train & 1.5 & 4.2 & 8.1 & 15.1 & 26.4 & 37.6 & 53.2 & 98.8 \\
+Metro & 1.7 & 4.0 & 8.1 & 14.7 & 25.8 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & 65.0 \\
+Cycle & 1.5 & 3.9 & 7.5 & 11.5 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
+Walk & 1.2 & 3.5 & 8.0 & 13.7 & 25.0 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
+Other & 1.0 & 4.3 & 7.6 & 13.5 & 27.8 & 37.5 & 42.0 & 130.0 \\
+Taxi & 1.7 & 3.0 & 9.0 & 12.0 & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} & \multicolumn{1}{l}{NA} \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -726,7 +725,7 @@ that did not take car size into account and values that did was very high
 (r = 0.9985). The resulting spatial distribution of energy costs of
 commuting at the MSOA level is plotted in \cref{fsoyoen}. This illustrates how
 spatial microsimulation can be used to create estimates of energy use at the
-aggregate level when cross-tabulated distance/mode data is unavailable.
+aggregate level when cross-tabulated distance/mode datasets are unavailable.
 At the individual level, the standard deviation in per trip
 energy use is much greater than at the geographical level in this
 case study: 95 MJ between individuals compared with only 11 MJ between
@@ -1076,7 +1075,7 @@ energy use may have even declined.
 \end{figure}
 
 Another issue is data quality. While both datasets
-are from official sources, the Dutch data is far less detailed and provides
+are from official sources, the Dutch dataset is far less detailed and provides
 only two significant figures for the proportions of people travelling by each
 mode (e.g. 0.01). Thus, error up to 0.5\% in these figures is possible.
 Further, average distances were not provided for all modes of transport in all
