@@ -1,0 +1,54 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Top 5 UK sectors in terms of greenhouse gas emissions, 1990-2010}}{4}{table.caption.9}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Typology of spatial microsimulation methods\relax }}{67}{table.caption.25}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Five entities central to urban modelling, after Wilson (2000)\relax }}{72}{table.caption.26}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Sample of regional transport energy consumption statistics}}{84}{table.caption.29}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Aggregate data on energy costs of commuting by scale}}{87}{table.caption.33}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Selected individual level variables related to commuting}}{91}{table.caption.35}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison of data sources for travel networks\relax }}{99}{table.caption.38}
+\contentsline {table}{\numberline {4.5}{\ignorespaces A hypothetical input microdata set}}{110}{table.caption.44}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Hypothetical small area constraints data ($s$).\relax }}{110}{table.caption.45}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Small area constraints expressed as marginal totals}}{111}{table.caption.46}
+\contentsline {table}{\numberline {4.8}{\ignorespaces The aggregated results of the weighted microdata set}}{111}{table.caption.47}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Reweighting the hypothetical microdataset in order to fit Table \ref {t:s}.\relax }}{112}{table.caption.48}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Aggregated results after constraining for age}}{112}{table.caption.49}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Summary data for the spatial microsimulation model\relax }}{138}{table.caption.72}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Accuracy results for integerisation techniques.*\relax }}{143}{table.caption.76}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Differences between census and simulated populations.\relax }}{144}{table.caption.77}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces The direct and indirect energy costs of personal travel \citep {Fels1975}}}{155}{table.caption.81}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Direct energy use of selected modes\relax }}{156}{table.caption.82}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Direct greenhouse gas emissions by mode}}{156}{table.caption.83}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Conversion table from emissions to energy use by size of car}}{158}{table.caption.84}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Emissions data and calculated energy use of motorised modes}}{159}{table.caption.85}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Estimates of the energy costs of car manufacture (EMv)\relax }}{170}{table.caption.89}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Average frequency of trips for Euclidean distance bins\relax }}{175}{table.caption.91}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Average occupancy of car journeys by reason for trip}}{180}{table.caption.96}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Vehicle emissions bands of registered vehicles since 2001}}{202}{table.caption.112}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Average energy usage of cars by tax band}}{203}{table.caption.113}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Correlation matrix of estimated fleet efficiencies, 2002-2010}}{205}{table.caption.116}
+\contentsline {table}{\numberline {5.12}{\ignorespaces The first 5 rows of the raw DfT emissions band data}}{205}{table.caption.117}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Final estimates of the direct and indirect energy use of 8 modes}}{207}{table.caption.119}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Average distance travelled by mode and distance band}}{214}{table.caption.122}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Correlation matrix of energy use for commuting and emissions}}{226}{table.caption.135}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Sample of the spatial microsimulation model output}}{228}{table.caption.136}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Sample of individual level spatial microsimulation output}}{229}{table.caption.137}
+\contentsline {table}{\numberline {6.5}{\ignorespaces Commuter energy use in South Yorkshire areas by class}}{231}{table.caption.140}
+\contentsline {table}{\numberline {6.6}{\ignorespaces Comparison of basic national attributes in England and the Netherlands\relax }}{233}{table.caption.142}
+\contentsline {table}{\numberline {6.7}{\ignorespaces Sample of the raw Dutch commuting data}}{234}{table.caption.143}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Aggregate level inputs into the spatial microsimulation model}}{247}{table.caption.152}
+\contentsline {table}{\numberline {7.2}{\ignorespaces The 2nd most common mode of commuting compared with other factors}}{250}{table.caption.156}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Summary statistics of the commuting behaviour of in South Yorkshire}}{255}{table.caption.161}
+\contentsline {table}{\numberline {7.4}{\ignorespaces Contingency table of variables related to commuting}}{259}{table.caption.166}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Commuting characteristics cross-tabulated by income bands}}{260}{table.caption.167}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Proportion of trips (T), distance (D) and energy (E) by mode}}{282}{table.caption.175}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Summary statistics of vulnerability metrics}}{287}{table.caption.181}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Individual level characteristics of `oil vulnerable' commuters}}{288}{table.caption.182}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Differences between commuters affected by the `Dutch' and `Finnish' scenarios}}{291}{table.caption.183}
+\addvspace {10\p@ }

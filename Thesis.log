@@ -1,0 +1,2440 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.10.5)  15 JAN 2014 09:15
+entering extended mode
+ %&-line parsing enabled.
+**Thesis.tex
+(./Thesis.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(./Thesis.cls
+Document Class: Thesis 2007/22/02 v1.0 LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/share/texmf-texlive/tex/latex/vmargin/vmargin.sty
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+
+Package: vmargin 2004/07/15 V2.5 set document margins (VK)
+\PaperWidth=\dimen103
+\PaperHeight=\dimen104
+) (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen105
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks17
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amscd.sty
+Package: amscd 1999/11/29 v1.2d
+\athelp@=\toks19
+\minaw@=\dimen114
+\bigaw@=\dimen115
+\minCDarrowwidth=\dimen116
+)
+(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip55
+\thm@postskip=\skip56
+\thm@headsep=\skip57
+\dth@everypar=\toks25
+)
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+)
+\c@example=\count100
+\c@theorem=\count101
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@indent=\dimen120
+\caption@parindent=\dimen121
+\caption@hangindent=\dimen122
+)
+\c@ContinuedFloat=\count102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count103
+))
+\Gin@req@height=\dimen123
+\Gin@req@width=\dimen124
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2009/10/17 v2.4 Base part for package epstopdf
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
+Package: grfext 2007/09/30 v1.0 Managing graphics extensions (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)
+
+Package epstopdf Warning: Shell escape feature is not enabled.
+
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 433.
+(/usr/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2009/10/26 v1.1 Configuration of epstopdf for TeX Live
+)))
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip58
+\subfigcapskip=\skip59
+\subfigcaptopadj=\dimen125
+\subfigbottomskip=\skip60
+\subfigcapmargin=\dimen126
+\subfiglabelskip=\skip61
+\c@subfigure=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@lotdepth=\count107
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip62
+\subfig@bottom=\skip63
+)
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen127
+\lightrulewidth=\dimen128
+\cmidrulewidth=\dimen129
+\belowrulesep=\dimen130
+\belowbottomsep=\dimen131
+\aboverulesep=\dimen132
+\abovetopsep=\dimen133
+\cmidrulesep=\dimen134
+\cmidrulekern=\dimen135
+\defaultaddspace=\dimen136
+\@cmidla=\count108
+\@cmidlb=\count109
+\@aboverulesep=\dimen137
+\@belowrulesep=\dimen138
+\@thisruleclass=\count110
+\@lastruleclass=\count111
+\@thisrulewidth=\dimen139
+)
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count112
+\rotFPtop=\skip64
+\rotFPbot=\skip65
+\rot@float@box=\box28
+\rot@mess@toks=\toks27
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.sty
+\lst@mode=\count113
+\lst@gtempboxa=\box29
+\lst@token=\toks28
+\lst@length=\count114
+\lst@currlwidth=\dimen140
+\lst@column=\count115
+\lst@pos=\count116
+\lst@lostspace=\dimen141
+\lst@width=\dimen142
+\lst@newlines=\count117
+\lst@lineno=\count118
+\lst@maxwidth=\dimen143
+ (./lstpatch.sty
+
+***
+*** This is a patch for listings 1.3, but you're using
+*** version 1.4.
+***
+*** Patch file not loaded.
+***
+
+) (/usr/share/texmf-texlive/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count119
+\lst@skipnumbers=\count120
+\lst@framebox=\box30
+)
+(/usr/share/texmf-texlive/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+ (./lstpatch.sty
+
+***
+*** This is a patch for listings 1.3, but you're using
+*** version 1.4.
+***
+ *** Patch file not loaded.
+***
+
+) (/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen144
+\Hy@linkcounter=\count121
+\Hy@pagecounter=\count122
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 2864.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 2864
+.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 2864.
+Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
+Package hyperref Info: Option `unicode' set `true' on input line 2864.
+
+(/usr/share/texmf-texlive/tex/latex/hyperref/puenc.def
+File: puenc.def 2009/10/09 v6.79a Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count123
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+\Field@toks=\toks29
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring ON on input line 4395.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count124
+\c@Item=\count125
+\c@Hfootnote=\count126
+)
+*hyperref using default driver hpdftex*
+(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
+\Fld@listcount=\count127
+)
+\c@dummy=\count128
+
+(/usr/share/texmf-texlive/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip66
+\LTright=\skip67
+\LTpre=\skip68
+\LTpost=\skip69
+\LTchunksize=\count129
+\LTcapwidth=\dimen147
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count130
+\LT@rows=\count131
+\c@LT@tables=\count132
+\c@LT@chunks=\count133
+\LT@p@ftn=\toks30
+))
+(/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen148
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box35
+)
+(./idxlayout.sty
+Package: idxlayout 2012/03/30 v0.4d Configurable index layout
+ (/usr/share/texmf-texlive/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2009/08/06 v1.8 e-TeX tools for LaTeX
+
+(/usr/share/texmf-texlive/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count134
+))
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count135
+\mult@box=\box36
+\multicol@leftmargin=\dimen149
+\c@unbalance=\count136
+\c@collectmore=\count137
+\doublecol@number=\count138
+\multicoltolerance=\count139
+\multicolpretolerance=\count140
+\full@width=\dimen150
+\page@free=\dimen151
+\premulticols=\dimen152
+\postmulticols=\dimen153
+\multicolsep=\skip70
+\multicolbaselineskip=\skip71
+\partial@page=\box37
+\last@line=\box38
+\mult@rightbox=\box39
+\mult@grightbox=\box40
+\mult@gfirstbox=\box41
+\mult@firstbox=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\c@columnbadness=\count141
+\c@finalcolumnbadness=\count142
+\last@try=\dimen154
+\multicolovershoot=\dimen155
+\multicolundershoot=\dimen156
+\mult@nat@firstbox=\box60
+\colbreak@box=\box61
+)
+\c@idxcols=\count143
+\indexcolsep=\skip72
+\indexrule=\skip73
+\ila@indentunit=\skip74
+\ila@initsep=\skip75
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 18.
+Package hyperref Info: Option `hypertexnames' set `true' on input line 18.
+
+(/usr/share/texmf-texlive/tex/latex/cleveref/cleveref.sty
+Package: cleveref 2009/09/22 v0.14.2 Intelligent cross-referencing
+LaTeX Info: Redefining \cref on input line 775.
+Package cleveref Info: `hyperref' support loaded on input line 1607.
+LaTeX Info: Redefining \cref on input line 1607.
+LaTeX Info: Redefining \Cref on input line 1607.
+LaTeX Info: Redefining \crefrange on input line 1607.
+LaTeX Info: Redefining \Crefrange on input line 1607.
+Package cleveref Info: loaded `english' language definitions on input line 3148
+.
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
+)
+(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip76
+\bibsep=\skip77
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count144
+)
+(/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks31
+\verbatim@line=\toks32
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf-texlive/tex/latex/wallpaper/wallpaper.sty
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count145
+\calc@Bcount=\count146
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip78
+\calc@Bskip=\skip79
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count147
+\calc@Cskip=\skip80
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+\wpXoffset=\skip81
+\wpYoffset=\skip82
+\tileXoffset=\skip83
+\tileYoffset=\skip84
+\tilewidth=\skip85
+\tileheight=\skip86
+\tileX=\skip87
+\tileY=\skip88
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/cases.sty
+Package: cases 2002/05/02 ver 2.5 
+)
+\@indexfile=\write3
+\openout3 = `Thesis.idx'.
+
+
+Writing index file Thesis.idx
+(/usr/share/texmf-texlive/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip89
+\RaggedLeftLeftskip=\skip90
+\RaggedRightLeftskip=\skip91
+\CenteringRightskip=\skip92
+\RaggedLeftRightskip=\skip93
+\RaggedRightRightskip=\skip94
+\CenteringParfillskip=\skip95
+\RaggedLeftParfillskip=\skip96
+\RaggedRightParfillskip=\skip97
+\JustifyingParfillskip=\skip98
+\CenteringParindent=\skip99
+\RaggedLeftParindent=\skip100
+\RaggedRightParindent=\skip101
+\JustifyingParindent=\skip102
+) (./Thesis.aux)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/share/texmf-texlive/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count148
+\scratchdimen=\dimen159
+\scratchbox=\box62
+\nofMPsegments=\count149
+\nofMParguments=\count150
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count151
+\MPscratchDim=\dimen160
+\MPnumerator=\count152
+\everyMPtoPDFconversion=\toks34
+)
+\c@lstlisting=\count153
+Package hyperref Info: Link coloring OFF on input line 79.
+ (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count154
+)
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+ (./Thesis.out)
+(./Thesis.out)
+\@outlinefile=\write4
+\openout4 = `Thesis.out'.
+
+\AtBeginShipoutBox=\box63
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \ref on input line 79.
+ ABD: EveryShipout initializing macros
+LaTeX Info: Redefining \selectfont on input line 79.
+
+------------------------------------------------------------------------------
+ Title Page
+------------------------------------------------------------------------------
+[1
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 168.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 168.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [3
+
+]
+------------------------------------------------------------------------------
+ Abstract Page
+------------------------------------------------------------------------------
+[4
+
+]
+------------------------------------------------------------------------------
+ Acknowledgements
+------------------------------------------------------------------------------
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 389.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 389.
+ [5
+
+] [6]
+------------------------------------------------------------------------------
+ Table of Contents
+------------------------------------------------------------------------------
+(./Thesis.toc [7
+
+
+] [8] [9])
+\tf@toc=\write5
+\openout5 = `Thesis.toc'.
+
+ [10]
+------------------------------------------------------------------------------
+ List of Figures
+------------------------------------------------------------------------------
+(./Thesis.lof [11
+
+
+] [12])
+\tf@lof=\write6
+\openout6 = `Thesis.lof'.
+
+ [13] [14
+
+]
+------------------------------------------------------------------------------
+ List of Tables
+------------------------------------------------------------------------------
+(./Thesis.lot [15
+
+])
+\tf@lot=\write7
+\openout7 = `Thesis.lot'.
+
+ [16]
+------------------------------------------------------------------------------
+ Abbreviations
+------------------------------------------------------------------------------
+[17
+
+
+
+] [18
+
+]
+------------------------------------------------------------------------------
+ Symbols
+------------------------------------------------------------------------------
+
+Overfull \hbox (45.39499pt too wide) in alignment at lines 503--503
+ [] [] [] 
+ []
+
+
+Overfull \hbox (45.39499pt too wide) in alignment at lines 503--503
+ [] [] [] 
+ []
+
+[19
+
+
+] [20
+
+] (./Chapters/Chapter1.tex
+Chapter 1.
+------------------------------------------------------------------------------
+ 1 Introduction
+------------------------------------------------------------------------------
+[1
+
+
+] [2] <Figures/cc-trans.png, id=1276, 1117.17375pt x 530.98375pt>
+File: Figures/cc-trans.png Graphic file (type png)
+
+<use Figures/cc-trans.png> [3 <./Figures/cc-trans.png>] [4] [5]
+<Figures/gco2.png, id=1377, 843.15pt x 451.6875pt>
+File: Figures/gco2.png Graphic file (type png)
+ <use Figures/gco2.png>
+[6 <./Figures/gco2.png (PNG copy)>] [7]
+<Figures/biofuels-cont.png, id=1428, 521.95pt x 515.9275pt>
+File: Figures/biofuels-cont.png Graphic file (type png)
+
+<use Figures/biofuels-cont.png> [8] [9 <./Figures/biofuels-cont.png (PNG copy)>
+] <Figures/oilprices.png, id=1491, 569.0058pt x 426.6339pt>
+File: Figures/oilprices.png Graphic file (type png)
+
+<use Figures/oilprices.png> [10 <./Figures/oilprices.png (PNG copy)>]
+<Figures/oecd.png, id=1523, 1569.865pt x 661.47125pt>
+File: Figures/oecd.png Graphic file (type png)
+ <use Figures/oecd.png>
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+
+[11] [12 <./Figures/oecd.png (PNG copy)>]
+<Figures/hnew.png, id=1582, 844.8363pt x 597.432pt>
+File: Figures/hnew.png Graphic file (type png)
+ <use Figures/hnew.png>
+[13] [14 <./Figures/hnew.png>] [15]
+<./Figures/trip-nums-gb.png, id=1607, 743.77875pt x 413.545pt>
+File: ./Figures/trip-nums-gb.png Graphic file (type png)
+
+<use ./Figures/trip-nums-gb.png>
+<./Figures/dist-trip-gb.png, id=1609, 897.3525pt x 495.8525pt>
+File: ./Figures/dist-trip-gb.png Graphic file (type png)
+
+<use ./Figures/dist-trip-gb.png>
+<./Figures/dist-purp-gb.png, id=1614, 734.745pt x 422.57875pt>
+File: ./Figures/dist-purp-gb.png Graphic file (type png)
+
+<use ./Figures/dist-purp-gb.png> [16 <./Figures/trip-nums-gb.png (PNG copy)>]
+[17 <./Figures/dist-trip-gb.png (PNG copy)> <./Figures/dist-purp-gb.png (PNG co
+py)>] <./Figures/time-commuting.png, id=1631, 970.62625pt x 540.0175pt>
+File: ./Figures/time-commuting.png Graphic file (type png)
+
+<use ./Figures/time-commuting.png> [18 <./Figures/time-commuting.png (PNG copy)
+>] [19] [20]) (./Chapters/Chapter2.tex [21] [22
+
+]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 Personal transport, energy and commuting
+------------------------------------------------------------------------------
+[23] [24] [25]
+<Figures/Sustainable-trans-hierarchy.png, id=1743, 1260.20813pt x 980.91469pt>
+File: Figures/Sustainable-trans-hierarchy.png Graphic file (type png)
+
+<use Figures/Sustainable-trans-hierarchy.png> [26 <./Figures/Sustainable-trans-
+hierarchy.png (PNG copy)>] [27]
+<Figures/impedance.png, id=1797, 361.35pt x 216.81pt>
+File: Figures/impedance.png Graphic file (type png)
+
+<use Figures/impedance.png> [28] [29 <./Figures/impedance.png (PNG copy)>]
+<Figures/commuting-research-image2.pdf, id=1831, 597.23125pt x 597.23125pt>
+File: Figures/commuting-research-image2.pdf Graphic file (type pdf)
+
+<use Figures/commuting-research-image2.pdf> [30 <./Figures/commuting-research-i
+mage2.pdf>] [31] [32] [33] [34] [35]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 695.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 695.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 695.
+
+[36] [37] [38] <Figures/gabrielli.png, id=2034, 741.52031pt x 686.565pt>
+File: Figures/gabrielli.png Graphic file (type png)
+
+<use Figures/gabrielli.png> [39] [40 <./Figures/gabrielli.png (PNG copy)>]
+[41] [42] [43] [44] [45] [46] [47] [48] [49] [50]) (./Chapters/Chapter3.tex
+[51] [52
+
+]
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Spatial microsimulation and its application to transport problems
+------------------------------------------------------------------------------
+[53] <Figures/msim-schematic.pdf, id=2360, 845.1575pt x 597.23125pt>
+File: Figures/msim-schematic.pdf Graphic file (type pdf)
+
+<use Figures/msim-schematic.pdf>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 97--101
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[54] [55 <./Figures/msim-schematic.pdf>] [56] [57]
+Overfull \hbox (12.60133pt too wide) in paragraph at lines 257--263
+[]\OT1/cmr/m/it/10.95 Deterministic reweight-ing \OT1/cmr/m/n/10.95 refers to n
+on-random meth-ods of al-lo-cat-ing weights to individual-
+ []
+
+[58] [59] [60] [61]
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [62] [63] [64] [65] [66]
+Underfull \hbox (badness 10000) in paragraph at lines 805--805
+[]\OT1/cmr/m/n/9 Reweighting
+ []
+
+
+Overfull \vbox (39.07181pt too high) detected at line 808
+ []
+
+
+Overfull \hbox (11.38092pt too wide) in paragraph at lines 808--808
+[][]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 808--808
+[]\OT1/cmr/m/n/9 Iterative pro-
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 808--808
+\OT1/cmr/m/n/9 por-tional fit-ting
+ []
+
+
+Underfull \hbox (badness 1655) in paragraph at lines 808--809
+[]\OT1/cmr/m/n/9 Simple, fast, ac-cu-rate,
+ []
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 810--810
+[]\OT1/cmr/m/n/9 ([]Tomintz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 812--812
+[]\OT1/cmr/m/n/9 Integerisation re-
+ []
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
+[]\OT1/cmr/m/n/9 GREGWT,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 814--815
+\OT1/cmr/m/n/9 gen-er-alised
+ []
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 817--817
+[]\OT1/cmr/m/n/9 ([]Miranti
+ []
+
+
+Overfull \vbox (33.0pt too high) detected at line 820
+ []
+
+
+Overfull \hbox (11.38092pt too wide) in paragraph at lines 820--820
+[][]| 
+ []
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 822--822
+[]\OT1/cmr/m/n/9 ([]Williamson
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--823
+[]\OT1/cmr/m/n/9 Simulated an-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
+[]\OT1/cmr/m/n/9 Avoids lo-cal min-ima,
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 824--825
+[]\OT1/cmr/m/n/9 Computationally in-
+ []
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 825--825
+[]\OT1/cmr/m/n/9 ([]Kavroudakis
+ []
+
+
+Overfull \vbox (8.5359pt too high) detected at line 826
+ []
+
+
+Overfull \hbox (11.38092pt too wide) in paragraph at lines 826--826
+[][]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--827
+[]\OT1/cmr/m/n/9 Monte Carlo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--827
+\OT1/cmr/m/n/9 ran-domi-sa-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--827
+\OT1/cmr/m/n/9 to sim-u-late
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 827--828
+[]\OT1/cmr/m/n/9 Realistic treate-ment of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 827--828
+\OT1/cmr/m/n/9 stochas-tic life events
+ []
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
+[]\OT1/cmr/m/n/9 ([]Vidyattama
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 829--830
+\OT1/cmr/m/n/9 and Tan-ton[],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 831--831
+[]\OT1/cmr/m/n/9 Implicitly dy-
+ []
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+
+Underfull \hbox (badness 10000) in paragraph at lines 803--837
+[][]
+ []
+
+[67]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Å in font cmr9!
+Missing character: There is no † in font cmr9!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+ [68]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+ [69] [70] [71]
+Underfull \hbox (badness 7851) in paragraph at lines 1082--1082
+[]\OT1/cmr/m/n/10.95 High: com-mut-ing
+ []
+
+
+Overfull \hbox (8.94669pt too wide) in paragraph at lines 1083--1083
+[]\OT1/cmr/m/n/10.95 Organisations| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1083
+\OT1/cmr/m/n/10.95 sec-tor op-er-a-tors)
+ []
+
+
+Underfull \hbox (badness 3780) in paragraph at lines 1083--1083
+\OT1/cmr/m/n/10.95 and poor ac-count-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1083--1083
+\OT1/cmr/m/n/10.95 abil-ity in many
+ []
+
+
+Underfull \hbox (badness 6461) in paragraph at lines 1083--1083
+[]\OT1/cmr/m/n/10.95 Medium: coun-cils
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 1083--1085
+[]\OT1/cmr/m/n/10.95 Low: or-gan-i-sa-tions
+ []
+
+
+Overfull \hbox (9.15959pt too wide) in paragraph at lines 1085--1085
+[]\OT1/cmr/m/n/10.95 Commodities,
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 1085--1085
+\OT1/cmr/m/n/10.95 goods, ser-
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 1085--1085
+[]\OT1/cmr/m/n/10.95 Low: petrol sales
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 1085--1085
+\OT1/cmr/m/n/10.95 not pub-licly avail-
+ []
+
+
+Underfull \hbox (badness 2564) in paragraph at lines 1087--1087
+\OT1/cmr/m/n/10.95 rain and land use
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 1087--1087
+[]\OT1/cmr/m/n/10.95 Medium: net-work
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1087
+\OT1/cmr/m/n/10.95 dis-tance and ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1087
+\OT1/cmr/m/n/10.95 rain al-ter travel
+ []
+
+
+Overfull \hbox (9.55501pt too wide) in paragraph at lines 1088--1088
+[]\OT1/cmr/m/n/10.95 Infrastructure| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1088
+[]\OT1/cmr/m/n/10.95 Medium: Open
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1088
+\OT1/cmr/m/n/10.95 Street Map and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1088
+\OT1/cmr/m/n/10.95 Ord-nance Sur-vey
+ []
+
+
+Underfull \hbox (badness 3396) in paragraph at lines 1088--1088
+\OT1/cmr/m/n/10.95 de-pends on in-fras-
+ []
+
+[72] <Figures/matsim-schema.png, id=2951, 715.67375pt x 525.965pt>
+File: Figures/matsim-schema.png Graphic file (type png)
+
+<use Figures/matsim-schema.png> [73] [74 <./Figures/matsim-schema.png (PNG copy
+)>] [75] [76] [77]) (./Chapters/Chapter4.tex [78]
+Chapter 4.
+------------------------------------------------------------------------------
+ 4 Data and methods
+------------------------------------------------------------------------------
+[79
+
+] <Figures/data-ideal.pdf, id=3085, 500.87125pt x 355.3275pt>
+File: Figures/data-ideal.pdf Graphic file (type pdf)
+
+<use Figures/data-ideal.pdf> [80 <./Figures/data-ideal.pdf>] [81] [82]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83] [84] <Figures/q33.png, id=3183, 650.43pt x 359.3425pt>
+File: Figures/q33.png Graphic file (type png)
+
+<use Figures/q33.png> <Figures/q34.png, id=3184, 343.2825pt x 558.085pt>
+File: Figures/q34.png Graphic file (type png)
+
+<use Figures/q34.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85] <Figures/scales-map.png, id=3199, 844.8363pt x 597.432pt>
+File: Figures/scales-map.png Graphic file (type png)
+
+<use Figures/scales-map.png> [86 <./Figures/q33.png (PNG copy)> <./Figures/q34.
+png (PNG copy)>] [87 <./Figures/scales-map.png>]
+<Figures/cas119.png, id=3225, 881.2925pt x 754.82pt>
+File: Figures/cas119.png Graphic file (type png)
+ <use Figures/cas119.png>
+[88] [89 <./Figures/cas119.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 632--632
+[]\OT1/cmr/m/n/10.95 Household
+ []
+
+
+Underfull \hbox (badness 6428) in paragraph at lines 632--634
+[]\OT1/cmr/m/n/10.95 Engine size of cars:
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 636--636
+[]\OT1/cmr/m/n/10.95 Household in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 636--636
+[]\OT1/cmr/m/n/10.95 Household
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--637
+[]\OT1/cmr/m/n/10.95 Equivalised in-come
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
+[]\OT1/cmr/m/n/10.95 Individual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
+\OT1/cmr/m/n/10.95 level vari-able
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 3000) in paragraph at lines 643--643
+[]\OT1/cmr/m/n/10.95 Must be linked with
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--644
+[]\OT1/cmr/m/n/10.95 Household
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 644--645
+[]\OT1/cmr/m/n/10.95 Number of chil-dren
+ []
+
+[90] [91] [92] <Figures/freq-nts.png, id=3277, 433.62pt x 216.81pt>
+File: Figures/freq-nts.png Graphic file (type png)
+
+<use Figures/freq-nts.png> [93] [94 <./Figures/freq-nts.png (PNG copy)>]
+[95] [96] [97]
+<Figures/networks-schematic.pdf, id=3319, 845.1575pt x 597.23125pt>
+File: Figures/networks-schematic.pdf Graphic file (type pdf)
+
+<use Figures/networks-schematic.pdf>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 988--988
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1011--1011
+[]\OT1/cmr/m/n/10.95 Networks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1013--1014
+[]\OT1/cmr/m/n/10.95 Frequent up-dated, routing-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1017--1017
+[]\OT1/cmr/m/n/10.95 Road,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1019--1019
+[]\OT1/cmr/m/n/10.95 Pedestrian,
+ []
+
+
+Overfull \hbox (12.17917pt too wide) in paragraph at lines 1009--1023
+[][]
+ []
+
+<Figures/osm-trans.png, id=3329, 1042.89626pt x 683.55376pt>
+File: Figures/osm-trans.png Graphic file (type png)
+
+<use Figures/osm-trans.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 1027--1027
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/cam-merid2.png, id=3330, 844.8363pt x 597.432pt>
+File: Figures/cam-merid2.png Graphic file (type png)
+
+<use Figures/cam-merid2.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 1035--1035
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/itn-master.png, id=3331, 720.6925pt x 673.51625pt>
+File: Figures/itn-master.png Graphic file (type png)
+
+<use Figures/itn-master.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 1043--1043
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[98 <./Figures/networks-schematic.pdf>] [99 <./Figures/osm-trans.png (PNG copy)
+>] [100 <./Figures/cam-merid2.png>] [101 <./Figures/itn-master.png (PNG copy)>]
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 1172--1172
+[][][]\OT1/cmr/m/n/9 See the fol-low-ing hy-per-links: []cdex.cr.usgs.gov[], []
+http://reverb.echo.nasa.gov[] and
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 1172--1172
+[]\OT1/cmr/m/n/9 http://www.jspacesystems.or.jp[]. A dig-i-tal el-e-va-tion dat
+aset was suc-cess-fully down-loaded from
+ []
+
+
+Overfull \hbox (0.20915pt too wide) in paragraph at lines 1161--1174
+[]\OT1/cmr/m/n/10.95 The Ad-vanced Space-borne Ther-mal Emis-sion and Re-flec-t
+ion Ra-diome-ter (ASTER)
+ []
+
+[103] <Figures/flows2bigemps.png, id=3424, 1017.8025pt x 709.65125pt>
+File: Figures/flows2bigemps.png Graphic file (type png)
+
+<use Figures/flows2bigemps.png>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 1276--1276
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[104] <Figures/dist-TTW-cent.png, id=3436, 844.8363pt x 597.432pt>
+File: Figures/dist-TTW-cent.png Graphic file (type png)
+
+<use Figures/dist-TTW-cent.png>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 1326--1326
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[105 <./Figures/flows2bigemps.png (PNG copy)>] [106 <./Figures/dist-TTW-cent.pn
+g>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [107]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [108]
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [109] [110] [111] [112]
+Overfull \hbox (17.13234pt too wide) in paragraph at lines 1829--1830
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (37.82784pt too wide) in paragraph at lines 1832--1833
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.33534pt too wide) in paragraph at lines 1857--1858
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[113] [114]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (10.23384pt too wide) in paragraph at lines 1941--1942
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[115] [116] <Figures/unnamed-chunk-5.png, id=3757, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-5.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-5.png>
+Overfull \hbox (10.23384pt too wide) in paragraph at lines 1997--1998
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][] 
+ []
+
+
+Overfull \hbox (17.13234pt too wide) in paragraph at lines 1998--1999
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][] 
+ []
+
+
+Overfull \hbox (17.13234pt too wide) in paragraph at lines 2002--2003
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/unnamed-chunk-6.png, id=3760, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-6.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-6.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[117 <./Figures/unnamed-chunk-5.png>] [118]
+<Figures/unnamed-chunk-8.png, id=3823, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-8.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-8.png>
+<Figures/unnamed-chunk-11.png, id=3824, 505.89pt x 505.89pt>
+File: Figures/unnamed-chunk-11.png Graphic file (type png)
+
+<use Figures/unnamed-chunk-11.png> [119 <./Figures/unnamed-chunk-6.png> <./Figu
+res/unnamed-chunk-8.png> <./Figures/unnamed-chunk-11.png>] [120]
+<Figures/age-sex-plot.png, id=3858, 737.75626pt x 501.875pt>
+File: Figures/age-sex-plot.png Graphic file (type png)
+
+<use Figures/age-sex-plot.png> [121 <./Figures/age-sex-plot.png>]
+<Figures/errors3-1.png, id=3880, 1656.1875pt x 451.6875pt>
+File: Figures/errors3-1.png Graphic file (type png)
+
+<use Figures/errors3-1.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 2233--2233
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[122] [123 <./Figures/errors3-1.png>]
+<Figures/Income-check-morevars.png, id=3898, 552.0625pt x 451.6875pt>
+File: Figures/Income-check-morevars.png Graphic file (type png)
+
+<use Figures/Income-check-morevars.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[124]
+Overfull \hbox (81.95912pt too wide) in paragraph at lines 2369--2376
+\OT1/cmr/m/n/10.95 many of Nomis's ta-bles. One ex-am-ple can be found here: []
+http://www.nomisweb.co.uk/livelinks/4652.xls[]). 
+ []
+
+[125 <./Figures/Income-check-morevars.png (PNG copy)>]
+<Figures/nomis-vs-cens-car.png, id=3910, 552.0625pt x 451.6875pt>
+File: Figures/nomis-vs-cens-car.png Graphic file (type png)
+
+<use Figures/nomis-vs-cens-car.png>
+<Figures/nomis-vs-cens-bike.png, id=3911, 552.0625pt x 451.6875pt>
+File: Figures/nomis-vs-cens-bike.png Graphic file (type png)
+
+<use Figures/nomis-vs-cens-bike.png>
+<Figures/car-ers.png, id=3914, 552.0625pt x 451.6875pt>
+File: Figures/car-ers.png Graphic file (type png)
+
+<use Figures/car-ers.png>
+<Figures/bike-ers.png, id=3915, 552.0625pt x 451.6875pt>
+File: Figures/bike-ers.png Graphic file (type png)
+
+<use Figures/bike-ers.png> [126 <./Figures/nomis-vs-cens-car.png (PNG copy)> <.
+/Figures/nomis-vs-cens-bike.png (PNG copy)> <./Figures/car-ers.png (PNG copy)> 
+<./Figures/bike-ers.png (PNG copy)>]
+<Figures/no-vs-sim-mcar.png, id=3923, 684.3969pt x 613.0905pt>
+File: Figures/no-vs-sim-mcar.png Graphic file (type png)
+
+<use Figures/no-vs-sim-mcar.png> [127] [128 <./Figures/no-vs-sim-mcar.png (PNG 
+copy)>]
+Overfull \hbox (4.83252pt too wide) in paragraph at lines 2545--2548
+[]\OT1/cmr/m/n/10.95 Use com-bi-na-to-rial op-ti-mi-sa-tion mi-crosim-u-la-tion
+ meth-ods in-stead ([]Williamson et al.[],
+ []
+
+[129] [130] [131] [132] <Figures/IvW3.png, id=3997, 569.0058pt x 284.5029pt>
+File: Figures/IvW3.png Graphic file (type png)
+
+<use Figures/IvW3.png> [133 <./Figures/IvW3.png (PNG copy)>] [134]
+<Figures/hist-weights2.pdf, id=4010, 420.57124pt x 298.11375pt>
+File: Figures/hist-weights2.pdf Graphic file (type pdf)
+
+<use Figures/hist-weights2.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[135] [136 <./Figures/hist-weights2.pdf>]
+<Figures/IvW2.png, id=4029, 569.0058pt x 284.5029pt>
+File: Figures/IvW2.png Graphic file (type png)
+ <use Figures/IvW2.png>
+<Figures/indexes.png, id=4034, 952.55875pt x 619.31375pt>
+File: Figures/indexes.png Graphic file (type png)
+
+<use Figures/indexes.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[137 <./Figures/IvW2.png (PNG copy)>]
+<Figures/IPF-4c2.png, id=4048, 606.76688pt x 424.58624pt>
+File: Figures/IPF-4c2.png Graphic file (type png)
+
+<use Figures/IPF-4c2.png> [138 <./Figures/indexes.png>]
+<Figures/ipf-scat2.png, id=4058, 568.0422pt x 284.0211pt>
+File: Figures/ipf-scat2.png Graphic file (type png)
+
+<use Figures/ipf-scat2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[139 <./Figures/IPF-4c2.png (PNG copy)>] [140 <./Figures/ipf-scat2.png>]
+<Figures/ints-5scat-ab.png, id=4084, 568.0422pt x 284.0211pt>
+File: Figures/ints-5scat-ab.png Graphic file (type png)
+
+<use Figures/ints-5scat-ab.png>
+Overfull \hbox (6.01868pt too wide) in paragraph at lines 3166--3172
+[]\OT1/cmr/m/n/10.95 The com-pu-ta-tional in-ten-sity of in-te-geri-sa-tion may
+ be prob-lem-atic when pro-cess-ing weights
+ []
+
+[141 <./Figures/ints-5scat-ab.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 3216.
+
+[142] [143] [144] [145]) (./Chapters/Chapter5.tex [146]
+Chapter 5.
+------------------------------------------------------------------------------
+ 5 Energy use in personal travel systems
+------------------------------------------------------------------------------
+[147
+
+] [148] [149] [150]
+<Figures/schematic-energy.png, id=4242, 306.162pt x 678.024pt>
+File: Figures/schematic-energy.png Graphic file (type png)
+
+<use Figures/schematic-energy.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[151] <Figures/car-patterned.png, id=4258, 213.81657pt x 128.71758pt>
+File: Figures/car-patterned.png Graphic file (type png)
+
+<use Figures/car-patterned.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[152 <./Figures/schematic-energy.png>]
+<Figures/sysbound.png, id=4274, 426.84468pt x 455.45157pt>
+File: Figures/sysbound.png Graphic file (type png)
+
+<use Figures/sysbound.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[153 <./Figures/car-patterned.png>] [154 <./Figures/sysbound.png>]
+Overfull \hbox (2.02539pt too wide) in paragraph at lines 409--409
+[]\OT1/cmr/m/n/10.95 Contribution
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+[]\OT1/cmr/m/n/10.95 Vehicle
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]\OT1/cmr/m/n/10.95 Guideway
+ []
+
+
+Overfull \hbox (11.39082pt too wide) in paragraph at lines 403--422
+[][]
+ []
+
+[155] [156] [157]
+Underfull \hbox (badness 10000) in paragraph at lines 658--658
+[]\OT1/cmr/m/n/10.95 Carbon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 658--658
+[]\OT1/cmr/m/n/10.95 Energy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 658--659
+[]\OT1/cmr/m/n/10.95 Energy
+ []
+
+[158] [159] [160]
+<Figures/screengrab-final-e.png, id=4449, 980.66376pt x 255.95625pt>
+File: Figures/screengrab-final-e.png Graphic file (type png)
+
+<use Figures/screengrab-final-e.png> [161 <./Figures/screengrab-final-e.png (PN
+G copy)>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [162] [163] <Figures/direct-en.png, id=4527, 433.62pt x 289.08pt>
+File: Figures/direct-en.png Graphic file (type png)
+
+<use Figures/direct-en.png> [164] [165 <./Figures/direct-en.png (PNG copy)>]
+<Figures/ore-mine.jpg, id=4561, 943.525pt x 629.35126pt>
+File: Figures/ore-mine.jpg Graphic file (type jpg)
+
+<use Figures/ore-mine.jpg>
+<Figures/car-engines.png, id=4562, 915.42pt x 509.905pt>
+File: Figures/car-engines.png Graphic file (type png)
+
+<use Figures/car-engines.png> [166] [167] [168 <./Figures/ore-mine.jpg> <./Figu
+res/car-engines.png (PNG copy)>]
+Underfull \hbox (badness 3989) in paragraph at lines 1213--1213
+[][]\OT1/cmr/m/n/10.95 Burnham et al.[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1214
+[][]\OT1/cmr/m/n/10.95 MacLean and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1215--1215
+[][]\OT1/cmr/m/n/10.95 Mikkola and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1216
+[][]\OT1/cmr/m/n/10.95 Simonsen and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1220
+[][]\OT1/cmr/m/n/10.95 Treloar et al.[]
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[169] [170] [171]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [172] [173]
+<Figures/n-trips-hist.png, id=4704, 578.16pt x 361.35pt>
+File: Figures/n-trips-hist.png Graphic file (type png)
+
+<use Figures/n-trips-hist.png> [174 <./Figures/n-trips-hist.png (PNG copy)>]
+Overfull \hbox (15.68172pt too wide) in paragraph at lines 1558--1566
+ [][] 
+ []
+
+<Figures/ntripshistprop.png, id=4720, 578.16pt x 361.35pt>
+File: Figures/ntripshistprop.png Graphic file (type png)
+
+<use Figures/ntripshistprop.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/ntripsdist.png, id=4721, 415.5525pt x 379.4175pt>
+File: Figures/ntripsdist.png Graphic file (type png)
+
+<use Figures/ntripsdist.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[175] [176 <./Figures/ntripshistprop.png (PNG copy)> <./Figures/ntripsdist.png 
+(PNG copy)>]
+Overfull \hbox (3.33534pt too wide) in paragraph at lines 1627--1628
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (37.82784pt too wide) in paragraph at lines 1629--1630
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[177] <Figures/carocc.png, id=4764, 361.35pt x 361.35pt>
+File: Figures/carocc.png Graphic file (type png)
+
+<use Figures/carocc.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[178] [179 <./Figures/carocc.png (PNG copy)>]
+<Figures/fuelec1997.png, id=4799, 573.14125pt x 436.63126pt>
+File: Figures/fuelec1997.png Graphic file (type png)
+
+<use Figures/fuelec1997.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[180] <Figures/Mirjan-distance-ei.png, id=4815, 744.7825pt x 422.57875pt>
+File: Figures/Mirjan-distance-ei.png Graphic file (type png)
+
+<use Figures/Mirjan-distance-ei.png> [181 <./Figures/fuelec1997.png (PNG copy)>
+ <./Figures/Mirjan-distance-ei.png (PNG copy)>]
+<Figures/EuclideanDistance.png, id=4833, 602.25pt x 374.90062pt>
+File: Figures/EuclideanDistance.png Graphic file (type png)
+
+<use Figures/EuclideanDistance.png>
+<Figures/NetworkDistance.png, id=4834, 602.25pt x 374.14781pt>
+File: Figures/NetworkDistance.png Graphic file (type png)
+
+<use Figures/NetworkDistance.png>
+<Figures/circuity.pdf, id=4852, 794.97pt x 614.295pt>
+File: Figures/circuity.pdf Graphic file (type pdf)
+
+<use Figures/circuity.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[182 <./Figures/EuclideanDistance.png> <./Figures/NetworkDistance.png>]
+[183 <./Figures/circuity.pdf>]
+<Figures/testcycle.png, id=4900, 602.25pt x 481.8pt>
+File: Figures/testcycle.png Graphic file (type png)
+
+<use Figures/testcycle.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[184] <Figures/carplot-urb.png, id=4914, 433.62pt x 381.3447pt>
+File: Figures/carplot-urb.png Graphic file (type png)
+
+<use Figures/carplot-urb.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[185 <./Figures/testcycle.png>]
+<Figures/rush-hour.png, id=4925, 578.16pt x 361.35pt>
+File: Figures/rush-hour.png Graphic file (type png)
+
+<use Figures/rush-hour.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[186 <./Figures/carplot-urb.png (PNG copy)>] [187 <./Figures/rush-hour.png (PNG
+ copy)>] [188] [189] [190]
+<Figures/etime.png, id=5014, 1075.01625pt x 586.19pt>
+File: Figures/etime.png Graphic file (type png)
+ <use Figures/etime.png>
+[191 <./Figures/etime.png (PNG copy)>]
+<Figures/natefic.png, id=5040, 578.16pt x 433.62pt>
+File: Figures/natefic.png Graphic file (type png)
+ <use Figures/natefic.png>
+<Figures/natefficall.png, id=5045, 578.16pt x 433.62pt>
+File: Figures/natefficall.png Graphic file (type png)
+
+<use Figures/natefficall.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[192 <./Figures/natefic.png (PNG copy)>] [193 <./Figures/natefficall.png (PNG c
+opy)>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+ <Figures/longi.png, id=5080, 1243.64626pt x 694.595pt>
+File: Figures/longi.png Graphic file (type png)
+
+<use Figures/longi.png> <Figures/longip.png, id=5081, 684.3969pt x 613.0905pt>
+File: Figures/longip.png Graphic file (type png)
+
+<use Figures/longip.png>
+<Figures/BHPS-long.png, id=5083, 1093.08376pt x 587.19376pt>
+File: Figures/BHPS-long.png Graphic file (type png)
+
+<use Figures/BHPS-long.png> [194] [195 <./Figures/longi.png (PNG copy)> <./Figu
+res/longip.png (PNG copy)>]
+<Figures/1981-2001.jpg, id=5095, 1068.82254pt x 792.31123pt>
+File: Figures/1981-2001.jpg Graphic file (type jpg)
+
+<use Figures/1981-2001.jpg> [196 <./Figures/BHPS-long.png (PNG copy)>]
+<Figures/altves.png, id=5110, 433.62pt x 381.3447pt>
+File: Figures/altves.png Graphic file (type png)
+ <use Figures/altves.png>
+[197 <./Figures/1981-2001.jpg>] [198 <./Figures/altves.png (PNG copy)>]
+[199] [200]
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no £ in font cmr10!
+ [201]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Å in font cmr10!
+Missing character: There is no † in font cmr10!
+ [202]
+<Figures/ebandsperc.png, id=5232, 570.13pt x 456.70625pt>
+File: Figures/ebandsperc.png Graphic file (type png)
+
+<use Figures/ebandsperc.png> [203 <./Figures/ebandsperc.png (PNG copy)>]
+<Figures/fleetscat.png, id=5248, 1003.75pt x 1003.75pt>
+File: Figures/fleetscat.png Graphic file (type png)
+
+<use Figures/fleetscat.png> [204 <./Figures/fleetscat.png (PNG copy)>]
+<Figures/espace.png, id=5259, 979.66pt x 717.68124pt>
+File: Figures/espace.png Graphic file (type png)
+ <use Figures/espace.png>
+[205] [206 <./Figures/espace.png (PNG copy)>]
+<Figures/finale.png, id=5276, 433.62pt x 289.08pt>
+File: Figures/finale.png Graphic file (type png)
+ <use Figures/finale.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/mjpkm1991.png, id=5277, 677.53125pt x 459.7175pt>
+File: Figures/mjpkm1991.png Graphic file (type png)
+
+<use Figures/mjpkm1991.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./Chapters/Chapter6.tex [207] [208 <./Figures/finale.png (PNG copy)>]
+[209 <./Figures/mjpkm1991.png (PNG copy)>] [210
+
+]
+Chapter 6.
+------------------------------------------------------------------------------
+ 6 The energy costs of commuting
+------------------------------------------------------------------------------
+[211] [212] [213]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/dboxes.pdf): PDF inclusion: f
+ound PDF version <1.5>, but at most version <1.4> allowed
+<Figures/dboxes.pdf, id=5350, 433.62pt x 578.16pt>
+File: Figures/dboxes.pdf Graphic file (type pdf)
+ <use Figures/dboxes.pdf>
+
+pdfTeX warning: /usr/bin/pdflatex (file ./Figures/dboxes-walk.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<Figures/dboxes-walk.pdf, id=5352, 433.62pt x 578.16pt>
+File: Figures/dboxes-walk.pdf Graphic file (type pdf)
+
+<use Figures/dboxes-walk.pdf>
+<Figures/England-ttw-mode-distances.png, id=5360, 603.0028pt x 645.16031pt>
+File: Figures/England-ttw-mode-distances.png Graphic file (type png)
+
+<use Figures/England-ttw-mode-distances.png> [214]
+<Figures/ew.png, id=5368, 509.7444pt x 379.4175pt>
+File: Figures/ew.png Graphic file (type png)
+ <use Figures/ew.png>
+[215 <./Figures/dboxes.pdf>]
+<Figures/goren.png, id=5388, 509.7444pt x 381.3447pt>
+File: Figures/goren.png Graphic file (type png)
+ <use Figures/goren.png>
+<Figures/rawcount.png, id=5389, 756.8275pt x 664.4825pt>
+File: Figures/rawcount.png Graphic file (type png)
+
+<use Figures/rawcount.png> [216 <./Figures/dboxes-walk.pdf>] [217 <./Figures/En
+gland-ttw-mode-distances.png (PNG copy)> <./Figures/ew.png (PNG copy)>]
+[218 <./Figures/goren.png (PNG copy)> <./Figures/rawcount.png>]
+<Figures/countyen.png, id=5419, 578.16pt x 578.16pt>
+File: Figures/countyen.png Graphic file (type png)
+
+<use Figures/countyen.png>
+<Figures/districten.png, id=5422, 578.16pt x 578.16pt>
+File: Figures/districten.png Graphic file (type png)
+
+<use Figures/districten.png>
+<Figures/engplotnm.png, id=5427, 578.16pt x 578.16pt>
+File: Figures/engplotnm.png Graphic file (type png)
+
+<use Figures/engplotnm.png>
+Overfull \hbox (37.77101pt too wide) in paragraph at lines 406--406
+ [] 
+ []
+
+[219] [220 <./Figures/countyen.png (PNG copy)>]
+<Figures/trainen.png, id=5441, 578.16pt x 578.16pt>
+File: Figures/trainen.png Graphic file (type png)
+ <use Figures/trainen.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 432--432
+ [] 
+ []
+
+[221 <./Figures/districten.png (PNG copy)>] [222 <./Figures/engplotnm.png (PNG 
+copy)>] [223 <./Figures/trainen.png (PNG copy)>]
+<Figures/prop-total-energy.png, id=5471, 578.16pt x 578.16pt>
+File: Figures/prop-total-energy.png Graphic file (type png)
+
+<use Figures/prop-total-energy.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 513--518
+ [][] 
+ []
+
+<Figures/prop-trans-energy.png, id=5472, 578.16pt x 578.16pt>
+File: Figures/prop-trans-energy.png Graphic file (type png)
+
+<use Figures/prop-trans-energy.png>
+Overfull \hbox (9.31827pt too wide) in paragraph at lines 524--525
+ [][] 
+ []
+
+[224] [225 <./Figures/prop-total-energy.png (PNG copy)>] [226 <./Figures/prop-t
+rans-energy.png (PNG copy)>] [227]
+Overfull \hbox (19.25987pt too wide) in paragraph at lines 672--687
+[][]
+ []
+
+
+Overfull \hbox (10.52771pt too wide) in paragraph at lines 708--720
+[][]
+ []
+
+[228] <Figures/soyoen.png, id=5524, 505.89pt x 361.35pt>
+File: Figures/soyoen.png Graphic file (type png)
+
+<use Figures/soyoen.png>
+<Figures/prop20-top.png, id=5525, 505.89pt x 361.35pt>
+File: Figures/prop20-top.png Graphic file (type png)
+
+<use Figures/prop20-top.png> [229] [230 <./Figures/soyoen.png (PNG copy)> <./Fi
+gures/prop20-top.png>] <Figures/topprop.png, id=5544, 505.89pt x 361.35pt>
+File: Figures/topprop.png Graphic file (type png)
+
+<use Figures/topprop.png> [231] [232 <./Figures/topprop.png (PNG copy)>]
+[233] <Figures/dutchen.png, id=5574, 1008.76875pt x 561.09625pt>
+File: Figures/dutchen.png Graphic file (type png)
+
+<use Figures/dutchen.png> [234 <./Figures/dutchen.png (PNG copy)>]
+<Figures/envsnl-modesplits.png, id=5580, 578.16pt x 289.08pt>
+File: Figures/envsnl-modesplits.png Graphic file (type png)
+
+<use Figures/envsnl-modesplits.png> [235 <./Figures/envsnl-modesplits.png (PNG 
+copy)>] <Figures/avdist-nl-en.png, id=5590, 578.16pt x 289.08pt>
+File: Figures/avdist-nl-en.png Graphic file (type png)
+
+<use Figures/avdist-nl-en.png>
+<Figures/epdensnl.png, id=5593, 509.7444pt x 379.4175pt>
+File: Figures/epdensnl.png Graphic file (type png)
+
+<use Figures/epdensnl.png> [236 <./Figures/avdist-nl-en.png (PNG copy)>]
+Overfull \hbox (0.62479pt too wide) in paragraph at lines 1055--1062
+\OT1/cmr/m/n/10.95 and Scot-land) has re-mained steady over time. It in-creased
+ by only 5% be-tween 1995/1997
+ []
+
+<Figures/commuter-trip-dis-time.png, id=5601, 846.16125pt x 442.65375pt>
+File: Figures/commuter-trip-dis-time.png Graphic file (type png)
+
+<use Figures/commuter-trip-dis-time.png>
+<Figures/mode-time-dft2011.png, id=5606, 693.59125pt x 370.38374pt>
+File: Figures/mode-time-dft2011.png Graphic file (type png)
+
+<use Figures/mode-time-dft2011.png> [237 <./Figures/epdensnl.png (PNG copy)>]
+[238 <./Figures/commuter-trip-dis-time.png (PNG copy)> <./Figures/mode-time-dft
+2011.png (PNG copy)>] [239]) (./Chapters/Chapter7.tex [240]
+Chapter 7.
+------------------------------------------------------------------------------
+ 7 Social and spatial inequalities in commuter energy use
+------------------------------------------------------------------------------
+[241
+
+] <./Figures/Income-dis-GB.png, id=5653, 831.105pt x 436.63126pt>
+File: ./Figures/Income-dis-GB.png Graphic file (type png)
+
+<use ./Figures/Income-dis-GB.png> [242 <./Figures/Income-dis-GB.png (PNG copy)>
+] <./Figures/income-heatmap.png, id=5666, 455.0601pt x 455.0601pt>
+File: ./Figures/income-heatmap.png Graphic file (type png)
+
+<use ./Figures/income-heatmap.png> [243 <./Figures/income-heatmap.png (PNG copy
+)>] [244] [245]
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
+[]\OT1/cmr/m/n/10.95 Categories/bin
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+[]\OT1/cmr/m/n/10.95 (16,20] (20,25]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
+\OT1/cmr/m/n/10.95 (25,35] (35,55]
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 565--566
+[]\OT1/cmr/m/n/10.95 mfh metro train
+ []
+
+
+Underfull \hbox (badness 5036) in paragraph at lines 565--566
+\OT1/cmr/m/n/10.95 bus moto car.d
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 565--566
+\OT1/cmr/m/n/10.95 car.p taxi cy-cle
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \hbox (badness 1354) in paragraph at lines 567--567
+[]\OT1/cmr/m/n/10.95 (0,2] (2,5] (5,10]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
+\OT1/cmr/m/n/10.95 (10,20] (20,30]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 567--567
+\OT1/cmr/m/n/10.95 (30,40] (40,60]
+ []
+
+[246] <Figures/tae-it-plot.png, id=5761, 683.4333pt x 613.0905pt>
+File: Figures/tae-it-plot.png Graphic file (type png)
+
+<use Figures/tae-it-plot.png>
+<Figures/perc-it-plot.png, id=5762, 683.4333pt x 613.0905pt>
+File: Figures/perc-it-plot.png Graphic file (type png)
+
+<use Figures/perc-it-plot.png> [247]
+<Figures/qgis-image-small.png, id=5776, 284.5029pt x 227.4096pt>
+File: Figures/qgis-image-small.png Graphic file (type png)
+
+<use Figures/qgis-image-small.png>
+<Figures/sflows.png, id=5780, 903.375pt x 738.76pt>
+File: Figures/sflows.png Graphic file (type png)
+ <use Figures/sflows.png>
+[248 <./Figures/tae-it-plot.png (PNG copy)> <./Figures/perc-it-plot.png (PNG co
+py)>] [249 <./Figures/qgis-image-small.png> <./Figures/sflows.png (PNG copy)>]
+<Figures/agents4.jpg, id=5804, 847.66183pt x 599.4301pt>
+File: Figures/agents4.jpg Graphic file (type jpg)
+
+<use Figures/agents4.jpg> <Figures/cirqui17.png, id=5815, 361.35pt x 289.08pt>
+File: Figures/cirqui17.png Graphic file (type png)
+
+<use Figures/cirqui17.png> [250] [251 <./Figures/agents4.jpg> <./Figures/cirqui
+17.png (PNG copy)>] <Figures/invalid.png, id=5846, 433.62pt x 216.81pt>
+File: Figures/invalid.png Graphic file (type png)
+
+<use Figures/invalid.png> [252 <./Figures/invalid.png (PNG copy)>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+<Figures/income-scatter.png, id=5864, 433.62pt x 361.35pt>
+File: Figures/income-scatter.png Graphic file (type png)
+
+<use Figures/income-scatter.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[253] [254 <./Figures/income-scatter.png (PNG copy)>]
+<Figures/proportions.png, id=5891, 453.1329pt x 385.1991pt>
+File: Figures/proportions.png Graphic file (type png)
+
+<use Figures/proportions.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[255] <Figures/dismap2.png, id=5906, 844.8363pt x 597.432pt>
+File: Figures/dismap2.png Graphic file (type png)
+
+<use Figures/dismap2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[256 <./Figures/proportions.png>]
+<Figures/distances-msoa2.jpg, id=5919, 1633.93044pt x 583.71924pt>
+File: Figures/distances-msoa2.jpg Graphic file (type jpg)
+
+<use Figures/distances-msoa2.jpg>
+<Figures/Dist-vs-Et2.png, id=5922, 657.4161pt x 613.0905pt>
+File: Figures/Dist-vs-Et2.png Graphic file (type png)
+
+<use Figures/Dist-vs-Et2.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[257 <./Figures/dismap2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/cat-vars.png, id=5945, 605.1408pt x 614.295pt>
+File: Figures/cat-vars.png Graphic file (type png)
+
+<use Figures/cat-vars.png>
+<Figures/Lorenz3.png, id=5946, 605.1408pt x 614.295pt>
+File: Figures/Lorenz3.png Graphic file (type png)
+
+<use Figures/Lorenz3.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[258 <./Figures/distances-msoa2.jpg>] [259 <./Figures/Dist-vs-Et2.png>]
+<Figures/busmap.png, id=5965, 844.8363pt x 597.432pt>
+File: Figures/busmap.png Graphic file (type png)
+ <use Figures/busmap.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Missing character: There is no „ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no Ä in font cmr10!
+[260] [261 <./Figures/cat-vars.png> <./Figures/Lorenz3.png>])
+(./Chapters/Chapter8.tex [262 <./Figures/busmap.png>]
+Chapter 8.
+------------------------------------------------------------------------------
+ 8 Scenarios of change
+------------------------------------------------------------------------------
+[263
+
+] [264]
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ô in font cmti10!
+ [265] [266] [267]
+<Figures/cysave.png, id=6065, 415.5525pt x 379.4175pt>
+File: Figures/cysave.png Graphic file (type png)
+
+<use Figures/cysave.png> [268 <./Figures/cysave.png (PNG copy)>]
+<Figures/priden.png, id=6079, 415.5525pt x 379.4175pt>
+File: Figures/priden.png Graphic file (type png)
+
+<use Figures/priden.png> [269]
+<Figures/cysave-ind.png, id=6087, 505.89pt x 361.35pt>
+File: Figures/cysave-ind.png Graphic file (type png)
+
+<use Figures/cysave-ind.png> [270 <./Figures/priden.png (PNG copy)>]
+<Figures/cysave-diff.png, id=6095, 505.89pt x 361.35pt>
+File: Figures/cysave-diff.png Graphic file (type png)
+
+<use Figures/cysave-diff.png> [271 <./Figures/cysave-ind.png (PNG copy)>]
+[272 <./Figures/cysave-diff.png (PNG copy)>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no à in font cmr10!
+Missing character: There is no í in font cmr10!
+ [273]
+<Figures/telesave.png, id=6135, 505.89pt x 361.35pt>
+File: Figures/telesave.png Graphic file (type png)
+
+<use Figures/telesave.png> [274 <./Figures/telesave.png (PNG copy)>] [275]
+[276] [277] [278] [279] [280] [281]
+<Figures/vall2.png, id=6270, 619.3539pt x 615.4995pt>
+File: Figures/vall2.png Graphic file (type png)
+ <use Figures/vall2.png>
+<Figures/scat-mat.pdf, id=6272, 794.97pt x 614.295pt>
+File: Figures/scat-mat.pdf Graphic file (type pdf)
+
+<use Figures/scat-mat.pdf> <Figures/IMD.png, id=6275, 711.1368pt x 500.5902pt>
+File: Figures/IMD.png Graphic file (type png)
+
+<use Figures/IMD.png> [282]
+<Figures/Distance-msoa3.png, id=6287, 711.1368pt x 500.5902pt>
+File: Figures/Distance-msoa3.png Graphic file (type png)
+
+<use Figures/Distance-msoa3.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[283 <./Figures/vall2.png>] [284 <./Figures/scat-mat.pdf>]
+<Figures/york6.png, id=6312, 1310.8975pt x 918.43124pt>
+File: Figures/york6.png Graphic file (type png)
+
+<use Figures/york6.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[285 <./Figures/IMD.png>] [286 <./Figures/Distance-msoa3.png>] [287 <./Figures/
+york6.png (PNG copy)>] [288] [289] [290] [291] [292]) (./Chapters/Chapter9.tex
+[293] [294
+
+]
+Chapter 9.
+------------------------------------------------------------------------------
+ 9 Conclusions
+------------------------------------------------------------------------------
+[295] [296] [297] [298] [299] [300] [301] [302] [303] [304]) [305] [306
+
+]
+------------------------------------------------------------------------------
+ Bibliography
+------------------------------------------------------------------------------
+(./Thesis.bbl
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [307
+
+] [308]
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no £ in font cmr10!
+ [309] [310]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [311] [312]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [313]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [314]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [315]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [316]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+[317]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [318]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [319] [320] [321]
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [322]
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ø in font cmr10!
+ [323] [324]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no Ô in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no Ω in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no £ in font cmr10!
+ [325]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [326]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [327]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [328]
+[329]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [330]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [331] [332] [333]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ê in font cmr10!
+ [334] [335] [336] [337] [338]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [339] [340])
+(./Thesis.ind [341] [342
+
+]) [343] (./Thesis.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 16612 strings out of 495061
+ 254884 string characters out of 1182621
+ 401532 words of memory out of 3000000
+ 17803 multiletter control sequences out of 15000+50000
+ 20914 words of font info for 78 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 48i,15n,45p,832b,1767s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cmextra/cmex8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
+y9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmtt9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmu10.pfb>
+Output written on Thesis.pdf (363 pages, 30879935 bytes).
+PDF statistics:
+ 7181 PDF objects out of 7423 (max. 8388607)
+ 1572 named destinations out of 1728 (max. 500000)
+ 1788 words of extra memory for PDF output out of 10000 (max. 10000000)
+
