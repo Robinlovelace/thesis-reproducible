@@ -7,17 +7,17 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {4.1}{\ignorespaces Sample of regional transport energy consumption statistics}}{84}{table.caption.29}
 \contentsline {table}{\numberline {4.2}{\ignorespaces Aggregate data on energy costs of commuting by scale}}{87}{table.caption.33}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Selected individual level variables related to commuting}}{91}{table.caption.35}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison of data sources for travel networks\relax }}{99}{table.caption.38}
-\contentsline {table}{\numberline {4.5}{\ignorespaces A hypothetical input microdata set}}{110}{table.caption.44}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Hypothetical small area constraints data ($s$).\relax }}{110}{table.caption.45}
-\contentsline {table}{\numberline {4.7}{\ignorespaces Small area constraints expressed as marginal totals}}{111}{table.caption.46}
-\contentsline {table}{\numberline {4.8}{\ignorespaces The aggregated results of the weighted microdata set}}{111}{table.caption.47}
-\contentsline {table}{\numberline {4.9}{\ignorespaces Reweighting the hypothetical microdataset in order to fit Table \ref {t:s}.\relax }}{112}{table.caption.48}
-\contentsline {table}{\numberline {4.10}{\ignorespaces Aggregated results after constraining for age}}{112}{table.caption.49}
-\contentsline {table}{\numberline {4.11}{\ignorespaces Summary data for the spatial microsimulation model\relax }}{138}{table.caption.72}
-\contentsline {table}{\numberline {4.12}{\ignorespaces Accuracy results for integerisation techniques.*\relax }}{143}{table.caption.76}
-\contentsline {table}{\numberline {4.13}{\ignorespaces Differences between census and simulated populations.\relax }}{144}{table.caption.77}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Selected individual level variables related to commuting}}{90}{table.caption.35}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison of data sources for travel networks\relax }}{98}{table.caption.38}
+\contentsline {table}{\numberline {4.5}{\ignorespaces A hypothetical input microdata set}}{109}{table.caption.44}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Hypothetical small area constraints data ($s$).\relax }}{109}{table.caption.45}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Small area constraints expressed as marginal totals}}{109}{table.caption.46}
+\contentsline {table}{\numberline {4.8}{\ignorespaces The aggregated results of the weighted microdata set}}{110}{table.caption.47}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Reweighting the hypothetical microdataset in order to fit Table \ref {t:s}.\relax }}{110}{table.caption.48}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Aggregated results after constraining for age}}{111}{table.caption.49}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Summary data for the spatial microsimulation model\relax }}{137}{table.caption.72}
+\contentsline {table}{\numberline {4.12}{\ignorespaces Accuracy results for integerisation techniques.*\relax }}{142}{table.caption.76}
+\contentsline {table}{\numberline {4.13}{\ignorespaces Differences between census and simulated populations.\relax }}{143}{table.caption.77}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {5.1}{\ignorespaces The direct and indirect energy costs of personal travel \citep {Fels1975}}}{155}{table.caption.81}
 \contentsline {table}{\numberline {5.2}{\ignorespaces Direct energy use of selected modes\relax }}{156}{table.caption.82}
@@ -45,10 +45,10 @@
 \contentsline {table}{\numberline {7.2}{\ignorespaces The 2nd most common mode of commuting compared with other factors}}{250}{table.caption.156}
 \contentsline {table}{\numberline {7.3}{\ignorespaces Summary statistics of the commuting behaviour of in South Yorkshire}}{255}{table.caption.161}
 \contentsline {table}{\numberline {7.4}{\ignorespaces Contingency table of variables related to commuting}}{259}{table.caption.166}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Commuting characteristics cross-tabulated by income bands}}{260}{table.caption.167}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Commuting characteristics cross-tabulated by income bands}}{259}{table.caption.167}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces Proportion of trips (T), distance (D) and energy (E) by mode}}{282}{table.caption.175}
-\contentsline {table}{\numberline {8.2}{\ignorespaces Summary statistics of vulnerability metrics}}{287}{table.caption.181}
-\contentsline {table}{\numberline {8.3}{\ignorespaces Individual level characteristics of `oil vulnerable' commuters}}{288}{table.caption.182}
-\contentsline {table}{\numberline {8.4}{\ignorespaces Differences between commuters affected by the `Dutch' and `Finnish' scenarios}}{291}{table.caption.183}
+\contentsline {table}{\numberline {8.2}{\ignorespaces Summary statistics of vulnerability metrics}}{286}{table.caption.181}
+\contentsline {table}{\numberline {8.3}{\ignorespaces Individual level characteristics of `oil vulnerable' commuters}}{287}{table.caption.182}
+\contentsline {table}{\numberline {8.4}{\ignorespaces Differences between commuters affected by the `Dutch' and `Finnish' scenarios}}{290}{table.caption.183}
 \addvspace {10\p@ }

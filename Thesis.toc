@@ -16,7 +16,7 @@
 \contentsline {section}{\numberline {1.2}Commuter energy use: everyday realities}{13}{section.1.2}
 \contentsline {section}{\numberline {1.3}The importance of commuting}{15}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}Trips}{15}{subsection.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Distance}{16}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.2}Distance}{15}{subsection.1.3.2}
 \contentsline {subsection}{\numberline {1.3.3}Time}{17}{subsection.1.3.3}
 \contentsline {section}{\numberline {1.4}Thesis overview}{18}{section.1.4}
 \contentsline {section}{\numberline {1.5}Aims and objectives}{20}{section.1.5}
@@ -62,34 +62,34 @@
 \contentsline {section}{\numberline {4.2}Energy use data}{83}{section.4.2}
 \contentsline {section}{\numberline {4.3}Social survey data}{85}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Geographically aggregated data}{86}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}The Understanding Society dataset}{90}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}The Understanding Society dataset}{89}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}The National Travel Survey}{91}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Other commuting datasets}{95}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Geographical data: infrastructure and environment}{97}{section.4.4}
+\contentsline {section}{\numberline {4.4}Geographical data: infrastructure and environment}{96}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Infrastructure}{97}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Topographic data}{102}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Topographic data}{101}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}Remoteness}{103}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Building a spatial microsimulation model in R}{105}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Why R?}{107}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}IPF theory: a worked example}{109}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Implementing IPF in R}{113}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}Model checking and validation}{120}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Model checking}{120}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Model validation}{122}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Additional validation methods}{127}{subsection.4.6.3}
-\contentsline {section}{\numberline {4.7}Integerisation}{129}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}Method}{130}{subsection.4.7.1}
-\contentsline {subsubsection}{\numberline {4.7.1.1}Interpreting IPF weights: replication and probability}{130}{subsubsection.4.7.1.1}
-\contentsline {subsubsection}{\numberline {4.7.1.2}Simple rounding}{131}{subsubsection.4.7.1.2}
-\contentsline {subsubsection}{\numberline {4.7.1.3}The threshold approach}{132}{subsubsection.4.7.1.3}
-\contentsline {subsubsection}{\numberline {4.7.1.4}The counter-weight approach}{132}{subsubsection.4.7.1.4}
-\contentsline {subsubsection}{\numberline {4.7.1.5}The proportional probabilities approach}{133}{subsubsection.4.7.1.5}
-\contentsline {subsubsection}{\numberline {4.7.1.6}Truncate, replicate, sample}{134}{subsubsection.4.7.1.6}
+\contentsline {subsection}{\numberline {4.5.1}Why R?}{106}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}IPF theory: a worked example}{108}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Implementing IPF in R}{112}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Model checking and validation}{119}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Model checking}{119}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Model validation}{121}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Additional validation methods}{126}{subsection.4.6.3}
+\contentsline {section}{\numberline {4.7}Integerisation}{128}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Method}{129}{subsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.1.1}Interpreting IPF weights: replication and probability}{129}{subsubsection.4.7.1.1}
+\contentsline {subsubsection}{\numberline {4.7.1.2}Simple rounding}{130}{subsubsection.4.7.1.2}
+\contentsline {subsubsection}{\numberline {4.7.1.3}The threshold approach}{130}{subsubsection.4.7.1.3}
+\contentsline {subsubsection}{\numberline {4.7.1.4}The counter-weight approach}{131}{subsubsection.4.7.1.4}
+\contentsline {subsubsection}{\numberline {4.7.1.5}The proportional probabilities approach}{132}{subsubsection.4.7.1.5}
+\contentsline {subsubsection}{\numberline {4.7.1.6}Truncate, replicate, sample}{133}{subsubsection.4.7.1.6}
 \contentsline {subsubsection}{\numberline {4.7.1.7}The test scenario: input data and IPF}{137}{subsubsection.4.7.1.7}
-\contentsline {subsection}{\numberline {4.7.2}Results}{140}{subsection.4.7.2}
-\contentsline {subsubsection}{\numberline {4.7.2.1}Speed of calculation}{141}{subsubsection.4.7.2.1}
-\contentsline {subsubsection}{\numberline {4.7.2.2}Accuracy}{142}{subsubsection.4.7.2.2}
-\contentsline {subsection}{\numberline {4.7.3}Discussion and conclusions}{145}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.2}Results}{139}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}Speed of calculation}{140}{subsubsection.4.7.2.1}
+\contentsline {subsubsection}{\numberline {4.7.2.2}Accuracy}{141}{subsubsection.4.7.2.2}
+\contentsline {subsection}{\numberline {4.7.3}Discussion and conclusions}{143}{subsection.4.7.3}
 \contentsline {chapter}{\numberline {5}Energy use in personal travel systems}{147}{chapter.5}
 \contentsline {section}{\numberline {5.1}Fundamentals of energy use in transport}{149}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}The factors driving energy use in transport}{151}{subsection.5.1.1}
@@ -134,7 +134,7 @@
 \contentsline {section}{\numberline {7.3}Assigning work location}{247}{section.7.3}
 \contentsline {section}{\numberline {7.4}Model validation}{252}{section.7.4}
 \contentsline {section}{\numberline {7.5}Results}{253}{section.7.5}
-\contentsline {section}{\numberline {7.6}Discussion}{258}{section.7.6}
+\contentsline {section}{\numberline {7.6}Discussion}{259}{section.7.6}
 \contentsline {chapter}{\numberline {8}Scenarios of change}{263}{chapter.8}
 \contentsline {section}{\numberline {8.1}Modal shift: `going Dutch'}{265}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.1}An aggregate level model of modal shift}{266}{subsection.8.1.1}
@@ -149,17 +149,17 @@
 \contentsline {subsubsection}{\numberline {8.4.1.3}Hybrid vulnerability metrics}{280}{subsubsection.8.4.1.3}
 \contentsline {subsection}{\numberline {8.4.2}Results: trips, distance and energy use}{281}{subsection.8.4.2}
 \contentsline {subsection}{\numberline {8.4.3}Local and individual level results}{284}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Discussion: policy relevance and limitations}{289}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}Policy relevance of findings}{290}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Limitations of the approach}{292}{subsection.8.5.2}
-\contentsline {chapter}{\numberline {9}Conclusions}{295}{chapter.9}
-\contentsline {section}{\numberline {9.1}Methodological contribution}{296}{section.9.1}
-\contentsline {section}{\numberline {9.2}Policy relevance and limitations}{298}{section.9.2}
-\contentsline {section}{\numberline {9.3}Summary of findings}{299}{section.9.3}
-\contentsline {section}{\numberline {9.4}Further work}{301}{section.9.4}
-\contentsline {section}{\numberline {9.5}Thesis evaluation and summary}{303}{section.9.5}
+\contentsline {section}{\numberline {8.5}Discussion: policy relevance and limitations}{287}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Policy relevance of findings}{288}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Limitations of the approach}{290}{subsection.8.5.2}
+\contentsline {chapter}{\numberline {9}Conclusions}{293}{chapter.9}
+\contentsline {section}{\numberline {9.1}Methodological contribution}{294}{section.9.1}
+\contentsline {section}{\numberline {9.2}Policy relevance and limitations}{296}{section.9.2}
+\contentsline {section}{\numberline {9.3}Summary of findings}{297}{section.9.3}
+\contentsline {section}{\numberline {9.4}Further work}{299}{section.9.4}
+\contentsline {section}{\numberline {9.5}Thesis evaluation and summary}{301}{section.9.5}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{307}{dummy.7}
+\contentsline {chapter}{Bibliography}{305}{dummy.7}
 \vspace {2em}
-\contentsline {chapter}{Index}{343}{section*.186}
+\contentsline {chapter}{Index}{341}{section*.186}

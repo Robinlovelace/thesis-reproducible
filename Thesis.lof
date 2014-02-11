@@ -4,9 +4,9 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces Biofuels' contribution to global transportation energy use}}{9}{figure.caption.12}
 \contentsline {figure}{\numberline {1.4}{\ignorespaces Average prices of Brent Crude oil spot prices, 1992 -- 2012}}{10}{figure.caption.13}
 \contentsline {figure}{\numberline {1.5}{\ignorespaces UK Gini index for market and disposable income in context \citep {OECD2011}.\relax }}{12}{figure.caption.14}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Commuting options to Tyrrell's crisp factory}}{14}{figure.caption.15}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Commuting options to Tyrrell's crisp factory}}{13}{figure.caption.15}
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Average number of trips per person per year across Great Britain.\relax }}{16}{figure.caption.16}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Average trip length by purpose in Great Britain.\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Average trip length by purpose in Great Britain.\relax }}{16}{figure.caption.17}
 \contentsline {figure}{\numberline {1.9}{\ignorespaces Total distance travelled by mode in Great Britain.\relax }}{17}{figure.caption.18}
 \contentsline {figure}{\numberline {1.10}{\ignorespaces Time spent commuting in Great Britain}}{18}{figure.caption.19}
 \addvspace {10\p@ }
@@ -20,31 +20,31 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Idealised data schema for studying energy use in commuting}}{80}{figure.caption.28}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Questions 33 and 34 of the 2001 UK Census}}{86}{figure.caption.30}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces National, regional and city-wide scales of analysis}}{87}{figure.caption.31}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-tabulated dataset containing mode/age/sex variables}}{89}{figure.caption.34}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces National, regional and city-wide scales of analysis}}{86}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-tabulated dataset containing mode/age/sex variables}}{88}{figure.caption.34}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Bar-plot of frequency of working from home}}{94}{figure.caption.36}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic of transport networks and vehicles}}{98}{figure.caption.37}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Visualisation of the OSM data source of the transport network.\relax }}{99}{figure.caption.39}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces The Meridian 2 transport network dataset.\relax }}{100}{figure.caption.40}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces The Ordnance Survey's Integrated Travel Network dataset.\relax }}{101}{figure.caption.41}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Distribution of employment in Sheffield}}{105}{figure.caption.42}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Illustration of how distance to employment centre was calculated.\relax }}{106}{figure.caption.43}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Scatter plot of the fit between census and survey data}}{117}{figure.caption.57}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Scatter plot showing the fit after constraining by age.\relax }}{119}{figure.caption.59}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Improvement of model fit with iterations}}{119}{figure.caption.61}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagnostic plot to check the sanity of age and sex inputs.}}{121}{figure.caption.62}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagnostic plots to identify model error}}{123}{figure.caption.63}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Scatter plot of simulated vs official estimated income}}{125}{figure.caption.64}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Scatter plot of error introduced in Nomis data}}{126}{figure.caption.65}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Errors associated with Casweb census variables}}{126}{figure.caption.66}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Scatter plot of the proportion of male drivers}}{128}{figure.caption.67}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Overplotted scatter graph showing the distribution of IPF weights}}{133}{figure.caption.68}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Histograms of original microdata and integerised weights}}{136}{figure.caption.69}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Overplotted scatter graphs of index against weight}}{137}{figure.caption.70}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Scatter graph of the index values of individuals}}{138}{figure.caption.71}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Visualisation of IPF method}}{139}{figure.caption.73}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Scatter graph illustrating the fit between census and simulated aggregates}}{140}{figure.caption.74}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Scatterplots of actual (census) and simulated population totals}}{141}{figure.caption.75}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The Meridian 2 transport network dataset.\relax }}{99}{figure.caption.40}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The Ordnance Survey's Integrated Travel Network dataset.\relax }}{100}{figure.caption.41}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Distribution of employment in Sheffield}}{104}{figure.caption.42}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Illustration of how distance to employment centre was calculated.\relax }}{105}{figure.caption.43}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Scatter plot of the fit between census and survey data}}{116}{figure.caption.57}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Scatter plot showing the fit after constraining by age.\relax }}{118}{figure.caption.59}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Improvement of model fit with iterations}}{118}{figure.caption.61}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagnostic plot to check the sanity of age and sex inputs.}}{120}{figure.caption.62}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagnostic plots to identify model error}}{121}{figure.caption.63}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Scatter plot of simulated vs official estimated income}}{123}{figure.caption.64}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Scatter plot of error introduced in Nomis data}}{125}{figure.caption.65}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Errors associated with Casweb census variables}}{125}{figure.caption.66}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Scatter plot of the proportion of male drivers}}{126}{figure.caption.67}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Overplotted scatter graph showing the distribution of IPF weights}}{132}{figure.caption.68}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Histograms of original microdata and integerised weights}}{135}{figure.caption.69}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Overplotted scatter graphs of index against weight}}{136}{figure.caption.70}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Scatter graph of the index values of individuals}}{136}{figure.caption.71}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Visualisation of IPF method}}{138}{figure.caption.73}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Scatter graph illustrating the fit between census and simulated aggregates}}{138}{figure.caption.74}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Scatterplots of actual (census) and simulated population totals}}{140}{figure.caption.75}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic diagram of the factors causing energy use in transport.\relax }}{152}{figure.caption.78}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Relative importance of fixed and variable costs of car ownership}}{153}{figure.caption.79}
@@ -109,20 +109,20 @@
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Comparison of census and simulated results at the aggregate level}}{252}{figure.caption.159}
 \contentsline {figure}{\numberline {7.9}{\ignorespaces Mean equivalised household income from official and simulated data}}{254}{figure.caption.160}
 \contentsline {figure}{\numberline {7.10}{\ignorespaces Proportion of trips, distance, and energy by mode}}{256}{figure.caption.162}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Average distance travelled to work in Yorkshire and the Humber}}{257}{figure.caption.163}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Average distance to employment centre in South Yorkshire}}{258}{figure.caption.164}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Scatter plot of distance vs energy costs in Yorkshire and the Humber}}{259}{figure.caption.165}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces a) Income and household traits; b) Lorenz curves of commute distances}}{261}{figure.caption.168}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Low-income car-free families and bus-stops in South Yorkshire}}{262}{figure.caption.169}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Average distance travelled to work in Yorkshire and the Humber}}{256}{figure.caption.163}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Average distance to employment centre in South Yorkshire}}{257}{figure.caption.164}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Scatter plot of distance vs energy costs in Yorkshire and the Humber}}{258}{figure.caption.165}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces a) Income and household traits; b) Lorenz curves of commute distances}}{260}{figure.caption.168}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Low-income car-free families and bus-stops in South Yorkshire}}{261}{figure.caption.169}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Estimated energy savings from car-bicycle modal shift}}{268}{figure.caption.170}
 \contentsline {figure}{\numberline {8.2}{\ignorespaces The relationship between age and bicycle use}}{270}{figure.caption.171}
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Energy savings from car-bike modal shift in South Yorkshire}}{271}{figure.caption.172}
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Differences between individual and aggregate level implementations}}{272}{figure.caption.173}
 \contentsline {figure}{\numberline {8.5}{\ignorespaces Energy savings from telecommuting scenario in South Yorkshire.\relax }}{274}{figure.caption.174}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Vulnerability of commuter patterns in Yorkshire and the Humber}}{283}{figure.caption.176}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Scatterplot matrix of vulnerability metrics}}{284}{figure.caption.177}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Chloropleth map of deprivation in Yorkshire and the Humber}}{285}{figure.caption.178}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Distance to employment centre from zone centroids}}{286}{figure.caption.179}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces MSOA zones in York, coloured according to distance travelled to work}}{287}{figure.caption.180}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Vulnerability of commuter patterns in Yorkshire and the Humber}}{282}{figure.caption.176}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Scatterplot matrix of vulnerability metrics}}{283}{figure.caption.177}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Chloropleth map of deprivation in Yorkshire and the Humber}}{283}{figure.caption.178}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Distance to employment centre from zone centroids}}{284}{figure.caption.179}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces MSOA zones in York, coloured according to distance travelled to work}}{285}{figure.caption.180}
 \addvspace {10\p@ }
