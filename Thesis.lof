@@ -1,128 +1,128 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces UK transport emissions by source in 2009 \citep {Decc2011t}.\relax }}{3}{figure.caption.8}
 \contentsline {figure}{\numberline {1.2}{\ignorespaces The greenhouse gas emissions per unit energy of various fuels}}{6}{figure.caption.11}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Biofuels' contribution to global transportation energy use}}{9}{figure.caption.12}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Average prices of Brent Crude oil spot prices, 1992 -- 2012}}{10}{figure.caption.13}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces UK Gini index for market and disposable income in context \citep {OECD2011}.\relax }}{12}{figure.caption.14}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Commuting options to Tyrrell's crisp factory}}{13}{figure.caption.15}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Average number of trips per person per year across Great Britain.\relax }}{16}{figure.caption.16}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Average trip length by purpose in Great Britain.\relax }}{16}{figure.caption.17}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces Total distance travelled by mode in Great Britain.\relax }}{17}{figure.caption.18}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces Time spent commuting in Great Britain}}{18}{figure.caption.19}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Biofuels' contribution to global transportation energy use}}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Average prices of Brent Crude oil spot prices, 1992 -- 2012}}{9}{figure.caption.13}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces UK Gini index for market and disposable income in context \citep {OECD2011}.\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces Commuting options to Tyrrell's crisp factory}}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Average number of trips per person per year across Great Britain.\relax }}{14}{figure.caption.16}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Average trip length by purpose in Great Britain.\relax }}{14}{figure.caption.17}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Total distance travelled by mode in Great Britain.\relax }}{14}{figure.caption.18}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Time spent commuting in Great Britain}}{15}{figure.caption.19}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The sustainable transport hierarchy \citep {Kay2011}.\relax }}{26}{figure.caption.20}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Proportion of trips by active travel by distance and mode}}{29}{figure.caption.21}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic for organising research commuting research by scale.\relax }}{30}{figure.caption.22}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Energy performance of different modes, from \citep {Radtke2008}.\relax }}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The sustainable transport hierarchy \citep {Kay2011}.\relax }}{22}{figure.caption.20}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Proportion of trips by active travel by distance and mode}}{24}{figure.caption.21}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematic for organising research commuting research by scale.\relax }}{25}{figure.caption.22}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Energy performance of different modes, from \citep {Radtke2008}.\relax }}{34}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic a transport simulation model}}{55}{figure.caption.24}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces MATSim schema (permission: Michael Balmer)}}{74}{figure.caption.27}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematic a transport simulation model}}{48}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces MATSim schema (permission: Michael Balmer)}}{67}{figure.caption.27}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Idealised data schema for studying energy use in commuting}}{80}{figure.caption.28}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Questions 33 and 34 of the 2001 UK Census}}{86}{figure.caption.30}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces National, regional and city-wide scales of analysis}}{86}{figure.caption.31}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-tabulated dataset containing mode/age/sex variables}}{88}{figure.caption.34}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Bar-plot of frequency of working from home}}{94}{figure.caption.36}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic of transport networks and vehicles}}{98}{figure.caption.37}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualisation of the OSM data source of the transport network.\relax }}{99}{figure.caption.39}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces The Meridian 2 transport network dataset.\relax }}{99}{figure.caption.40}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces The Ordnance Survey's Integrated Travel Network dataset.\relax }}{100}{figure.caption.41}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Distribution of employment in Sheffield}}{104}{figure.caption.42}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Illustration of how distance to employment centre was calculated.\relax }}{105}{figure.caption.43}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Scatter plot of the fit between census and survey data}}{116}{figure.caption.57}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Scatter plot showing the fit after constraining by age.\relax }}{118}{figure.caption.59}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Improvement of model fit with iterations}}{118}{figure.caption.61}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagnostic plot to check the sanity of age and sex inputs.}}{120}{figure.caption.62}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagnostic plots to identify model error}}{121}{figure.caption.63}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Scatter plot of simulated vs official estimated income}}{123}{figure.caption.64}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Scatter plot of error introduced in Nomis data}}{125}{figure.caption.65}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Errors associated with Casweb census variables}}{125}{figure.caption.66}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Scatter plot of the proportion of male drivers}}{126}{figure.caption.67}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Overplotted scatter graph showing the distribution of IPF weights}}{132}{figure.caption.68}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Histograms of original microdata and integerised weights}}{135}{figure.caption.69}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Overplotted scatter graphs of index against weight}}{136}{figure.caption.70}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Scatter graph of the index values of individuals}}{136}{figure.caption.71}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Visualisation of IPF method}}{138}{figure.caption.73}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Scatter graph illustrating the fit between census and simulated aggregates}}{138}{figure.caption.74}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Scatterplots of actual (census) and simulated population totals}}{140}{figure.caption.75}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Idealised data schema for studying energy use in commuting}}{74}{figure.caption.28}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Questions 33 and 34 of the 2001 UK Census}}{79}{figure.caption.30}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces National, regional and city-wide scales of analysis}}{80}{figure.caption.31}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Cross-tabulated dataset containing mode/age/sex variables}}{81}{figure.caption.34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Bar-plot of frequency of working from home}}{86}{figure.caption.36}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Schematic of transport networks and vehicles}}{90}{figure.caption.37}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualisation of the OSM data source of the transport network.\relax }}{91}{figure.caption.39}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The Meridian 2 transport network dataset.\relax }}{91}{figure.caption.40}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The Ordnance Survey's Integrated Travel Network dataset.\relax }}{91}{figure.caption.41}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Distribution of employment in Sheffield}}{95}{figure.caption.42}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Illustration of how distance to employment centre was calculated.\relax }}{96}{figure.caption.43}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Scatter plot of the fit between census and survey data}}{106}{figure.caption.57}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Scatter plot showing the fit after constraining by age.\relax }}{106}{figure.caption.59}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Improvement of model fit with iterations}}{108}{figure.caption.61}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Diagnostic plot to check the sanity of age and sex inputs.}}{110}{figure.caption.62}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Diagnostic plots to identify model error}}{111}{figure.caption.63}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Scatter plot of simulated vs official estimated income}}{112}{figure.caption.64}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Scatter plot of error introduced in Nomis data}}{114}{figure.caption.65}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Errors associated with Casweb census variables}}{114}{figure.caption.66}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Scatter plot of the proportion of male drivers}}{115}{figure.caption.67}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Overplotted scatter graph showing the distribution of IPF weights}}{120}{figure.caption.68}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Histograms of original microdata and integerised weights}}{122}{figure.caption.69}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Overplotted scatter graphs of index against weight}}{123}{figure.caption.70}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Scatter graph of the index values of individuals}}{123}{figure.caption.71}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Visualisation of IPF method}}{125}{figure.caption.73}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Scatter graph illustrating the fit between census and simulated aggregates}}{125}{figure.caption.74}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Scatterplots of actual (census) and simulated population totals}}{126}{figure.caption.75}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic diagram of the factors causing energy use in transport.\relax }}{152}{figure.caption.78}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Relative importance of fixed and variable costs of car ownership}}{153}{figure.caption.79}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematic of physical system boundaries in personal transport systems.\relax }}{154}{figure.caption.80}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Screen shot of the spreadsheet used to calculate system level energy costs.\relax }}{161}{figure.caption.86}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces UK transport energy consumption by mode and energy source}}{165}{figure.caption.87}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Iron ore mine and 3D CAD images of two modern car engines}}{168}{figure.caption.88}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Frequency of trips to work each week, by distance}}{174}{figure.caption.90}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Proportion of trips by distance for different trip frequencies}}{176}{figure.caption.92}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Relationship between trip frequency and distance}}{176}{figure.caption.93}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Average car occupancies over time in three regions}}{179}{figure.caption.95}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces The impact of car speed on efficiency, from \citep {Anas2012-price-gas}.\relax }}{181}{figure.caption.97}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Line graph of energy intensity vs trip distance}}{181}{figure.caption.98}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Schematic of Euclidean and network distances}}{182}{figure.caption.99}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces The decay of circuity with distance travelled}}{183}{figure.caption.100}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces EU test cycle}}{185}{figure.caption.101}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Urban and extra-urban energy use of selected models}}{186}{figure.caption.102}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces The commuting `rush hours'}}{187}{figure.caption.103}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Fleet efficiency of UK vehicles over time}}{191}{figure.caption.104}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Comparison of UK car fleet efficiency estimates over time \citep {Df2013licencing}.\relax }}{192}{figure.caption.105}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Fleet efficiencies of new cars in the UK and USA, 1977-2012}}{193}{figure.caption.106}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Mode of transport to work, 1890-1990}}{195}{figure.caption.107}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Estimates of energy use per commuter trip, 1890-1990}}{195}{figure.caption.108}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Modal split of travel to work over two decades}}{196}{figure.caption.109}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces The growing dominance of the car, 1981 to 2001}}{197}{figure.caption.110}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Fuel energy use of future car technologies}}{198}{figure.caption.111}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Barpolt of 2001 car registrations by emission band}}{203}{figure.caption.114}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Scatterplots of estimated fleet efficiencies at MSOA level}}{204}{figure.caption.115}
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Car fleet efficiencies in Yorkshire and the Humber in 2001}}{206}{figure.caption.118}
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Final energy use estimates, from a range of sources.\relax }}{208}{figure.caption.120}
-\contentsline {figure}{\numberline {5.30}{\ignorespaces Fuel energy use of UK transport modes, 1991}}{209}{figure.caption.121}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Schematic diagram of the factors causing energy use in transport.\relax }}{137}{figure.caption.78}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Relative importance of fixed and variable costs of car ownership}}{138}{figure.caption.79}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Schematic of physical system boundaries in personal transport systems.\relax }}{138}{figure.caption.80}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Screen shot of the spreadsheet used to calculate system level energy costs.\relax }}{145}{figure.caption.86}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces UK transport energy consumption by mode and energy source}}{149}{figure.caption.87}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Iron ore mine and 3D CAD images of two modern car engines}}{151}{figure.caption.88}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Frequency of trips to work each week, by distance}}{157}{figure.caption.90}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Proportion of trips by distance for different trip frequencies}}{158}{figure.caption.92}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Relationship between trip frequency and distance}}{159}{figure.caption.93}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Average car occupancies over time in three regions}}{161}{figure.caption.95}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces The impact of car speed on efficiency, from \citep {Anas2012-price-gas}.\relax }}{162}{figure.caption.97}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Line graph of energy intensity vs trip distance}}{163}{figure.caption.98}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Schematic of Euclidean and network distances}}{163}{figure.caption.99}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces The decay of circuity with distance travelled}}{164}{figure.caption.100}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces EU test cycle}}{165}{figure.caption.101}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Urban and extra-urban energy use of selected models}}{166}{figure.caption.102}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces The commuting `rush hours'}}{166}{figure.caption.103}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Fleet efficiency of UK vehicles over time}}{171}{figure.caption.104}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Comparison of UK car fleet efficiency estimates over time \citep {Df2013licencing}.\relax }}{171}{figure.caption.105}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Fleet efficiencies of new cars in the UK and USA, 1977-2012}}{172}{figure.caption.106}
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Mode of transport to work, 1890-1990}}{173}{figure.caption.107}
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Estimates of energy use per commuter trip, 1890-1990}}{173}{figure.caption.108}
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Modal split of travel to work over two decades}}{173}{figure.caption.109}
+\contentsline {figure}{\numberline {5.24}{\ignorespaces The growing dominance of the car, 1981 to 2001}}{174}{figure.caption.110}
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Fuel energy use of future car technologies}}{174}{figure.caption.111}
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Barpolt of 2001 car registrations by emission band}}{179}{figure.caption.114}
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Scatterplots of estimated fleet efficiencies at MSOA level}}{180}{figure.caption.115}
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Car fleet efficiencies in Yorkshire and the Humber in 2001}}{181}{figure.caption.118}
+\contentsline {figure}{\numberline {5.29}{\ignorespaces Final energy use estimates, from a range of sources.\relax }}{182}{figure.caption.120}
+\contentsline {figure}{\numberline {5.30}{\ignorespaces Fuel energy use of UK transport modes, 1991}}{182}{figure.caption.121}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Distance bands and average distance travelled for motorised modes}}{215}{figure.caption.123}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Distance bands and average distance travelled for active modes}}{216}{figure.caption.124}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Mode and distance categories of commute in England}}{217}{figure.caption.125}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of commute energy costs between England and Wales.\relax }}{217}{figure.caption.126}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Average energy use per trip (Etrp, in MJ) in English regions}}{218}{figure.caption.127}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Raw count data of commuters by mode and distance.}}{218}{figure.caption.128}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Average energy use per commuter trip at the county level}}{220}{figure.caption.129}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Average energy use per commuter trip at the district level}}{221}{figure.caption.130}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Average energy use per trip (Etrp, in MJ) in English wards}}{222}{figure.caption.131}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Proportion of energy use caused by train trips}}{223}{figure.caption.132}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Proportion of total energy use in the UK consumed by commuting}}{225}{figure.caption.133}
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Proportion of transport energy use in the UK consumed by commuting.\relax }}{226}{figure.caption.134}
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Commuter energy use in South Yorkshire.}}{230}{figure.caption.138}
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Proportion of energy used for commuting by the top 20\%}}{230}{figure.caption.139}
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Relative energy use by top social classes}}{232}{figure.caption.141}
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Comparison of commuter energy use in England and the Netherlands}}{234}{figure.caption.144}
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Modal split of commuter trips in England and the Netherlands}}{235}{figure.caption.145}
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Distance of commuting by mode, England and the Netherlands}}{236}{figure.caption.146}
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Population density against commuter energy use}}{237}{figure.caption.147}
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Average commuter trip distance over time in Great Britain}}{238}{figure.caption.148}
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Modal split of commuter trips, Great Britain 1995 - 2009}}{238}{figure.caption.149}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Distance bands and average distance travelled for motorised modes}}{188}{figure.caption.123}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Distance bands and average distance travelled for active modes}}{188}{figure.caption.124}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Mode and distance categories of commute in England}}{189}{figure.caption.125}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Comparison of commute energy costs between England and Wales.\relax }}{189}{figure.caption.126}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Average energy use per trip (Etrp, in MJ) in English regions}}{190}{figure.caption.127}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Raw count data of commuters by mode and distance.}}{190}{figure.caption.128}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Average energy use per commuter trip at the county level}}{190}{figure.caption.129}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Average energy use per commuter trip at the district level}}{191}{figure.caption.130}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Average energy use per trip (Etrp, in MJ) in English wards}}{191}{figure.caption.131}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Proportion of energy use caused by train trips}}{192}{figure.caption.132}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Proportion of total energy use in the UK consumed by commuting}}{193}{figure.caption.133}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Proportion of transport energy use in the UK consumed by commuting.\relax }}{193}{figure.caption.134}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Commuter energy use in South Yorkshire.}}{197}{figure.caption.138}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Proportion of energy used for commuting by the top 20\%}}{197}{figure.caption.139}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Relative energy use by top social classes}}{198}{figure.caption.141}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Comparison of commuter energy use in England and the Netherlands}}{201}{figure.caption.144}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Modal split of commuter trips in England and the Netherlands}}{201}{figure.caption.145}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Distance of commuting by mode, England and the Netherlands}}{202}{figure.caption.146}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Population density against commuter energy use}}{202}{figure.caption.147}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Average commuter trip distance over time in Great Britain}}{203}{figure.caption.148}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Modal split of commuter trips, Great Britain 1995 - 2009}}{203}{figure.caption.149}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Trip distance and mode by household income}}{242}{figure.caption.150}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Heatmap of mode of travel by income group}}{243}{figure.caption.151}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Fit between simulated and census data}}{248}{figure.caption.153}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Employment density at the local level in Sheffield}}{249}{figure.caption.154}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Flow diagram of commuter destinations from Stocksbridge}}{249}{figure.caption.155}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Simulated route choice for 20 randomly selected individuals}}{251}{figure.caption.157}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Circuity as a function of distance in Sheffield}}{251}{figure.caption.158}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Comparison of census and simulated results at the aggregate level}}{252}{figure.caption.159}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces Mean equivalised household income from official and simulated data}}{254}{figure.caption.160}
-\contentsline {figure}{\numberline {7.10}{\ignorespaces Proportion of trips, distance, and energy by mode}}{256}{figure.caption.162}
-\contentsline {figure}{\numberline {7.11}{\ignorespaces Average distance travelled to work in Yorkshire and the Humber}}{256}{figure.caption.163}
-\contentsline {figure}{\numberline {7.12}{\ignorespaces Average distance to employment centre in South Yorkshire}}{257}{figure.caption.164}
-\contentsline {figure}{\numberline {7.13}{\ignorespaces Scatter plot of distance vs energy costs in Yorkshire and the Humber}}{258}{figure.caption.165}
-\contentsline {figure}{\numberline {7.14}{\ignorespaces a) Income and household traits; b) Lorenz curves of commute distances}}{260}{figure.caption.168}
-\contentsline {figure}{\numberline {7.15}{\ignorespaces Low-income car-free families and bus-stops in South Yorkshire}}{261}{figure.caption.169}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Trip distance and mode by household income}}{208}{figure.caption.150}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Heatmap of mode of travel by income group}}{209}{figure.caption.151}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Fit between simulated and census data}}{212}{figure.caption.153}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Employment density at the local level in Sheffield}}{213}{figure.caption.154}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Flow diagram of commuter destinations from Stocksbridge}}{214}{figure.caption.155}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Simulated route choice for 20 randomly selected individuals}}{215}{figure.caption.157}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Circuity as a function of distance in Sheffield}}{215}{figure.caption.158}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Comparison of census and simulated results at the aggregate level}}{216}{figure.caption.159}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Mean equivalised household income from official and simulated data}}{217}{figure.caption.160}
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Proportion of trips, distance, and energy by mode}}{218}{figure.caption.162}
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Average distance travelled to work in Yorkshire and the Humber}}{219}{figure.caption.163}
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Average distance to employment centre in South Yorkshire}}{219}{figure.caption.164}
+\contentsline {figure}{\numberline {7.13}{\ignorespaces Scatter plot of distance vs energy costs in Yorkshire and the Humber}}{220}{figure.caption.165}
+\contentsline {figure}{\numberline {7.14}{\ignorespaces a) Income and household traits; b) Lorenz curves of commute distances}}{220}{figure.caption.168}
+\contentsline {figure}{\numberline {7.15}{\ignorespaces Low-income car-free families and bus-stops in South Yorkshire}}{222}{figure.caption.169}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Estimated energy savings from car-bicycle modal shift}}{268}{figure.caption.170}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces The relationship between age and bicycle use}}{270}{figure.caption.171}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Energy savings from car-bike modal shift in South Yorkshire}}{271}{figure.caption.172}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Differences between individual and aggregate level implementations}}{272}{figure.caption.173}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Energy savings from telecommuting scenario in South Yorkshire.\relax }}{274}{figure.caption.174}
-\contentsline {figure}{\numberline {8.6}{\ignorespaces Vulnerability of commuter patterns in Yorkshire and the Humber}}{282}{figure.caption.176}
-\contentsline {figure}{\numberline {8.7}{\ignorespaces Scatterplot matrix of vulnerability metrics}}{283}{figure.caption.177}
-\contentsline {figure}{\numberline {8.8}{\ignorespaces Chloropleth map of deprivation in Yorkshire and the Humber}}{283}{figure.caption.178}
-\contentsline {figure}{\numberline {8.9}{\ignorespaces Distance to employment centre from zone centroids}}{284}{figure.caption.179}
-\contentsline {figure}{\numberline {8.10}{\ignorespaces MSOA zones in York, coloured according to distance travelled to work}}{285}{figure.caption.180}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Estimated energy savings from car-bicycle modal shift}}{230}{figure.caption.170}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The relationship between age and bicycle use}}{231}{figure.caption.171}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Energy savings from car-bike modal shift in South Yorkshire}}{232}{figure.caption.172}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Differences between individual and aggregate level implementations}}{232}{figure.caption.173}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Energy savings from telecommuting scenario in South Yorkshire.\relax }}{234}{figure.caption.174}
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Vulnerability of commuter patterns in Yorkshire and the Humber}}{242}{figure.caption.176}
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Scatterplot matrix of vulnerability metrics}}{243}{figure.caption.177}
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Chloropleth map of deprivation in Yorkshire and the Humber}}{243}{figure.caption.178}
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Distance to employment centre from zone centroids}}{243}{figure.caption.179}
+\contentsline {figure}{\numberline {8.10}{\ignorespaces MSOA zones in York, coloured according to distance travelled to work}}{244}{figure.caption.180}
 \addvspace {10\p@ }
