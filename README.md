@@ -1,7 +1,7 @@
 # Reproducible thesis results
 
 The aim of this repository is to make some of the methods of my PhD accessible to as many people as possible.
-The final thesis is a rather large (20 Mb) file with many figures. It can be downloaded from here:  https://www.dropbox.com/s/6zv9l8aszrsiq5x/Thesis.pdf
+The final thesis is a rather large (20 Mb) file with many figures. It can be downloaded from here:  http://etheses.whiterose.ac.uk/5027/
 
 A smaller one, containing just the text is available here: https://github.com/Robinlovelace/thesis-reproducible/raw/master/Thesis-no-figs.pdf 
 
